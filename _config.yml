@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: titron personal page
-brief-intro: titron blog
+title: titron(David) personal page
+brief-intro: titron(David) blog
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://titron.github.io" # the base hostname & protocol for your site
 
