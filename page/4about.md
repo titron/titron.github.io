@@ -16,6 +16,7 @@ type: page
 ## 联系我
 
 * GitHub：[titron](https://github.com/titron)
+* Linkedin: [Tiezhuang Dong](https://www.linkedin.com/in/dong-tiezhuang/)
 * email：hockdtw@163.com
 * [Weibo](...)
 * [知乎](...)
