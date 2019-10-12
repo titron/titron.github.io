@@ -7,7 +7,7 @@
 
 # Site settings
 title: titron(David)'s personal page
-brief-intro: titron(David)'s blog
+brief-intro: 不断探索是一件好事，学无止境！
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://titron.github.io" # the base hostname & protocol for your site
 
