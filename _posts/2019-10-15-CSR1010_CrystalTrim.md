@@ -82,7 +82,7 @@ author: David
 
 再用CW TRANSMIT输出蓝牙信号，可以再频谱仪上观察哪个信号是待测蓝牙信号。
 
-* 步骤6：Transmit Power Level    
+* 步骤6：TX Power Level Set   
 
 如果输出信号看不到或幅度不大，可以增加该设定值。
 
@@ -93,7 +93,6 @@ author: David
 ![在xIDE中写入校正值](https://github.com/titron/titron.github.io/raw/master/img/2019-10-15-bt_trim_6.png)
 
 CSR1010就以该校准值运行了。可以通过CsConfig查询实际的校准值。
-
 
 
 ### 引用：
