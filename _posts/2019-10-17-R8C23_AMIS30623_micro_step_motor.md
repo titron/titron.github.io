@@ -9,7 +9,7 @@ author: David
 * content
 {:toc}
 
-本文介绍一种新型的基于LIN总线网络的步进电机驱动方案是以瑞萨科技公司（Renesas）的16位单片机R8C/23实现LIN主节点，以On Semiconductor的微步电机驱动芯片AMIS-30623为LIN从节点，构建的一种极其简单而又可靠的LIN总线网络，用以驱动步进电机，实现对汽车车身网络控制，如汽车前照灯转向控制(AFS)， 汽车采暖通风调节(HVAC)等。
+本文介绍一种新型的基于LIN总线网络的步进电机驱动方案是以瑞萨电子公司（Renesas）的16位单片机R8C/23实现LIN主节点，以On Semiconductor的微步电机驱动芯片AMIS-30623为LIN从节点，构建的一种极其简单而又可靠的LIN总线网络，用以驱动步进电机，实现对汽车车身网络控制，如汽车前照灯转向控制(AFS)， 汽车采暖通风调节(HVAC)等。
 
 ## 引言
 
@@ -17,7 +17,9 @@ author: David
 
 ## R8C/23
 
-R8C/23单片机是瑞萨电子R8C Tiny产品家族的成员，它采用CISC结构，内部总线宽度16位，最高运行频率达20MHz，具有内置可在线编程FLASH、EMI 性能出色、硬件看门狗、引脚功能丰富等多种优点。R8C/23单片机内置了CAN 控制器和LIN模块，可在车载温度范围内使用。![图1是R8C/23的引脚分配图](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23.png) 
+R8C/23单片机是瑞萨电子R8C Tiny产品家族的成员，它采用CISC结构，内部总线宽度16位，最高运行频率达20MHz，具有内置可在线编程FLASH、EMI 性能出色、硬件看门狗、引脚功能丰富等多种优点。R8C/23单片机内置了CAN 控制器和LIN模块，可在车载温度范围内使用。
+
+![图1是R8C/23的引脚分配图](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23.png) 
 
 R8C/23单片机的主要性能特点如下：
 
@@ -45,14 +47,18 @@ R8C/23单片机的主要性能特点如下：
 
 * 时钟产生电路：外部和内部时钟源可以选择
 
-在本方案中使用的是R8C/23 CAN/LIN 演示板，如图2所示。![图2R8C/23 CAN/LIN 演示板](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23_canlin_demo.png) 
+在本方案中使用的是R8C/23 CAN/LIN 演示板，如图2所示。
+
+![图2R8C/23 CAN/LIN 演示板](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23_canlin_demo.png) 
 
 R8C/23 CAN/LIN演示板是瑞萨电子开发的面向CAN/LIN应用的开发工具。演示板除了提供必要的硬件资源之外，还提供了4个样例程序- CAN应用、LIN主机应用、LIN从机应用以及LCD显示驱动程序，可以助您快速熟悉、掌握瑞萨单片机以及瑞萨单片机在CAN、LIN总线方面的应用方法。
 
 ## AMIS-30623
 AMIS-30623是On Semiconductor半导体公司推出具有LIN通讯接口、无传感器失步和堵转检测、诊断保护功能的步进电机驱动单芯片集成电路，可以用于汽车以及工业控制中，增强可靠性、减少元器件数量、减少线路板空间并降低成本以及缩短开发时间。该产品的目标用途包括前灯调平和旋转、汽车采暖、通风和空调(HVAC)设计、监视摄像机控制、专业照明设备、工业XYZ台和制造机器人等。
 
-AMIS-30623的工作温度在-40ºC至125ºC之间，可提供最高至800mA的可编程峰值电流，简捷的编程指令以实现对步进电机的所有运动控制。芯片上位置控制器可根据不同的电机类型、定位范围和参数（例如速度、加速和减速）进行设置。该产品具备保持电流的特性，低于100μA的断电电流确保了在备用模式下消耗最小功率。![图3是AMIS-30623的引脚分配图](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_30623_pins.png) 
+AMIS-30623的工作温度在-40ºC至125ºC之间，可提供最高至800mA的可编程峰值电流，简捷的编程指令以实现对步进电机的所有运动控制。芯片上位置控制器可根据不同的电机类型、定位范围和参数（例如速度、加速和减速）进行设置。该产品具备保持电流的特性，低于100μA的断电电流确保了在备用模式下消耗最小功率。
+
+![图3是AMIS-30623的引脚分配图](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_30623_pins.png) 
 
 AMIS-30623的主要性能如下：
 
@@ -86,15 +92,21 @@ AMIS-30623的主要性能如下：
 
 * 支持LIN总线唤醒
 
-其典型应用电路：![图4是AMIS-30623的典型应用电路](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_30623_circuit.png) 
+其典型应用电路：
+
+![图4是AMIS-30623的典型应用电路](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_30623_circuit.png) 
 
 ## 硬件连接
 
-R8C/23 CAN/LIN演示板与AMIS-30623驱动板的连接如图5所示。![图5是R8C/23 CAN/LIN演示板与AMIS-30623驱动板连接示意图](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23_30623_con.png) 
+R8C/23 CAN/LIN演示板与AMIS-30623驱动板的连接如图5所示。
+
+![图5是R8C/23 CAN/LIN演示板与AMIS-30623驱动板连接示意图](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23_30623_con.png) 
 
 从上图中可以看出，整个系统只需接入+12V和GND，系统即可工作，连线非常简单。图中的步进电机使用的是2相步进电机KH39FM2-851，来自日本伺服有限公司(JAPAN SERVO CO., LTD.)。
 
-用R8C/23实现LIN主节点的硬件原理如图6所示。本例中LIN收发器采用的是NXP-TJA1020。![图6是用R8C/23实现LIN主节点](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23_lin_nodedemo.png) 
+用R8C/23实现LIN主节点的硬件原理如图6所示。本例中LIN收发器采用的是NXP-TJA1020。
+
+![图6是用R8C/23实现LIN主节点](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23_lin_nodedemo.png) 
 
 
 
@@ -106,7 +118,9 @@ R8C/23 CAN/LIN演示板与AMIS-30623驱动板的连接如图5所示。![图5是R
 另一部分实现了AMIS-30623的工作参数设置以及通讯。
 
 * R8C/23的有关LIN功能的实现
-有关R8C/23 LIN功能的具体实现请参见参考资料1。图7是R8C/23发送LIN帧头的实现流程图。![R8C/23发送LIN帧头流程图](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23_tx_lin_header.png) 
+有关R8C/23 LIN功能的具体实现请参见参考资料1。图7是R8C/23发送LIN帧头的实现流程图。
+
+![R8C/23发送LIN帧头流程图](https://github.com/titron/titron.github.io/raw/master/img/2019-10-17-LIN_Motor_r8c23_tx_lin_header.png) 
 
 首先设定LIN的工作模式、相关中断设置、错误状态清零等，然后其具体的数据收发功能实现与UART0的数据收发基本相同，实现起来比较简单。
 
