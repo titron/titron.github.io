@@ -38,7 +38,7 @@ type: page
 * GitHub：[titron](https://github.com/titron)
 * Linkedin: [David](https://www.linkedin.com/in/dong-tiezhuang/)
 * email：hockdtw@163.com
-* [知乎]：[titron](https://www.zhihu.com/people/titron)
+* 知乎：[titron](https://www.zhihu.com/people/titron)
 * [Weibo](...)
 * [Facebook](...)
 * [豆瓣](...)
