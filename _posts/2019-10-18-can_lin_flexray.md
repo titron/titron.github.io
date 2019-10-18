@@ -18,6 +18,7 @@ author: David
 | FlexRay | 制动、星形耦合器 |
 
 * 检查错误
+
 总线中，送信方检测回环的目的：检测线上有突然的位改变，如ESD，闪电，强噪声等造成bit翻转。
 
 同样，受信方要想检测该情况，用checksum（LIN），CRC（CAN）,填充位（CAN）。
