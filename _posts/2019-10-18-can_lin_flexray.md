@@ -29,3 +29,12 @@ author: David
 * 检查填充位
 
 ![总线check Burst Error Position](https://github.com/titron/titron.github.io/raw/master/img/2019-10-18-bus_vs_stuff.png) 
+
+综上：
+
+| 总线 | 检查突然的bit error的位置 |
+|---|---|
+| LIN | Parity Error <br> checksum Error <br> 连续9bit “L” <br> 连续9bit “H” |
+| CAN | CRC Error <br> 连续5bit “L” Stuff Error <br> 连续5bit “H” Stuff Error |
+| CAN-FD | 除上述CAN所说的检测位置外，还增加了 Header CRC Error |
+| FlexRay | Header CRC Error <br> CRC Error <br> 连续9bit “L” <br> 连续9bit “H”  |
