@@ -13,8 +13,7 @@ type: page
 
 目前，作为一名汽车电子工程师，专注于R-Car SOC的应用开发，相关技术包括：BootLoader，ATF（Arm Trusted Firmware），Linux/Android/QNX，drivers，Security & Function Safety。
 
-经历：
-### 设计与研发工程师
+### 经历——设计与研发工程师
 
 相关技术：电子、单片机/FPGA/DSP/PLC、CAN总线、LIN总线、软件、算法。
 
@@ -37,7 +36,7 @@ type: page
 - 基于Matlab的算法研究；
 - 等等
 
-### 销售与市场
+### 经历——销售与市场
 同时运营3个部门——医疗器械部，工业生产部，清债部。
 
 ## 联系我
