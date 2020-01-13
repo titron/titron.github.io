@@ -22,3 +22,6 @@ author: David
 
 ## 瑞萨的kernel
 [https://git.kernel.org/pub/scm/linux/kernel/git/horms/renesas-bsp.git/](https://git.kernel.org/pub/scm/linux/kernel/git/horms/renesas-bsp.git/)
+
+
+[https://github.com/renesas-rcar](https://github.com/renesas-rcar)
