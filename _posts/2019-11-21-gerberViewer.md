@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "推荐一款gerberViewer"
-categories: PCB
-tags: Hardware
+categories: hardware
+tags: gerber PCB layout
 author: David
 ---
 

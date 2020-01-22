@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "单片机外接晶体振荡幅度太大造成单片机不能上电工作"
-categories: 电路
-tags: 单片机 电路 振荡器
+categories: hardware
+tags: MCU circuit oscillator
 author: David
 ---
 

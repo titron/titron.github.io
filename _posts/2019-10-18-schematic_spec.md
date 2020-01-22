@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "我的原理图设计规范"
-categories: 原理图
-tags: Orcad
+categories: hardware
+tags: Orcad schematic
 author: David
 ---
 

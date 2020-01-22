@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FlexRay总线学习笔记"
-categories: 车用总线
+categories: hardware system
 tags: FlexRay
 author: David
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "使用A/D转换器时的注意事项"
-categories: 电路
-tags: 电路 ADC
+categories: hardware
+tags: circuit ADC
 author: David
 ---
 

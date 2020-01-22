@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "一种基于LIN总线的步进电机驱动方案"
-categories: LIN总线
-tags: LIN, 步进电机, AMIS-30623, AFS, HVAC
+categories: hardware software system
+tags: LIN, step-motor, AMIS-30623, AFS, HVAC
 author: David
 ---
 

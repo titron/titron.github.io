@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "软件开发笔记"
-categories: 软件开发
-tags: Software
+categories: software
+tags: coding
 author: David
 ---
 

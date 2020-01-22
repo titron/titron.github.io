@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "贴片电阻的重量"
-categories: 器件
-tags: 器件
+categories: hardware
+tags: component
 author: David
 ---
 

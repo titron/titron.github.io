@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "对比LIN CAN FlexRay总线检查错误的位置"
-categories: 车用总线
+categories: hardware software
 tags: LIN, CAN, FlexRay
 author: David
 ---

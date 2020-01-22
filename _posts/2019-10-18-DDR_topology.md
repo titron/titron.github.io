@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DDR Layout的两种topology: Fly-by vs T-topology"
-categories: LPDDR4
+categories: hardware
 tags: LPDDR4 Layout Fly-by T-topology
 author: David
 ---

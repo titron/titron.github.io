@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "ADC转换精度的定义"
-categories: 电路
-tags: 电路 ADC
+categories: hardware
+tags: circuit ADC
 author: David
 ---
 
