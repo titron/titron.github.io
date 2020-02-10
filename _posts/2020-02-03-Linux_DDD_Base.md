@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Linux device driver development"
+title:  "学习宋宝华《Linux设备驱动开发详解-基于最新的Linux4.0内核》笔记（1）——基础"
 categories: Software
 tags: Linux Driver
 author: David
@@ -9,7 +9,6 @@ author: David
 * content
 {:toc}
 
-学习 宋宝华 的《Linux设备驱动开发详解-基于最新的Linux4.0内核》笔记——（1）：
 
 ### 概述
 
