@@ -17,7 +17,7 @@ author: David
 电源管理的唯一目标是 **省电** 。
 
 
-CMOS电路中的功耗与电压的平方成正比，与频率成正比：$ P∝fV^2 $
+CMOS电路中的功耗与电压的平方成正比，与频率成正比：P∝fV^2
 
 
 ![Linux内核电源管理的整体架构](https://github.com/titron/titron.github.io/raw/master/img/2020-2-12-linux_ddd_pm_block.png)
