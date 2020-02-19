@@ -28,7 +28,7 @@ ARM Linux 3.x的目标：一个映像适用于多个硬件。
 
 ![Linux设备和驱动的分离](https://github.com/titron/titron.github.io/raw/master/img/2020-02-19-linux_ddd_sw_drvbus.png)
 
-![Linux设备驱动的主机驱动、外设驱动分离](https://github.com/titron/titron.github.io/raw/master/img/2020-02-19-linux_ddd_sw_drvbus.png)
+![Linux设备驱动的主机驱动、外设驱动分离](https://github.com/titron/titron.github.io/raw/master/img/2020-02-19-linux_ddd_sw_sep.png)
 
 需关心总线、设备、驱动着3个实体。总线将设备和驱动绑定。在系统每注册一个设备的时候，会寻找与之匹配的驱动；相反的，在系统每注册一个驱动的时候，会寻找与之匹配的设备，而匹配有总线完成。
 
