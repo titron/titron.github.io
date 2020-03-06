@@ -42,9 +42,9 @@ type: page
 ## 联系我
 
 * GitHub：[titron](https://github.com/titron)
-* Linkedin: [David](https://www.linkedin.com/in/dong-tiezhuang/)
+* Linkedin: [Tyron](https://www.linkedin.com/in/tyron-dong/)
 * email：hockdtw@163.com
-* 知乎：[titron](https://www.zhihu.com/people/titron)
+* 知乎：[tyron](https://www.zhihu.com/people/tyron-dong)
 * [Weibo](...)
 * [Facebook](...)
 * [豆瓣](...)
