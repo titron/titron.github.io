@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-目前，作为一名汽车电子工程师，专注于R-Car SOC的应用开发，相关技术包括：BootLoader，ATF（Arm Trusted Firmware），Linux/Android/QNX，drivers，Security & Function Safety。
+目前，是一名汽车电子工程师，专注于R-Car SOC的应用开发，相关技术包括：BootLoader，ATF（Arm Trusted Firmware），Linux/Android/QNX，drivers，Security & Function Safety。
 
 ### 经历——设计与研发工程师
 
