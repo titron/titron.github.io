@@ -76,3 +76,5 @@ Oops：Linux内核发生不正确的行为，并产生一份错误日志。（oo
 * 内核跟踪：[LTTng](http://lttng.org/)
 * 压力测试：[LTP](http://ltp.sourcefore.net/)
 * 使用Benchmark[评估系统](http://lbs.sourceforge.net/)
+
+[Linux 大牛收集的 Linux 性能分析工具合集](https://mp.weixin.qq.com/s?__biz=MzAxODI5ODMwOA==&mid=2666545273&idx=1&sn=2f30bdea9881a6a74563e7ede4d69d04&chksm=80dc84d2b7ab0dc4ffd5b840cfcf9514295b2c0c3c3d3ced1914506d98ef67cd502316375e4a&mpshare=1&scene=1&srcid=0318cc1BkZ6CemqwbJIn1HF9&sharer_sharetime=1584500991596&sharer_shareid=af43b8c65c55c076649d31f86aa3c934&key=1f550f0fbc9096fe75f315da9026b62024d6f4e3bcdb1150b404f50e419e8471608e9e433de69042135a2463105b5e7300ee002db2fd02cdff62fc4c5a2a5d1b696d96fce8b0b9c2b4da4aea07e1e967&ascene=1&uin=MjQ3MjE1NzI4NA%3D%3D&devicetype=Windows+10&version=62080079&lang=zh_CN&exportkey=ARzqp72asuKSmO6aLaoMTQ4%3D&pass_ticket=FHAOF%2FKlm6qx%2BgNFp10no5DNg3pC8sYyc01AJpmT0ifhPTSyHmaRXgmbj9hHgBP2)
