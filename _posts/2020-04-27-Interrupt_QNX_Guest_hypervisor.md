@@ -184,6 +184,7 @@ hypervisor介入中断传递给guest的过程（即使是pass-through中断）�
 
 **LAPIC 硬件辅助（略）**
 
+**（ARM GIC）Virtual Interrupt Handling**
 
 
 
