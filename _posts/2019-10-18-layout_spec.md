@@ -24,6 +24,27 @@ author: David
 | 7 | 内层分割 | 是否绕开了机械层（挖洞）| |
 | 8 | 禁止布线区域 | 设置是否合理 |  |
 
+* Layout时设置及检查项目
+
+| 索引 | 项目 | 描述 | 备注 |
+|---|---|---|---|
+| 1 | 电源线 | 弄清需要的供电能力（如，多少A），根据电源线的阻抗确定线宽(2mm/A)，确保不要超过2A/mm，最好使用电源层；如果太窄了，还会有发热问题需要注意<br>如果使用了过孔，确保足够的过孔数量，以满足通过的电流量 |  |
+| 2 | 地 | 模拟地对噪声敏感，避免从地引入噪声<br>模拟地、数字地，最好做到单点接地，连接时，两者可以通过一个噪声抑制器件进行连接，如，磁珠；<br>高频信号尤其要注意，如，pcb蓝牙天线下面不能有任何的地平面；及，信号与地之间的距离要注意，不能过近，确保距离大于2倍差分信号的的距离； |  |
+| 3 | 屏蔽地 | 信号两侧的屏蔽地，确保接入地层，不要开路；<br>过孔之间距离5~10mm | |
+| 4 | 大面积闲置地 | 放置足够的过孔，以防焊接时，过加热炉时，铜层翘起 | |
+| 5 | 芯片散热盘 | 仔细阅读相关器件手册，确保其腹部散热焊盘的连接，如，有些器件要求是要接地的；<br>同时，保证散热焊盘的尺寸达到散热的要求；<br>确保散热焊盘有足够的接地过孔 | |
+| 6 | 高速信号 | 指的是LPDDR4/DDR3,HDMI,PCIe,USB 3.0,SATA,USB 2.0,LVDS,CSI等，针对这些信号，需要仔细阅读相关模块的layout注意事项及指导；<br>如，差分对需要做等长，阻抗匹配；<br>做SI仿真； | |
+
+![layout设计注意点-1](https://github.com/titron/titron.github.io/raw/master/img/2019-10-18-layout_1.png)
+
+![layout设计注意点-2](https://github.com/titron/titron.github.io/raw/master/img/2019-10-18-layout_2.png)
+
+![layout设计注意点-3](https://github.com/titron/titron.github.io/raw/master/img/2019-10-18-layout_3.png)
+
+![layout设计注意点-4](https://github.com/titron/titron.github.io/raw/master/img/2019-10-18-layout_4.png)
+
+![layout设计注意点-5](https://github.com/titron/titron.github.io/raw/master/img/2019-10-18-layout_5.png)
+
 * Layout完成后检查项目
 
 | 索引 | 项目 | 描述 |  |

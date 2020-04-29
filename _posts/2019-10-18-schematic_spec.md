@@ -37,3 +37,8 @@ author: David
 | 20 | 原理图器件库设计 | 器件具有相同名称的电源引脚、GND引脚,要将其属性设置为’Power‘。否则生成网表时会出现错误；<br> 子板设计时，要注意两个插座的名称CN1/CN2，不要搞错。且位置要沿用以前的PCB设计。|  |
 | 21 | DRC检查 | 原理图完成后，一定要进行设计规则检查（DRC） |  |
 | 22 | 再版设计时 | 如果通过实验确定了有些器件（如0R/NM等器件）是否使用，那么可以适当删除这些器件。|  |
+
+
+![原理图设计注意点-1](https://github.com/titron/titron.github.io/raw/master/img/2019-10-18-schematic_1.png)
+
+![原理图设计注意点-2](https://github.com/titron/titron.github.io/raw/master/img/2019-10-18-schematic_2.png)
