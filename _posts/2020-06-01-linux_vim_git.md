@@ -21,3 +21,5 @@ $git clone http://www.github.com/kana/vim-textobj-user
 
 ```
 安装上这个插件就OK了.
+
+[vimplus快捷键定义](https://learnku.com/articles/26431)
