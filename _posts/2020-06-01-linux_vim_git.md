@@ -12,3 +12,12 @@ author: David
 ---
 参考：[原贴 ](https://mp.weixin.qq.com/s/kZvCBLyNi0aTkZtws1UoSA)
 
+
+解决“E117: Unknown function: textobj#user#plugin”的问题：
+
+```
+$cd ~/.vim/plugged/
+$git clone http://www.github.com/kana/vim-textobj-user
+
+```
+安装上这个插件就OK了.
