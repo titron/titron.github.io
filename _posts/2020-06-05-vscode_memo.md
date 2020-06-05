@@ -81,4 +81,3 @@ author: David
 重启vscode，OK。
 
 
-[vimplus快捷键定义](https://learnku.com/articles/26431)
