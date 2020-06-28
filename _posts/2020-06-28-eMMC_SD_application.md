@@ -95,6 +95,15 @@ eMMC、SD卡的分区：
 * 0x3–0x6 : Reserved
 * 0x7 : User area enabled for boot
 
+### Power-up
+
+![Figure 6——Power-up](https://github.com/titron/titron.github.io/raw/master/img/2020-06-28-emmc-sd_powerup.png)
+
+细节请参考下文中“High-speed eMMC bus function”的“Bus initialization”。
+
+![Figure 7——eMMC voltage combination](https://github.com/titron/titron.github.io/raw/master/img/2020-06-28-emmc-sd_voltage_combination.png)
+
+
 ### High-speed eMMC bus function
 
 参考A.6 High-speed eMMC bus function的操作步骤。
