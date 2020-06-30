@@ -18,3 +18,6 @@ Julia， Python， R。
 
 
 [全面对比 MATLAB、Julia、Python，谁在科学计算中更胜一筹？](https://mp.weixin.qq.com/s/5uGkDwlk_lCTZ8f-iSGSxw)
+
+有个国产软件号称不错，没有用过：
+[truffer](https://www.ednchina.com/news/202006241511.html?utm_source=EDNC%20Article%20Alert&utm_medium=Email&utm_campaign=2020-06-29)
