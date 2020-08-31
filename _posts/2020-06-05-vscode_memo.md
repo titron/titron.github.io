@@ -41,7 +41,7 @@ author: David
 
 ![confirm file](https://github.com/titron/titron.github.io/raw/master/img/2020-06-05-vscode_memo_confirmFile.png)
 
-在vscode中，运行 Remote-SSH: Open Configuration File...
+在vscode中，运行(ctrl+shift+p) Remote-SSH: Open Configuration File...
 会出现一个不显眼的提示，选择Host端是Linux，还是Windows，回车即可。
 
 ![ssh连接1](https://github.com/titron/titron.github.io/raw/master/img/2020-06-05-vscode_memo_ssh1.png)
