@@ -11,6 +11,8 @@ author: David
 
 ---
 
+[vscode远程开发及公钥配置（告别密码登录）](https://blog.csdn.net/u010417914/article/details/96918562)
+
 ### 调试服务器上的c/c++代码
 
 1. 安装插件：Remote Development
