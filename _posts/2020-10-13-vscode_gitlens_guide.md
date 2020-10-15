@@ -18,7 +18,7 @@ author: David
 
 功能：![GitLens功能项目](https://github.com/titron/titron.github.io/raw/master/img/2020-10-13-vscode_gitlens_items.png)
 
-commit & push：![commit&push](https://github.com/titron/titron.github.io/raw/2020-10-13-vscode_gitlens_commit_push.png)
+commit 和 push：![commit和push](https://github.com/titron/titron.github.io/raw/2020-10-13-vscode_gitlens_commit_push.png)
 
 切换分支：![切换分支](https://github.com/titron/titron.github.io/raw/2020-10-13-vscode_gitlens_switch_branch.png)
 
