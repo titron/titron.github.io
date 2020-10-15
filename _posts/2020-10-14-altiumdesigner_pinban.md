@@ -11,7 +11,7 @@ author: David
 
 Altium Designer拼板的方法有两种：
 
-1. 比较保险的方法
+### 比较保险的方法
 
 适用于：所有情况
 
@@ -23,7 +23,7 @@ Altium Designer拼板的方法有两种：
 
 （2）在新PCB界面下，点“Place”---\"Embedded Board Array/Panelize\"，进入拼板界面，设置好拼板阵列就可以了。
 
-2. 比较坑的方法
+### 比较坑的方法
 
 适用于：不含内层或内层是非负片的情况。
 
