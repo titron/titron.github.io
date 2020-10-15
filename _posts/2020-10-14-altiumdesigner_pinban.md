@@ -37,11 +37,11 @@ Altium Designer拼板的方法有两种：
 
 （3）查看板子的长、宽信息
 
-![pcb长x宽信息](https://github.com/titron/titron.github.io/raw/2020-10-14-AD_pinban_boardInfo.png)
+![pcb长x宽信息](https://github.com/titron/titron.github.io/raw/master/img/2020-10-14-AD_pinban_boardInfo.png)
 
 （4）Edit-Past Special
 
-![paste special](https://github.com/titron/titron.github.io/raw/2020-10-14-AD_pinban_pasteSpecial.png)
+![paste special](https://github.com/titron/titron.github.io/raw/master/img/2020-10-14-AD_pinban_pasteSpecial.png)
 
 这样，就生成了1*2的array。
 
@@ -49,7 +49,7 @@ Altium Designer拼板的方法有两种：
 
 注意：Y-Spacing = 38.014mm = 36.013+2 mm
 
-![paste special](https://github.com/titron/titron.github.io/raw/2020-10-14-AD_pinban_pasteSpecial_arrays.png)
+![paste special](https://github.com/titron/titron.github.io/raw/master/img/2020-10-14-AD_pinban_pasteSpecial_arrays.png)
 
 （6）添加工艺边
 
@@ -59,4 +59,4 @@ Altium Designer拼板的方法有两种：
 
 添加mark点，及工艺孔（通孔，非电镀，直径2mm）。
 
-![paste special](https://github.com/titron/titron.github.io/raw/2020-10-14-AD_pinban_addEdge.png)
+![paste special](https://github.com/titron/titron.github.io/raw/master/img/2020-10-14-AD_pinban_addEdge.png)
