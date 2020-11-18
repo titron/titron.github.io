@@ -11,6 +11,54 @@ author: David
 
 ---
 
+## vs-code设置ssh-remote免密登录遇到的问题
+
+### 问题1：Vs code 无法ssh到服务器
+
+解决方案：
+
+windows命令行下：
+```
+SET REMOTEHOST=username@hostname
+
+scp %USERPROFILE%.ssh\id_rsa.pub %REMOTEHOST%:~/tmp.pub ssh %REMOTEHOST% “mkdir
+-p ~/.ssh && chmod 700 ~/.ssh && cat ~/tmp.pub >> ~/.ssh/authorized_keys
+&& chmod 600 ~/.ssh/authorized_keys
+&& rm -f ~/tmp.pub”
+```
+如果此方法不行，可直接登录服务器去创建修改
+***/.ssh/authorized_keys***
+
+### 问题2：VS code ssh remote连接时，需要输入密码？但是却没有可以输入密码的地方？
+
+解决方案：
+
+在VS code工具栏***File->preference->settings***搜索 ***remote.SSH.showLoginTerminal***，并***勾选**上
+
+### 问题3：VS Code ssh remote报administrativePermitted
+
+解决方案：在 ***/etc/ssh/sshd-config***更改***AllowTCPForwarding - yes***
+
+### 问题4：设置SSH之后，仍然需要密码才能连接
+
+解决方案：确认如下***三个权限***是否正确（显示隐藏文件命令：ls -la）
+
+【1】
+```
+chmod 700 /home/username
+```
+【2】
+```
+chmod 700 ~/.ssh/
+```
+【3】
+```
+chmod 600 ~/.ssh/authorized_keys
+```
+
+确认public_key在服务器上是否正确：***cat ~/.ssh/authorized_keys***
+
+---------------------
 [vscode远程开发及公钥配置（告别密码登录）](https://blog.csdn.net/u010417914/article/details/96918562)
 
 ### 调试服务器上的c/c++代码
@@ -81,5 +129,6 @@ author: David
 重启vscode，重新安装以上插件，关掉vscode。
 
 重启vscode，OK。
+
 
 
