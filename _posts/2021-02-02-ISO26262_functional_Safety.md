@@ -26,7 +26,7 @@ author: David
 
 ### MCU vs Functional Safety
 
-可以看到，涉及CPU，memory，bus，clock，voltage,peripherals等，如memory中的ECC/Parity校验，均是功能安全要求的。
+可以看到，设计MCU/CPU，要想加入功能安全属性，像memory，bus，clock，voltage,peripherals这些地方，需要很多工作要做的，如memory中的ECC/Parity校验，均是功能安全要求的。
 ![MCU设计中Fault vs 功能安全](https://github.com/titron/titron.github.io/raw/master/img/2021-02-02-FS_MCU_Fault_functional_safety.png)
 
 
