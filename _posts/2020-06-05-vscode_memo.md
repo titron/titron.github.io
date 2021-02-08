@@ -61,7 +61,7 @@ chmod 600 ~/.ssh/authorized_keys
 ---------------------
 [vscode远程开发及公钥配置（告别密码登录）](https://blog.csdn.net/u010417914/article/details/96918562)
 
-### 调试服务器上的c/c++代码
+### (插件1 - Remote Development)调试服务器上的c/c++代码
 
 1. 安装插件：Remote Development
 
@@ -104,7 +104,7 @@ chmod 600 ~/.ssh/authorized_keys
 
 ![ssh连接5](https://github.com/titron/titron.github.io/raw/master/img/2020-06-05-vscode_memo_ssh5.png)
 
-3. 安装插件 C/C++ GNU Global
+### (插件2 - C/C++ GNU Global)调试服务器上的c/c++代码
 
 ![C/C++ GNU Global](https://github.com/titron/titron.github.io/raw/master/img/2020-06-05-vscode_memo_gnu_global1.png)
 
@@ -116,19 +116,10 @@ chmod 600 ~/.ssh/authorized_keys
 
 ![建立索引](https://github.com/titron/titron.github.io/raw/master/img/2020-06-05-vscode_memo_end.png)
 
-### c/c++无法跳转
+### (插件3 - Git Lens)Git operation
 
-把扩展插件
+使用此插件，操作git会非常方便。
 
-* C/C++
-
-* C++ Intellinsense
-
-卸载，关掉vscode。
-
-重启vscode，重新安装以上插件，关掉vscode。
-
-重启vscode，OK。
-
+可以参考[这里](https://titron.github.io/2020/10/13/vscode_gitlens_guide/)。
 
 
