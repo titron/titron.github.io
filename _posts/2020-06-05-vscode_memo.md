@@ -15,7 +15,7 @@ author: David
 
 ### 问题1：Vs code 无法ssh到服务器
 
-解决方案：
+*解决方案*：
 
 windows命令行下：
 ```
@@ -31,17 +31,21 @@ scp %USERPROFILE%.ssh\id_rsa.pub %REMOTEHOST%:~/tmp.pub ssh %REMOTEHOST% “mkdi
 
 ### 问题2：VS code ssh remote连接时，需要输入密码？但是却没有可以输入密码的地方？
 
-解决方案：
+*解决方案*：
 
 在VS code工具栏***File->preference->settings***搜索 ***remote.SSH.showLoginTerminal***，并***勾选**上
 
 ### 问题3：VS Code ssh remote报administrativePermitted
 
-解决方案：在 ***/etc/ssh/sshd-config***更改***AllowTCPForwarding - yes***
+*解决方案*：
+
+在 ***/etc/ssh/sshd-config***更改***AllowTCPForwarding - yes***
 
 ### 问题4：设置SSH之后，仍然需要密码才能连接
 
-解决方案：确认如下***三个权限***是否正确（显示隐藏文件命令：ls -la）
+*解决方案*：
+
+确认如下***三个权限***是否正确（显示隐藏文件命令：ls -la）
 
 【1】
 ```
@@ -57,6 +61,24 @@ chmod 600 ~/.ssh/authorized_keys
 ```
 
 确认public_key在服务器上是否正确：***cat ~/.ssh/authorized_keys***
+
+### 问题4：连接SSH时，提示：Permission denied, please try again
+
+连接ssh server时，即使输入正确的密码，仍然有以上提示。
+
+*解决方法*： 
+
+在TERMINAL中，首先，手动登录：
+
+```
+ssh 用户名@服务器地址
+```
+
+输入密码，登录成功后。
+
+然后，再次连接ssh server，就可以成功了。
+
+
 
 ---------------------
 [vscode远程开发及公钥配置（告别密码登录）](https://blog.csdn.net/u010417914/article/details/96918562)
