@@ -11,13 +11,10 @@ author: David
 
 ---
 
-(1) [walkthrough.sh](file:///_posts/titron_version-walkthrough.sh)
+(1) [walkthrough.sh](https://github.com/titron/titron.github.io/blob/master/_posts/titron_version-walkthrough.sh)
 
-(2) [apply_patch.sh](file:///_posts/titron_version-apply_patch.sh)
+(2) [apply_patch.sh](https://github.com/titron/titron.github.io/blob/master/_posts/titron_version-apply_patch.sh)
 
 
-(1) ![walkthrough.sh](titron_version-walkthrough.sh)
-
-(2) ![apply_patch.sh](titron_version-apply_patch.sh)
 
 
