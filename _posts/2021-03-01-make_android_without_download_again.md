@@ -12,8 +12,8 @@ author: David
 ---
 
 
-[修改后的walkthrough.sh）](./titron_version-walkthrough.sh)
+![修改后的walkthrough.sh）](./titron_version-walkthrough.sh)
 
-[修改后的apply_patch.sh）](./titron_version-apply_patch.sh)
+![修改后的apply_patch.sh）](./titron_version-apply_patch.sh)
 
 
