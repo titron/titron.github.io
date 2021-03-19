@@ -17,9 +17,13 @@ author: David
 
 启动VMware 的Linux系统，并开启虚拟机。
 
+![dvd加载vmware tools光盘镜像](https://github.com/titron/titron.github.io/raw/master/img/2021-03-15-vmware_tools_iso.png)
+
 等待Linux操作系统正常启动完毕，然后点击菜单
 
+```
     Player - 管理 - 安装VMware Tools
+```
 
 然后，会在Linux的系统桌面上生成一个名字为“VMware Tools”的光驱文件。
 
