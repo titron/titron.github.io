@@ -13,15 +13,15 @@ author: David
 
 ### 准备条件：
 
-1. 板子通过usb2uart连接到ubuntu虚拟机（可移动设备名称为：Google Salxxxxxx）。
+1 板子通过usb2uart连接到ubuntu虚拟机（可移动设备名称为：Google Salxxxxxx）。
 
 并启动android。
 
-2. 虚拟机上首先要安装VMware Tools（否则，会看不到共享文件夹）。
+2 虚拟机上首先要安装VMware Tools（否则，会看不到共享文件夹）。
 
 [可以参考这里](https://titron.github.io/2021/03/15/vmware_intall_tools_and_softlink/)
 
-3. 启用windows下共享文件夹、
+3 启用windows下共享文件夹、
    
    (1)要传输的文件，例如，test.txt
 
@@ -31,9 +31,9 @@ author: David
 
 ### 操作：
 
-1. 虚拟机上，进入终端，并进入上述共享文件夹下，或软连接目录。
+1 虚拟机上，进入终端，并进入上述共享文件夹下，或软连接目录。
 
-2. shell下，
+2 shell下，
    
 ```
 $ ./adb root
@@ -54,7 +54,7 @@ default.prop init.zygote32.rc          sbin
 
 salvator:/sdcard/Movies # exit
 
-$ ./adb push /home/titron/c449279cb9400cb552a9265d09e0e50f.mp4 /sdcard/Movies
-/home/titron/c449279cb9400cb552a9265d0...d. 20.8 MB/s (1816872 bytes in 0.083s)
+$ ./adb push /home/titron/test.txt /sdcard/Movies
+/home/titron/test.txt 20.8 MB/s (1816872 bytes in 0.083s)
 
 ```
