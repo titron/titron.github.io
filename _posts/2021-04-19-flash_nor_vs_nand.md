@@ -33,9 +33,7 @@ NAND flash 和 NOR flash 均使用 floating gate MOSFETs。
 | Execute in place (XIP) | No | Yes |
 | Reliability | | High |
 | 主要生产厂家（截至2019） | Samsung Electronics – 34.9% <br>Kioxia – 18.1% <br> Western Digital Corporation – 14% <br>Micron Technology – 13.5% <br>SK Hynix – 10.3% <br>Intel – 8.7% ||
-| 车用优势 || ![车用Nor FLASH的优缺点](https://github.com/titron/titron.github.io/raw/master/img/2021-04-19-flash_norflash_vs_nandflash_2.jpg) |
 | lauterBach 支持 | [lauterBach支持的最新NAND flash controller列表](https://www.lauterbach.com/ylistnand.html) | [lauterBach支持的最新NOR flash器件列表](https://www.lauterbach.com/ylist.html) |
-
 
 ### 常见的应用组合
 
