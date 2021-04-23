@@ -33,54 +33,12 @@ author: David
 
 — HyperFlash ROM
 
-### 1. eMMC
+| 项目 | eMMC | serial flash | Hyper flash |
+|---|---|---|---|
+| 容量 | 大 |||
+| 成本 |  | 低 ||
+| 寿命 |  | 长达20年 ||
+| 用途 | 用于各种消费品，如相机，手机等 | 存储执行code，用于DVD players, DSL modems, routers, hard-disk drives, printers。上电后，代码从serial flash被copy到RAM，并开始执行 ||
+| ![eMMC与soc的连接](https://github.com/titron/titron.github.io/raw/master/img/2021-04-19-flash_connect_emmc.png) | ![serial flash与soc的连接](https://github.com/titron/titron.github.io/raw/master/img/2021-04-19-flash_connect_serial_flash.png) || (暂时略) |
 
-其特点：
-
-容量大，易于与host连接，eMMC标准是开放的。
-
-用途：
-
-用于各种消费品，如相机，手机等。
-
-连接：
-
-![eMMC与soc的连接](https://github.com/titron/titron.github.io/raw/master/img/2021-04-19-flash_connect_emmc.png)
-
-其中，
-
-CLK——MCC clock
-
-CMD——Command in / response out 
-
-DAT——Data input / output
-
-### 2. serial flash
-
-特点：
-
-成本低，引脚少，低功耗，寿命长达20年。
-
-用途：
-
-存储执行code，用于DVD players, DSL modems, routers, hard-disk drives, printers。
-
-上电后，代码从serial flash被copy到RAM，并开始执行。
-
-连接：
-
-![serial flash与soc的连接](https://github.com/titron/titron.github.io/raw/master/img/2021-04-19-flash_connect_serial_flash.png)
-
-其中，
-
-SS - Slave select
-
-MOSI - Master output, slave input 
-
-MISO - Master input, slave output 
-
-SCLK - Serial clock
-
-### 3. Hyper flash
-(暂时略)
 
