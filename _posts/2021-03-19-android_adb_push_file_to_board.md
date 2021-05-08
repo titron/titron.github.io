@@ -60,7 +60,11 @@ $ ./adb push /home/m3n_imgs/bbb.apk /data/media/0/Download
 # 说明： 
 # 推送到/data/media/0/Download，
 # 相当于推送到/sdcard/Download
-###
+# 
+# "/data/media/0"是安卓手机内置存储的真实目录，
+# 而"/sdcard"是内置存储被安卓系统挂载的快捷方式（指向"/data/media/0"）；
+# 通常需要存储空间权限的手机app会访问后者，前者需要ROOT权限才能访问，因此这两个文件夹是一个目录
+
 ```
 
 附录：[ADB & fastboot 常用命令](https://blog.csdn.net/pen_cil/article/details/79762640?utm_medium=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control)
