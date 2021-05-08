@@ -64,10 +64,15 @@ $ ./adb push /home/m3n_imgs/bbb.apk /data/media/0/Download
 # "/data/media/0"是安卓手机内置存储的真实目录，
 # 而"/sdcard"是内置存储被安卓系统挂载的快捷方式（指向"/data/media/0"）；
 # 通常需要存储空间权限的手机app会访问后者，前者需要ROOT权限才能访问，因此这两个文件夹是一个目录
+# 有关android内部存储和外部存储，请参看下面的附录连接。
 
 ```
 
 附录：
 
-[ADB & fastboot 常用命令](https://blog.csdn.net/pen_cil/article/details/79762640?utm_medium=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control)
+1. [Android中的内部存储和外部存储](http://huzhengyu.com/2019/08/10/storage/)
+
+2. [ADB & fastboot 常用命令](https://blog.csdn.net/pen_cil/article/details/79762640?utm_medium=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control)
+
+
 
