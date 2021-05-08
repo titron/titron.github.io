@@ -53,11 +53,7 @@ type: page
 * GitHub：[titron](https://github.com/titron)
 * Linkedin: [Tyron](https://www.linkedin.com/in/tyron-dong/)
 * email：hockdtw@163.com
-* 知乎：[tyron](https://www.zhihu.com/people/tyron-dong)
-* [Weibo](...)
-* [Facebook](...)
-* [豆瓣](...)
-* [简书](...)
+
 
 ## 友情链接
 
