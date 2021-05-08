@@ -55,7 +55,8 @@ default.prop init.zygote32.rc          sbin
 salvator:/sdcard/Movies # exit
 
 $ ./adb push /home/titron/test.txt /sdcard/Movies
-/home/titron/test.txt 20.8 MB/s (1816872 bytes in 0.083s)
+$ ./adb push /home/m3n_imgs/aaa.mp3 /data/media/0/Download
+$ ./adb push /home/m3n_imgs/bbb.apk /data/media/0/Download
 
 ```
 
