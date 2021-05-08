@@ -11,7 +11,7 @@ type: page
 
 ## 关于我
 
-目前，是Renesas的汽车电子工程师，专注于R-Car SOC的应用技术支持与开发。
+目前，是Renesas的汽车电子应用工程师，专注于R-Car soc的应用技术支持与开发。
 
 平时工作内容包括：
 - R-Car modules
