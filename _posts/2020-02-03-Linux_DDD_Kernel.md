@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Linux设备驱动开发 学习笔记（2）——内核编程"
-categories: Software
-tags: Linux Driver
+categories: software
+tags: Linux, Driver
 author: David
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "vscode中调试使用记录"
-categories: Software
+categories: software
 tags: vscode
 author: David
 ---

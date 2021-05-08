@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "VS Code超详细配置指南"
-categories: Software
-tags: YUV YCbCr
+categories: software
+tags: YUV, YCbCr
 author: David
 ---
 

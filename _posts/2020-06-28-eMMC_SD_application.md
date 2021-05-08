@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "eMMC、SD应用笔记"
-categories: Hardware
-tags: eMMC SD
+categories: hardware
+tags: eMMC, SD
 author: David
 ---
 

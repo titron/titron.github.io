@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "图像色彩编码YUV（YCbCr）的基本知识"
-categories: Software
-tags: YUV YCbCr
+categories: software
+tags: YUV, YCbCr
 author: David
 ---
 

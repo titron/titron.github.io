@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "C语言字符输出格式化"
-categories: Software
+categories: software
 tags: printf
 author: David
 ---

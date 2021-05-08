@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "DDR/LPDDR4概念解释-package、die、channel"
-categories: Hardware
-tags: DDR LPDDR4
+categories: hardware
+tags: DDR, LPDDR4
 author: David
 ---
 

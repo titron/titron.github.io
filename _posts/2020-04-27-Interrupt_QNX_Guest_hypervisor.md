@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "QNX Hypervisor中的一些概念"
-categories: Software
-tags: QNX Hypervisor Guest Interrupt
+categories: software
+tags: QNX, Hypervisor, Guest, Interrupt
 author: David
 ---
 
