@@ -54,10 +54,13 @@ default.prop init.zygote32.rc          sbin
 
 salvator:/sdcard/Movies # exit
 
-$ ./adb push /home/titron/test.txt /sdcard/Movies
+$ ./adb push /home/titron/test.txt /sdcard/Download
 $ ./adb push /home/m3n_imgs/aaa.mp3 /data/media/0/Download
 $ ./adb push /home/m3n_imgs/bbb.apk /data/media/0/Download
-
+# 说明： 
+# 推送到/data/media/0/Download，
+# 相当于推送到/sdcard/Download
+###
 ```
 
 附录：[ADB & fastboot 常用命令](https://blog.csdn.net/pen_cil/article/details/79762640?utm_medium=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control)
