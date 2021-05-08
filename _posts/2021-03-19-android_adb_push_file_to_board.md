@@ -67,5 +67,7 @@ $ ./adb push /home/m3n_imgs/bbb.apk /data/media/0/Download
 
 ```
 
-附录：[ADB & fastboot 常用命令](https://blog.csdn.net/pen_cil/article/details/79762640?utm_medium=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control)
+附录：
+
+[ADB & fastboot 常用命令](https://blog.csdn.net/pen_cil/article/details/79762640?utm_medium=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control&dist_request_id=&depth_1-utm_source=distribute.pc_relevant.none-task-blog-searchFromBaidu-8.control)
 
