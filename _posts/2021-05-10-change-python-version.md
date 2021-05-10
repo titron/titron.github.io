@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "更改python version"
+title:  "建立android环境时，提示SyntaxError: invalid syntax"
 categories: software
 tags: ubuntu, android
 author: David
@@ -60,5 +60,7 @@ $ curl https://storage.googleapis.com/git-repo-downloads/repo-1 > repo
 $ chmod +x repo
 $ export PATH=$(pwd):${PATH}
 ```
+
+删除mydroid/后，重新按照手册进行操作。
 
 
