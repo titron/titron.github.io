@@ -27,7 +27,7 @@ author: David
 
 这里只介绍其中的几种连接方式：
 
-— eMMC
+— [eMMC](https://zhuanlan.zhihu.com/p/163535210)
 
 — Serial Flash ROM
 
