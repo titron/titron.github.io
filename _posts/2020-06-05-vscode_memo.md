@@ -144,4 +144,11 @@ ssh 用户名@服务器地址
 
 可以参考[这里](https://titron.github.io/2020/10/13/vscode_gitlens_guide/)。
 
+### (插件4 - c/c++) from Microsoft
+
+慎用该插件，否则，当打开服务器上的工程较大时，会实时占用服务器的大量带宽。
+
+![慎用该插件](https://github.com/titron/titron.github.io/raw/master/img/2020-06-05-vscode_memo_c_cplus.png)
+
+
 

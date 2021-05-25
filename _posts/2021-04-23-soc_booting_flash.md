@@ -27,7 +27,7 @@ author: David
 
 这里只介绍其中的几种连接方式：
 
-— [eMMC](https://zhuanlan.zhihu.com/p/163535210)
+— [eMMC](https://palliatory66.rssing.com/chan-60693167/all_p6.html)
 
 — Serial Flash ROM
 
@@ -44,3 +44,7 @@ author: David
 
 
 They deliver the highest read bandwidth at 333MB/s, over five times faster than Quad SPI NOR flash with one-third the number of pins of parallel NOR flash. 
+
+参考：
+1. [eMMC原理4:总线协议](https://palliatory66.rssing.com/chan-60693167/all_p6.html)
+2. [eMMC接口介绍](https://zhuanlan.zhihu.com/p/163535210)
