@@ -10,7 +10,6 @@ author: David
 {:toc}
 
 ---
-
 ### 制作升级包					
 【step 1】Prepare
 ```
@@ -43,8 +42,7 @@ done.
 ```
 mydroid$ make				#——重新编译
 mydroid$ make otapackage	#——重新生产升级包
-mydroid$ ./build/tools/releasetools/ota_from_target_files -i <A package> <B package> <差分包名>
-/mydroid$ ./build/tools/releasetools/ota_from_target_files -i out/target/product/salvator/salvator-ota-eng.dongtz.zip out/target/product/salvator/salvator-ota-eng.dongtz.original.zip out/target/product/salvator/ota_diff_package.zip		#---这里有错误发生，也许还有bug，导致不能生成差分包		
+mydroid$ ./build/tools/releasetools/ota_from_target_files -i out/target/product/salvator/salvator-ota-eng.dongtz.zip out/target/product/salvator/salvator-ota-eng.dongtz.original.zip out/target/product/salvator/ota_diff_package.zip	#---这里有错误发生，也许还有bug，导致不能生成差分包		
 Traceback (most recent call last):				
 	  File "./build/tools/releasetools/ota_from_target_files", line 1996, in <module>
 	    main(sys.argv[1:])				
@@ -61,13 +59,14 @@ ValueError: can't find META/misc_info.txt in input target-files
 
 Recovery提供的功能如下，使用apply update from sdcard功能即可升级OTA包。				
 					
-【方法2 】通过adb实现				
+【方法2 】通过adb实现	
+
 [参考这里](https://blog.csdn.net/YuZhuQue/article/details/90696640)				
 					
 可以通过adbroot/adb remount/adb push指令实现，但是需要连接到电脑PC端，且支持adb才行。	
 ```					
 $ ./adb push -p /home/m3n_imgs/salvator-ota-eng.dongtz.zip /data/update.zip			
-$ ./adb shell uncrypt  /data/update.zip   /cache/recovery/block.map			#---注意：要等待一段时间，直到命令执行退出…，然后在执行如下命令；			
+$ ./adb shell uncrypt  /data/update.zip   /cache/recovery/block.map			#---注意：要等待一段时间，直到命令执行退出…，然后在执行如下命令；	
 $ ./adb shell "echo  \"--update_package=@/cache/recovery/block.map\"  > /cache/recovery/command"			
 $ ./adb reboot recovery			#---注意：要多等待一段时间，直到升级完成。			
 ......
