@@ -30,4 +30,4 @@ author: David
 [candleLight_fw](https://github.com/candle-usb/candleLight_fw)
 candleLight固件还支持BUSMASTER。
 
-淘宝有人在售，100多块RMB。
+注: 淘宝有人在售，100多块RMB。
