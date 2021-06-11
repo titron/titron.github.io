@@ -12,7 +12,19 @@ author: David
 ---
 参考：
 1. JEDEC Standard, Embedded Multi-Media Card(eMMC) Electrical Standard (5.01), JESD84-B50.1
+2. JEDEC Standard, Embedded MultiMediaCard(e•MMC)e•MMC/Card Product Standard, High Capacity, including Reliable Write, Boot,
+Sleep Modes, Dual Data Rate, Multiple Partitions Supports, Security Enhancement, Background Operation and High Priority
+Interrupt (MMCA, 4.41), JESD84-A441
 
+eMMC真正的存储media还是NAND Flash,而NAND又分为SLC、MLC和TLC。
+
+目前市场上主流的eMMC还是以MLC的NAND为主，而TLC的eMMC也在逐漸的增加。
+
+目前市场上的MLC，擦除次数大概在3000~5000cycle。
+
+而SLC的擦除次数则在25000~40000cycle。
+
+所以，SLC要比MLC效率高，更稳定。
 
 ### Signals
 

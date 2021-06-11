@@ -37,7 +37,7 @@ author: David
 |---|---|---|---|
 | 容量 | 大 || |
 | 成本 |  | 低 ||
-| 寿命 |  | 长达20年 ||
+| 寿命 | MLC的eMMC擦除次数大概在3000~5000cyclec，而SLC的擦除次数则在25000~40000cycle | 长达20年 ||
 | 带宽 |  |  | 读带宽~333MBps |
 | 用途 | 用于各种消费品，如相机，手机等 | 存储执行code，用于DVD players, DSL modems, routers, hard-disk drives, printers。上电后，代码从serial flash被copy到RAM，并开始执行 ||
 | 连接 | ![eMMC与soc的连接](https://github.com/titron/titron.github.io/raw/master/img/2021-04-19-flash_connect_emmc.png) | ![serial flash与soc的连接](https://github.com/titron/titron.github.io/raw/master/img/2021-04-19-flash_connect_serial_flash.png) | ![hyperFlash与soc的连接](https://github.com/titron/titron.github.io/raw/master/img/2021-04-19-flash_connect_hyperflash2.png) |
