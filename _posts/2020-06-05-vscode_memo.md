@@ -13,6 +13,18 @@ author: David
 
 ## vs-code设置ssh-remote免密登录遇到的问题
 
+[SSH的本质](https://blog.csdn.net/dongwuming/article/details/9705595)
+
+单向登陆的操作过程（能满足上边的目的）：
+
+1、登录A机器
+
+2、ssh-keygen -t [rsa|dsa]，将会生成密钥文件和私钥文件 id_rsa,id_rsa.pub或id_dsa,id_dsa.pub
+
+3、将 .pub 文件复制到B机器的 .ssh 目录， 并 cat id_dsa.pub >> ~/.ssh/authorized_keys
+
+4、大功告成，从A机器登录B机器的目标账户，不再需要密码了；（直接运行 #ssh 192.168.20.60 ）
+
 ### 问题1：Vs code 无法ssh到服务器
 
 *解决方案*：
