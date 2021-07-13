@@ -18,7 +18,7 @@ author: David
 
 一个程序员说自己喝醉了，软件工程师已经当了10年，心里有好多话想说，"我可能会后悔今天说了这些话。"
 
-![酒杯]](https://github.com/titron/titron.github.io/raw/master/img/2021-06-29-a_drunk_engineer_glass.jpg)
+![酒杯](https://github.com/titron/titron.github.io/raw/master/img/2021-06-29-a_drunk_engineer_glass.jpg)
 
 ![原贴](https://github.com/titron/titron.github.io/raw/master/img/2021-06-29-a_drunk_engineer_post.jpg)
 
