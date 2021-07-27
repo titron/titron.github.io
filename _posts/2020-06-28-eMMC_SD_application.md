@@ -16,7 +16,17 @@ author: David
 Sleep Modes, Dual Data Rate, Multiple Partitions Supports, Security Enhancement, Background Operation and High Priority
 Interrupt (MMCA, 4.41), JESD84-A441
 
-eMMC真正的存储media还是NAND Flash,而NAND又分为SLC、MLC和TLC。
+
+### 擦写次数
+
+emmc的擦写次数是有限的，一般使用久了速度会变慢。
+
+是因为emmc内部数据处理变慢了。
+
+我们可以从寄存器中获知，状态寄存器data0一直为0，即data0一直为拉低的状态，data0一直是busy的状态，就会出现传输数据（一般是写超时）超时，这个是因为emmc老化导致内部处理的数据变慢，一直在处理数据，不让主机在往里面写。
+
+
+eMMC真正的存储media还是NAND Flash, 而NAND又分为SLC、MLC和TLC。
 
 目前市场上主流的eMMC还是以MLC的NAND为主，而TLC的eMMC也在逐漸的增加。
 
@@ -28,17 +38,29 @@ eMMC真正的存储media还是NAND Flash,而NAND又分为SLC、MLC和TLC。
 
 ### Signals
 
+emmc有11根通讯总线:
+
 * CLK
 
 时钟。一个周期内，传输1bit或2bit。
 
+单向。
+
+主机向设备发送的信号，clock操作在推挽模式下
+
 * DS(Data Strobe)
+
+设备给主机的信号，数据选通操作在推挽模式。
 
 仅仅存在于HS400 mode。2 bit传输（上升沿+下降沿）。
 
 * CMD
 
-双向，用于传输command（host->device）和response（host<-device）。
+双向。
+
+主机和设备驱动有开漏和推挽二种模式。
+
+用于传输command（host->device）和response（host<-device）。
 
 有两种mode：
 open-drain：initialization mode
@@ -47,6 +69,10 @@ push-pull：fastcommand transfer
 
 
 * D0~D7（8-bit）/D0~D3（4-bit）/D0（1-bit）
+
+双向。
+
+主机和设备驱动都是在推挽模式下（data0默认为拉高的状态）
 
 注意：
 由于涉及到高速信号应用，layout时，CLK/CMD/DX信号，要进行长度匹配（等长），阻抗匹配（50欧姆）。
