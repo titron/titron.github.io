@@ -74,7 +74,7 @@ chmod 600 ~/.ssh/authorized_keys
 
 确认public_key在服务器上是否正确：***cat ~/.ssh/authorized_keys***
 
-### 问题4：连接SSH时，提示：Permission denied, please try again
+### 问题5：连接SSH时，提示：Permission denied, please try again
 
 连接ssh server时，即使输入正确的密码，仍然有以上提示。
 
@@ -90,9 +90,14 @@ ssh 用户名@服务器地址
 
 然后，再次连接ssh server，就可以成功了。
 
+### 问题6： search时exclude多个目录
+
+![连接服务器1](https://github.com/titron/titron.github.io/raw/master/img/2020-06-05-vscode_memo_exclude_folders.png)
+
 
 
 ---------------------
+## vs-code中的插件
 [vscode远程开发及公钥配置（告别密码登录）](https://blog.csdn.net/u010417914/article/details/96918562)
 
 ### (插件1 - Remote Development)调试服务器上的c/c++代码
