@@ -147,7 +147,7 @@ mii     - MII utility commands
 
 mm      - memory modify (auto-incrementing address)
 
-mmc     - MMC sub system
+mmc     - MMC sub system, [mmc command](https://u-boot.readthedocs.io/en/latest/usage/mmc.html)
 
 mmcinfo - display MMC info
 
