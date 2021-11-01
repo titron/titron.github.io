@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "objcopy的用法"
+title:  "我的TensorFlow学习笔记"
 categories: software
-tags: linux, software
+tags: TensorFlow, software
 author: David
 ---
 
@@ -41,7 +41,7 @@ author: David
   
 机器学习系统通过学习如何组合输入信息来对从未见过的数据做出有用的预测。	
 
-在监督式学习中，机器学习算法通过以下方式构建模型：检查多个样本并尝试找出<font color=#FF000>可最大限度地减少损失的模型</font>；这一过程称为<font color=#FF000>经验风险最小化 </font>。	
+在监督式学习中，机器学习算法通过以下方式构建模型：检查多个样本并尝试找出**可最大限度地减少损失的模型**；这一过程称为**经验风险最小化**。	
 		
 * [2] 标签	
 
@@ -79,13 +79,13 @@ author: David
 
 ---无标签样本	
 		
-<font color=#FF000>有标签样本</font>同时包含特征和标签。即：	
+**有标签样本**同时包含特征和标签。即：	
     
     labeled examples: {features, label}: (x, y)	
 
 我们使用有标签样本来训练模型。在我们的垃圾邮件检测器示例中，有标签样本是用户明确标记为“垃圾邮件”或“非垃圾邮件”的各个电子邮件。	
 		
-<font color=#FF000>无标签样本</font>包含特征，但不包含标签。即：	
+**无标签样本**包含特征，但不包含标签。即：	
 
     unlabeled examples: {features, ?}: (x, ?)	
 	
@@ -95,19 +95,19 @@ author: David
 
 模型定义了特征与标签之间的关系。例如，垃圾邮件检测模型可能会将某些特征与“垃圾邮件”紧密联系起来。我们来重点介绍一下模型生命周期的两个阶段：	
 
-<font color=#FF000>训练</font>表示创建或学习模型。也就是说，您向模型展示有标签样本，让模型逐渐学习特征与标签之间的关系。简单来说，训练模型表示通过有标签样本来学习（确定）所有权重和偏差的理想值。	
+**训练**表示创建或学习模型。也就是说，您向模型展示有标签样本，让模型逐渐学习特征与标签之间的关系。简单来说，训练模型表示通过有标签样本来学习（确定）所有权重和偏差的理想值。	
 
-<font color=#FF000>推断</font>表示将训练后的模型应用于无标签样本。也就是说，您使用训练后的模型来做出有用的预测 (y')。例如，在推断期间，您可以针对新的无标签样本预测 medianHouseValue。	
+**推断**表示将训练后的模型应用于无标签样本。也就是说，您使用训练后的模型来做出有用的预测 (y')。例如，在推断期间，您可以针对新的无标签样本预测 medianHouseValue。	
 		
 * [6] 回归与分类	
 	
-<font color=#FF000>回归</font>模型可预测连续值。例如，回归模型做出的预测可回答如下问题：
+**回归**模型可预测连续值。例如，回归模型做出的预测可回答如下问题：
 
 加利福尼亚州一栋房产的价值是多少？	
 
 用户点击此广告的概率是多少？	
 		
-<font color=#FF000>分类</font>模型可预测离散值。例如，分类模型做出的预测可回答如下问题：	
+**分类**模型可预测离散值。例如，分类模型做出的预测可回答如下问题：	
 
 某个指定电子邮件是垃圾邮件还是非垃圾邮件？	
 
@@ -116,13 +116,11 @@ author: David
 * [7] 平方损失：一种常见的损失函数	
 
 线性回归模型使用的是一种称为平方损失（又称为 L2 损失）的损失函数。单个样本的平方损失如下：	
-
-	  = the square of the difference between the label and the prediction	
-
-	  = (observation - prediction(x))2	
-
-	  = (y - y')2	
-
+$$
+= the square of the difference between the label and the prediction
+= (observation - prediction(x))^2	
+= (y - y')^2	
+$$
 均方误差 (MSE) 指的是每个样本的平均平方损失。要计算 MSE，请求出各个样本的所有平方损失之和，然后除以样本数量：	
 	
 	  MSE=1N∑(x,y)∈D(y−prediction(x))2	
@@ -181,7 +179,7 @@ author: David
 ![训练集vs测试集](https://github.com/titron/titron.github.io/raw/master/img/2021-11-01-TensorFlow_data_class.png)
 
 
-* [10] 机器学习中的调试通常是<font color=#FF000>数据</font>调试而不是代码调试。	
+* [10] 机器学习中的调试通常是**数据**调试而不是代码调试。	
 	
 * [11] 良好的机器学习依赖于良好的数据。	
   
