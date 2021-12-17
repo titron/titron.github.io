@@ -100,62 +100,40 @@ MBR、GPT都是在User Data Area上实现的。
 * 先介绍几个术语：
 
 LBA——Logical block addressing , here you can look it as sector, which size is 512 Bytes
-
-	please refer https://en.wikipedia.org/wiki/Logical_block_addressing
+     please refer https://en.wikipedia.org/wiki/Logical_block_addressing
 
 MBR——Master Boot Record
-
-	"The data structure that resides on the LBA 0 of a hard disk and defines the partitionson the disk."
+     The data structure that resides on the LBA 0 of a hard disk and defines the partitionson the disk."
 
 GPT——GUID Partition Table	
-
-	A data structure that describes one or more partitions. 	
-
-	"It consists of a GPTHeaderand, typically, at least one GPTPartition Entry."	
-
+     A data structure that describes one or more partitions. 	
+     "It consists of a GPTHeaderand, typically, at least one GPTPartition Entry."	
 	"There are two GUID partition tables:"	
-
-		- the Primary Partition Table (located in LBA 1 of the disk) and 
-
-		- "a Backup Partition Table(located in the last LBA of the disk). The Backup Partition Table is a copy of
-
-                                    thePrimary Partition Table."
+	- the Primary Partition Table (located in LBA 1 of the disk) and 
+	- "a Backup Partition Table(located in the last LBA of the disk). The Backup Partition Table is a copy of the Primary Partition Table."
 
 EFI——Extensible Firmware Interface
-
 	"An interface between the operating system (OS) andthe platform firmware."
 
 UEFI——Unified Extensible Firmware Interface. 
-
 	"The interface between the operating system(OS) and the platform firmware defined by this specification."
 
 BPB——BIOS Parameter Block 
-
 	"The first block (sector) of a partition. It defines the type and location of the FAT FileSystem on a drive."
 
 FAT——File Allocation Table 	
-
 	A table that is used to identify the clusters that make up a disk file. 	
-
 	"File allocationtables come in three flavors: "	
-
 		FAT12, which uses 12 bits for cluster numbers; 
-
 		"FAT16, which uses 16 bits;"
-
 		"FAT32, which allots 32 bits but only uses 28 (the other 4 bitsare reserved for future use)."
 
 GPTHeader——
-
 	The header in a GUID Partition Table (GPT). 	
-
-	"Among other things, it contains thenumber of GPT Partition Entries and the first and last LBAs that can be used for
-                theentries."	
+	"Among other things, it contains thenumber of GPT Partition Entries and the first and last LBAs that can be used for the entries."	
 
 GPT Partition Entry——
-
-	"A data structure that characterizes a Partition in the GPT disk layout. Among otherthings, it specifies the starting and
-                ending LBA of the partition."
+	"A data structure that characterizes a Partition in the GPT disk layout. Among otherthings, it specifies the starting and ending LBA of the partition."
 
 * eMMC空间分布图：                	
 
