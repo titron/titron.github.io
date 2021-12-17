@@ -132,7 +132,7 @@ FAT——File Allocation Table
 		FAT12, which uses 12 bits for cluster numbers; 
 
 		"FAT16, which uses 16 bits;"
-            
+
 		"FAT32, which allots 32 bits but only uses 28 (the other 4 bitsare reserved for future use)."
 
 GPTHeader——
@@ -240,8 +240,11 @@ FatFs官方链接：[http://elm-chan.org/fsw/ff/00index_e.html](http://elm-chan.
 ## 6. 移植FatFs及SDHI/eMMC驱动
 
 移植后的FatFs目录：
+
 ![FatFs 目录](https://github.com/titron/titron.github.io/raw/master/img/2021-12-17-fatfs_emmc_fatfs_dir.png)
+
 移植后的FatFs目录：
+
 ![sdhi/emmc目录](https://github.com/titron/titron.github.io/raw/master/img/2021-12-17-fatfs_emmc_driver_dir.png)
 
 ## 7. 验证FatFs在eMMC上工作正常
@@ -253,7 +256,9 @@ f_open
 f_write
 f_close
 ```
+
 在Android终端下验证新文件：
+
 ```
 console:/ # su
 console:/ # cd data/user
@@ -281,11 +286,14 @@ console:/data/user/test_myfat # od -c test.txt
 ```
 
 * 读现有文件
+
 过程：
+
 ```
 f_open
 f_read
 f_close
 ```
+
 用调试器，验证读取到buffer的数据：
 ![用调试器验证read现有文件](https://github.com/titron/titron.github.io/raw/master/img/2021-12-17-fatfs_emmc_verify_read.png)
