@@ -107,9 +107,12 @@ MBR——Master Boot Record
 
 GPT——GUID Partition Table	
      A data structure that describes one or more partitions. 	
+
      "It consists of a GPTHeaderand, typically, at least one GPTPartition Entry."	
 	"There are two GUID partition tables:"	
+
 	- the Primary Partition Table (located in LBA 1 of the disk) and 
+  
 	- "a Backup Partition Table(located in the last LBA of the disk). The Backup Partition Table is a copy of the Primary Partition Table."
 
 EFI——Extensible Firmware Interface
@@ -123,9 +126,13 @@ BPB——BIOS Parameter Block
 
 FAT——File Allocation Table 	
 	A table that is used to identify the clusters that make up a disk file. 	
+
 	"File allocationtables come in three flavors: "	
+
 		FAT12, which uses 12 bits for cluster numbers; 
+
 		"FAT16, which uses 16 bits;"
+            
 		"FAT32, which allots 32 bits but only uses 28 (the other 4 bitsare reserved for future use)."
 
 GPTHeader——
