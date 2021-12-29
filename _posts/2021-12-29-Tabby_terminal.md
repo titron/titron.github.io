@@ -19,7 +19,7 @@ author: David
 
 用过Finalshell，太复杂。
 
-我只是想用##SSH##和SFTP 功能。
+我只是想用<mark>SSH</mark>和<mark>SFTP</mark> 功能。
 
 幸好看到了[链接1](https://mp.weixin.qq.com/s/vX6Tq30Jnyo4IhLucdVceA)这里推送的另一款开源的终端工具Tabby，到目前为止，使用感觉不错！
 
@@ -40,9 +40,9 @@ Tabby的安装非常简单，直接下载安装包解压即可，这里我下载
 
 * 快捷键for split
   
-  ctrl+shift+d: split to the bottom
+  ctrl+shift+e: split to the right
 
-  ctrl+shift+e: split to the left
+  ctrl+shift+d: split to the bottom
 
   ctrl+d: delete current split
 
