@@ -10,7 +10,11 @@ author: David
 {:toc}
 
 ---
-参考[这里](https://www.jedec.org/sites/default/files/files/Marc_Greenberg_Mobile_and_IOT.pdf)
+参考:
+
+[1](https://www.jedec.org/sites/default/files/files/Marc_Greenberg_Mobile_and_IOT.pdf)
+[2](https://blog.csdn.net/weixin_42238387/article/details/120576832)
+[3](https://www.hardwaretimes.com/lpddr4-vs-ddr4-vs-lpddr4x-which-one-is-better/)
 
 
 | DDR/LPDDR4 | die/package | channel(command/address bus、data bus)/die |
