@@ -12,6 +12,8 @@ author: David
 ---
 基于宋宝华《Linux设备驱动开发详解-基于最新的Linux4.0内核》。
 
+[这个帖子对Linux驱动的发展历史解释的很详细](https://www.eet-china.com/mp/a108935.html?utm_source=EETC%20Forum%20Alert&utm_medium=Email&utm_campaign=2022-02-23)
+
 ---
 
 设备树（Device Tree）是一种描述硬件的数据结构。
