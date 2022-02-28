@@ -11,7 +11,7 @@ author: David
 
 ---
 
-[原文]](https://mp.weixin.qq.com/s/alkM9OmciddhCpxX_xi9PQ)
+[原文](https://mp.weixin.qq.com/s/alkM9OmciddhCpxX_xi9PQ)
 
 通常我们对日志有这些要求：
 

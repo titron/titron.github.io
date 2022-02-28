@@ -21,7 +21,7 @@ PFM: Pulse Frequency Modulation, 脉冲宽度不变，调整频率
 
 PSM: Pulse Skip Modulation, 频率和脉宽都不变，脉冲时有时无
 
-![PWM/PFM/PWM](https://github.com/titron/titron.github.io/raw/master/img/2022-2-16-pwm_pfm_psm.png)
+![PWM/PFM/PWM](https://github.com/titron/titron.github.io/raw/master/img/2022-02-16-pwm_pfm_psm.png)
 
 | 模式 | 优点 | 缺点 |
 | --- | --- | --- |
