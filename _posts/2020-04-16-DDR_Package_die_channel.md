@@ -2,7 +2,7 @@
 layout: post
 title:  "DDR/LPDDR4概念解释-package、die、channel"
 categories: hardware
-tags: DDR, LPDDR4
+tags: DDR, LPDDR4，DDR5
 author: David
 ---
 
@@ -26,3 +26,6 @@ author: David
 | LPDDR2<br>LPDDR3<br> | 1或2 | 1 |
 | LPDDR4 | 1 | 2 |
 | LPDDR4 | 2 | 4 |
+
+
+[4 对比美光、三星、SK 海力士的DDR5内存](https://www.ednchina.com/news/a9050.html?utm_source=EDNC%20Article%20Alert&utm_medium=Email&utm_campaign=2022-02-25)
