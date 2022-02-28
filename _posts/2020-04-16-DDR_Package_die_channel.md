@@ -29,3 +29,7 @@ author: David
 
 
 [4 对比美光、三星、SK 海力士的DDR5内存](https://www.ednchina.com/news/a9050.html?utm_source=EDNC%20Article%20Alert&utm_medium=Email&utm_campaign=2022-02-25)
+
+[进入DDR5时代](http://www.scensmart.com/news/industry-applications-enter-a-new-era-of-ddr5/)
+
+![DDR5 v.s. DDR4](https://github.com/titron/titron.github.io/raw/master/img/2022-02-28_DDR4-DDR5.png)
