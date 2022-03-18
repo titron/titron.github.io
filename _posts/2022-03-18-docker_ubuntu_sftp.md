@@ -102,7 +102,7 @@ root@463a1151fd69:/home/dongtz/work/s4_alpha2# apt-get install tree
 root@463a1151fd69:/home# tree 					
 
 # installation of required commands		
-root@463a1151fd69:/home/dongtz/work/s4_alpha2# apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa	libsdl1.2-dev pylint3 xterm libarchive-zip-perl 		
+root@463a1151fd69:/home/dongtz/work/s4_alpha2# apt-get install gawk wget git-core diffstat unzip texinfo gcc-multilib build-essential chrpath socat cpio python3 python3-pip python3-pexpect xz-utils debianutils iputils-ping python3-git python3-jinja2 libegl1-mesa	libsdl1.2-dev pylint3 xterm libarchive-zip-perl
 		
 # 安装网络工具，包含ifconfig		
 root@463a1151fd69:/home/dongtz/work/s4_alpha2# apt-get install net-tools 		
@@ -121,7 +121,7 @@ root@463a1151fd69:/home/dongtz/work/s4_alpha2# apt-get install vim
 root@463a1151fd69:/home/dongtz/work/s4_alpha2# vi /etc/vsftpd.conf					
 
 # 启动ftp服务
-root@463a1151fd69:/home/dongtz/work/s4_alpha2# /etc/init.d/vsftpd restart 					
+root@463a1151fd69:/home/dongtz/work/s4_alpha2# /etc/init.d/vsftpd restart
 					
 # 查看ftp服务是否打开
 root@463a1151fd69:/home/dongtz/work/s4_alpha2# ps -ef | grep ftp 					
@@ -150,7 +150,7 @@ root@463a1151fd69:/home/dongtz/work/s4_alpha2/build-spider-gateway# bitbake rcar
 
 # ERROR: Do not use Bitbake as root	
 #	ERROR: OE-core's config sanity checker detected a potential misconfiguration. 		
-#	Either fix the cause of this error or at your own risk disable the checker (see sanity.conf). 		
+#	Either fix the cause of this error or at your own risk disable the checker (see sanity.conf).
 #	Following is the list of potential problems / advisories: 		
 #	Do not use Bitbake as root. 		
 # 更改以下文件中设置，以去掉检查是不是root在执行
