@@ -36,7 +36,15 @@ author: David
 
 舵机的控制原理就是pmw脉宽调制，通过给舵机调节占空比来控制他的转向。
 
-![TowerPro SG-5010 Specification](https://github.com/titron/titron.github.io/raw/master/img/2022-04-01_servo_motor_control.png)
+![control servo](https://github.com/titron/titron.github.io/raw/master/img/2022-04-01_servo_motor_control.png)
+
+以SG-5010为例：
+- 20ms (50Hz)脉冲	
+- 1% ~ 12%占空比
+
+  占空比增加（从1% ~ 12%），向左旋转
+  
+  占空比减少（从12% ~ 1%），向右旋转
 
 ### 舵机指标（例：TowerPro SG-5010）
 
