@@ -47,3 +47,6 @@ $ bitbake e2fsprogs
 BTW，命令*mkfs.fat*不在e2fsprogs包中，需要从这里下载，然后编译该包生成：
 https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz
 
+
+有关Yocto编译的问题，请参考：
+[Yocto FAQ](https://wiki.yoctoproject.org/wiki/FAQ#Who_defines_the_root_filesystem_and_metadata.3F)
