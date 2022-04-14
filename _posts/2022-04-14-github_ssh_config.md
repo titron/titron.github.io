@@ -29,7 +29,7 @@ git config --global user.email "Git邮箱"
 ssh-keygen -t rsa -C "your_email@example.com"
 ```
 注：
-* 一定注意生成的文件保存路径，有可能不在下面的目录下。
+* 一定注意生成的文件保存路径，有可能目录/c/Users/xxxxxxx/.ssh/下，copy过去。
 * 生成的SSH私钥路径 /c/Users/xxxxxxx/.ssh/id_rsa, 后面要用到。
 
 
