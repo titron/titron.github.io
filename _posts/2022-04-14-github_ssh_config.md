@@ -55,5 +55,4 @@ ssh -T git@github.com
 
 ### 提示
 * 如果git clone时失败，可以尝试https方式clone。
-* 如果能https pull，但是不能push，可以更改push的协议：git协议 -》 https协议
-  当前仓库目录下/.git/config
+* 如果能https pull，但是不能push，需要按照上面的方法更新新的秘钥（步骤中有错误，比如，目录不对）
