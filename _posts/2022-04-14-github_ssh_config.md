@@ -56,3 +56,4 @@ ssh -T git@github.com
 ### 提示
 * 如果git clone时失败，可以尝试https方式clone。
 * 如果能https pull，但是不能push，需要按照上面的方法更新新的秘钥（步骤中有错误，比如，目录不对）
+* 有时用tortoise git push不成功，不一定是git的原因，而是tortoise git本身的原因，需要重新安装。可以在git bash下git push看结果进行判断。
