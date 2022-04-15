@@ -10,8 +10,10 @@ author: David
 {:toc}
 
 ---
-有关docker的介绍，请参考[这里](https://www.runoob.com/docker/docker-tutorial.html)
-[docker命令介绍](https://www.runoob.com/docker/docker-command-manual.html)
+参考：
+[1. docker的介绍](https://www.runoob.com/docker/docker-tutorial.html)
+[2. docker命令介绍](https://www.runoob.com/docker/docker-command-manual.html)
+[3. 24 个常见的 Docker 疑难杂症处理技巧](https://mp.weixin.qq.com/s/JuUULOE-axo7wFzijt1l_Q)
 
 
 目前，编译bsp所用的Linux服务器是ubuntu 16.04，新项目编译bsp要求Linux服务器是ubuntu 20.04.
