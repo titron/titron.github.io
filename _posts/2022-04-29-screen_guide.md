@@ -11,7 +11,8 @@ author: David
 
 ---
 
-[Linux Screen 命令详解（转）](https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)
+1. [Linux Screen 命令详解（转）](https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)
+2. [linux下screen如何显示当前处在哪个screen（如何显示当前screenid）](https://blog.csdn.net/weixin_34220834/article/details/92107468)
 
 常用screen参数
 
@@ -30,4 +31,5 @@ screen -d -r yourname -> 结束当前session并回到yourname这个session
 # screen -ls
 # screen -d
 # screen -r 12865
+# screen -s 7311 -X quit
 ```
