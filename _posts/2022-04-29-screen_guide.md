@@ -27,9 +27,9 @@ screen -d yourname -> 远程detach某个session
 screen -d -r yourname -> 结束当前session并回到yourname这个session
 
 ```
-# C-a d
-# screen -ls
-# screen -d
-# screen -r 12865
-# screen -s 7311 -X quit
+# C-a d                     # detach
+# screen -ls                # list session
+# screen -d                 # detach session
+# screen -r 12865           # recall session
+# screen -s 7311 -X quit    # kill session
 ```
