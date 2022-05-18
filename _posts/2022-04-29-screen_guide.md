@@ -33,3 +33,14 @@ screen -d -r yourname -> 结束当前session并回到yourname这个session
 # screen -r 12865           # recall session
 # screen -s 7311 -X quit    # kill session
 ```
+
+当然，如果你在另一台机器上没有分离一个Screen会话，就无从恢复会话了。
+
+这时可以使用下面命令强制将这个会话从它所在的终端分离，转移到新的终端上来：
+```
+# screen -r 12865           # recall session
+# screen -d 12865           # detach session
+# screen -r 12865           # recall session
+```
+
+
