@@ -10,6 +10,8 @@ author: David
 {:toc}
 
 ---
+
+
 基于宋宝华《Linux设备驱动开发详解-基于最新的Linux4.0内核》。
 
 [这个帖子对Linux驱动的发展历史解释的很详细](https://www.eet-china.com/mp/a108935.html?utm_source=EETC%20Forum%20Alert&utm_medium=Email&utm_campaign=2022-02-23)
@@ -40,6 +42,10 @@ author: David
 
 	.dtb文件可以单独存放在一个很小的区域，也可以直接和zImage绑定在一起做出一个映像文件（编译内核时，使能CONFIG_ARM_APPENDED_DTB）。
 
+	**反编译dtb**文件为dts文件的命令：
+	```
+	$ dtc -I dtb -O dts -o test.dts ./r8a7795-salvator-xs-android.dtb 
+	```
 * Binding —— 讲解文档，讲解设备树中的节点和属性是如何来描述设备的硬件细节的，扩展名.txt。
 
 	位于内核的Documentation/devicetree/bindings目录。
