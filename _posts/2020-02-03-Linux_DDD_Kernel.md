@@ -32,18 +32,18 @@ author: David
 编译内核和模块的方法是：
 
   $ make ARCH=arm zImage
-  
+
   $ make ARCH=arm modules
-  
+
 执行上述命令的结果：
 
 - 在源代码的根目录下，会得到未压缩的内核映像vmlinux，内核符合表文件System.map;
-  
+
 - 在arch/arm/boot/目录下，会得到压缩的内核映像zImage；
-  
+
 - 在内核各对应目录，会得到选中的内核模块；
 
-Linux内核的配置系统由以下3部分组成：  
+Linux内核的配置系统由以下3部分组成：
 
 * Makefile：分布在Linux内核源代码中，定义Linux内核的编译规则
 * 配置文件（Kconfig）：给用户提供配置选择的功能
@@ -60,17 +60,17 @@ Linux内核的配置系统由以下3部分组成：
 * 在目录的Makefile文件中增加对新源代码的编译条目
 
 Kconfig文件中的配置项：
-```
+```makefile
 config XXXX
 
 	tristate “xxxxxxxxx”
-	
+
 	dependson YYYY
-	
+
 	default n
-	
+
 	---help---
-	
+
 		nnnnnnnn
 ```
 

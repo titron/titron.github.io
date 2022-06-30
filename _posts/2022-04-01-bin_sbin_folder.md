@@ -22,11 +22,11 @@ author: David
 如果新装的系统，运行一些很正常的诸如：shutdown，fdisk的命令时，悍然提示：bash:command not found。那么首先就要考虑root 的$PATH里是否已经包含了这些环境变量。
 
 可以查看PATH，如果是：
-```
+```bash
 PATH=$PATH:$HOME/bin
 ```
 则需要添加成如下：
-```
+```bash
 PATH=$PATH:$HOME/bin:/sbin:/usr/bin:/usr/sbin
 ```
 

@@ -13,7 +13,7 @@ author: David
 
 ### 安装与设置
 
-```
+```bash
 $sudo apt-get install minicom   # install
 $sudo minicom                   # config
 ```
@@ -33,20 +33,20 @@ $sudo minicom                   # config
 
 提示:
 
-下次在输入minicon 即可直接进入。				
+下次在输入minicon 即可直接进入。
 
-命令minicom是进入串口超级终端画面，而minicom -s为配置minicom。				
+命令minicom是进入串口超级终端画面，而minicom -s为配置minicom。
 
-说明/dev/ttyS0 对应为串口0 为你连接开发板的端口。				
-					
-注意：非正常关闭minicom，会在/var/lock下创建几个文件LCK*，这几个文件阻止了minicom的运行，将它们删除后即可恢复				
+说明/dev/ttyS0 对应为串口0 为你连接开发板的端口。
+
+注意：非正常关闭minicom，会在/var/lock下创建几个文件LCK*，这几个文件阻止了minicom的运行，将它们删除后即可恢复
 
 
 ### linux下使用USB转串口设备
 
 默认情况下ubuntu已经安装了USB转串口驱动(pl2303)。
 
-```
+```bash
 $lsmod | grep usbserial
 ```
 
@@ -55,7 +55,7 @@ $lsmod | grep usbserial
 
 插上USB转串口，在终端输入命令
 
-```
+```bash
 $dmesg | grep ttyUSB0
 ```
 
@@ -65,16 +65,16 @@ $dmesg | grep ttyUSB0
 
 虚拟机环境下的ubuntu默认情况下是不能自动识别的，需要在虚拟机窗口右下角点击"Prolific USB-Serial Controller"，然后选择"Connect (Disconnect from Host)"，这样才能被ubuntu系统识别。
 
-在上面minicom的配置中设置*Serial Device: /dev/ttyUSB0*，重启开发板，这样基本上就可以正常使用minicom来打印串口信息了。 
+在上面minicom的配置中设置*Serial Device: /dev/ttyUSB0*，重启开发板，这样基本上就可以正常使用minicom来打印串口信息了。
 
 如果经过上面的步骤minicom还是不能正常工作，出现如下错误提示：
 
-```
+```bash
 $sudo minicom
 minicom: cannot open /dev/ttyUSB0: 没有该文件或目录
 ```
 
-这时可以尝试换一个USB口，然后再次操作以上流程。 
+这时可以尝试换一个USB口，然后再次操作以上流程。
 
 如果还是提示这个错误，那么可以使用下面的方法来解决。
 

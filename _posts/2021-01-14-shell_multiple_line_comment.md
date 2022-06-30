@@ -21,7 +21,7 @@ author: David
 
 有多种方法，比较喜欢以下这种方法：
 
-```
+```makefile
 :<<!
 
 ......
@@ -31,12 +31,12 @@ author: David
 
 例：
 
-```
+```bash
 ...
 # Tarballs provided with the PoC
 ### comment for debug
 :<<!
-# CR7 loade 
+# CR7 loade
 tar xf ${PKG_RELEASE}/src/cr7-loader/cr7-loader*.tar.gz -C ./
 mv cr7-loader* cr7-loader
 # CR7 vlib

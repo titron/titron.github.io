@@ -38,17 +38,17 @@ author: David
 
 使用FlashWriter可以查看不同分区的实际大小：
 
-```
-Flash writer for R-Car H3/M3/M3N Series V1.09 Apr.17,2019				
->em_w				
-EM_W Start --------------				
----------------------------------------------------------				
-Please select,eMMC Partition Area.				
- 0:User Partition Area   : 30535680 KBytes				
-  eMMC Sector Cnt : H'0 - H'03A3DFFF				
- 1:Boot Partition 1      : 32640 KBytes				
-  eMMC Sector Cnt : H'0 - H'0000FEFF				
- 2:Boot Partition 2      : 32640 KBytes				
+```bash
+Flash writer for R-Car H3/M3/M3N Series V1.09 Apr.17,2019
+>em_w
+EM_W Start --------------
+---------------------------------------------------------
+Please select,eMMC Partition Area.
+ 0:User Partition Area   : 30535680 KBytes
+  eMMC Sector Cnt : H'0 - H'03A3DFFF
+ 1:Boot Partition 1      : 32640 KBytes
+  eMMC Sector Cnt : H'0 - H'0000FEFF
+ 2:Boot Partition 2      : 32640 KBytes
   eMMC Sector Cnt : H'0 - H'0000FEFF
 ```
 
@@ -65,7 +65,7 @@ Please select,eMMC Partition Area.
 （读者可以自行查询该命令的具体使用。）
 
 * 格式化命令：mkfs.fat 或者 mkfs.vfat
-  
+
   Android BSP中缺省没有该命令。
 
   用户可以从[这里](https://github.com/dosfstools/dosfstools/releases/download/v4.2/dosfstools-4.2.tar.gz
@@ -73,14 +73,14 @@ Please select,eMMC Partition Area.
 
 然后，在Ubuntu虚拟机下将编译好的mkfs.fat  push 到板载android下的/data目录。
 
-```
+```bash
 $ adb root
 $ adb push mkfs.fat /data
 ```
 
 然后，重新给板子上电，启动Android，终端下：
 
-```
+```bash
 console:/data # ./mkfs.fat /dev/block/mmcblk0p10
 mkfs.fat 4.2+git (2021-01-31)
 
@@ -105,45 +105,45 @@ LBA——Logical block addressing , here you can look it as sector, which size i
 MBR——Master Boot Record
      The data structure that resides on the LBA 0 of a hard disk and defines the partitionson the disk."
 
-GPT——GUID Partition Table	
+GPT——GUID Partition Table
 
-A data structure that describes one or more partitions. 	
+A data structure that describes one or more partitions.
 
-"It consists of a GPTHeaderand, typically, at least one GPTPartition Entry."	
-	
-"There are two GUID partition tables:"	
-（1）the Primary Partition Table (located in LBA 1 of the disk) and 
+"It consists of a GPTHeaderand, typically, at least one GPTPartition Entry."
+
+"There are two GUID partition tables:"
+（1）the Primary Partition Table (located in LBA 1 of the disk) and
 （2）"a Backup Partition Table(located in the last LBA of the disk). The Backup Partition Table is a copy of the Primary Partition Table."
 
 EFI——Extensible Firmware Interface
 	"An interface between the operating system (OS) andthe platform firmware."
 
-UEFI——Unified Extensible Firmware Interface. 
+UEFI——Unified Extensible Firmware Interface.
 	"The interface between the operating system(OS) and the platform firmware defined by this specification."
 
-BPB——BIOS Parameter Block 
+BPB——BIOS Parameter Block
 	"The first block (sector) of a partition. It defines the type and location of the FAT FileSystem on a drive."
 
-FAT——File Allocation Table 	
+FAT——File Allocation Table
 
-A table that is used to identify the clusters that make up a disk file. 	
+A table that is used to identify the clusters that make up a disk file.
 
-"File allocationtables come in three flavors: "	
+"File allocationtables come in three flavors: "
 
-_FAT12, which uses 12 bits for cluster numbers; 
+_FAT12, which uses 12 bits for cluster numbers;
 
 _"FAT16, which uses 16 bits;"
 
 _"FAT32, which allots 32 bits but only uses 28 (the other 4 bitsare reserved for future use)."
 
 GPTHeader——
-	The header in a GUID Partition Table (GPT). 	
-	"Among other things, it contains thenumber of GPT Partition Entries and the first and last LBAs that can be used for the entries."	
+	The header in a GUID Partition Table (GPT).
+	"Among other things, it contains thenumber of GPT Partition Entries and the first and last LBAs that can be used for the entries."
 
 GPT Partition Entry——
 	"A data structure that characterizes a Partition in the GPT disk layout. Among otherthings, it specifies the starting and ending LBA of the partition."
 
-* eMMC空间分布图：                	
+* eMMC空间分布图：
 
 ![每个eMMC分区都是从地址0x0000开始](https://github.com/titron/titron.github.io/raw/master/img/2021-12-17-fatfs_emmc_select_partition2.png)
 
@@ -180,28 +180,28 @@ GPT Partition Entry——
 |
 
 以上分区信息也可以在u-boot下用命令显示：
-```
+```bash
 => mmc dev 1
 => mmc part
 
-Partition Map for MMC device 1  --   Partition Type: EFI							
-Part    Start LBA       End LBA         Name					
-        Attributes					
-        Type GUID					
-        Partition GUID					
-  1     0x00000400      0x000007ff      "misc"					
-        attrs:  0x0000000000000000					
-        type:   ebd0a0a2-b9e5-4433-87c0-68b6b72699c7					
-        guid:   00042021-0408-4601-9dcc-a8c51255994f					
-  2     0x00000800      0x00000bff      "pst"					
-        attrs:  0x0000000000000000					
-        type:   ebd0a0a2-b9e5-4433-87c0-68b6b72699c7					
+Partition Map for MMC device 1  --   Partition Type: EFI
+Part    Start LBA       End LBA         Name
+        Attributes
+        Type GUID
+        Partition GUID
+  1     0x00000400      0x000007ff      "misc"
+        attrs:  0x0000000000000000
+        type:   ebd0a0a2-b9e5-4433-87c0-68b6b72699c7
+        guid:   00042021-0408-4601-9dcc-a8c51255994f
+  2     0x00000800      0x00000bff      "pst"
+        attrs:  0x0000000000000000
+        type:   ebd0a0a2-b9e5-4433-87c0-68b6b72699c7
         guid:   8ef917d1-2c6f-4bd0-a5b2-331a19f91cb2
 ......
- 18     0x00bd6c00      0x03a3dfde      "userdata"			
-        attrs:  0x0000000000000000			
-        type:   ebd0a0a2-b9e5-4433-87c0-68b6b72699c7			
-        guid:   7bfe05ed-d33c-41cc-adaf-be8e55b00591			
+ 18     0x00bd6c00      0x03a3dfde      "userdata"
+        attrs:  0x0000000000000000
+        type:   ebd0a0a2-b9e5-4433-87c0-68b6b72699c7
+        guid:   7bfe05ed-d33c-41cc-adaf-be8e55b00591
 =>
 ```
 
@@ -252,15 +252,15 @@ FatFs官方链接：[http://elm-chan.org/fsw/ff/00index_e.html](http://elm-chan.
 
 * 新建文件
 过程：
-```
-f_open
-f_write
-f_close
+```c
+f_open()
+f_write()
+f_close()
 ```
 
 在Android终端下验证新文件：
 
-```
+```bash
 console:/ # su
 console:/ # cd data/user
 console:/data/user # ls
@@ -290,10 +290,10 @@ console:/data/user/test_myfat # od -c test.txt
 
 过程：
 
-```
-f_open
-f_read
-f_close
+```c
+f_open()
+f_read()
+f_close()
 ```
 
 用调试器，验证读取到buffer的数据：

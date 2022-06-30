@@ -22,8 +22,7 @@ author: David
 
 ### 步骤2 在.vimrc文件中，添加快捷键F12的映射
 
-```
-
+```makefile
 " update cscope index
 map <F12> : call ReConnectCscope()<cr>
 func! ReConnectCscope()
@@ -38,19 +37,16 @@ endfunc
 
 其中，generate.sh文件要放到你自己当前的工作目录下，并更改文件属性为可执行文件。
 
-```
-
+```bash
 $ chmod +x generate.sh
-
-```	
+```
 generate.sh文件的内容如下:
 
-```
-
+```makefile
 #!/bin/bash
 date;
 echo "ctags done......"
-find -L . -name  "*.h" -o -name "*.c" -o -name "*.cc" -o -name 
+find -L . -name  "*.h" -o -name "*.c" -o -name "*.cc" -o -name
 find -L . -name "*.pl" >>cscope.files
 
 date;

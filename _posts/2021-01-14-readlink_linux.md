@@ -19,7 +19,7 @@ author: David
 返回值：执行成功则传符号连接所指的文件路径字符串，失败返回-1， 错误代码存于errno。
 
 例二:
-```
+```c
 #include <stdio.h>
 #include <unistd.h>
 char * get_exe_path( char * buf, int count)

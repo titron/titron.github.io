@@ -30,7 +30,7 @@ author: David
 双击“VMware Tools”光驱文件并进入，会看到一个后缀为.tar.gz的压缩文件。
 
 将压缩文件复制到home目录下，home目录即左侧的主目录文件夹。复制过程用鼠标操作完成即可。复制完毕如下图所示。
-```
+```bash
     $ cp -rf *.tar.gz /home/xxx/
     $ cd /home/xxx/
     $ tar -xzvf *.tar.gz
@@ -39,8 +39,7 @@ author: David
 解压完毕用“ls”命令查看，会看到产生一个“vmware-tools-distrib”文件夹。
 
 用“cd vmware-tools-distrib”命令进入vmware-tools-distrib文件夹，然后在命令行执行：
-
-```
+```bash
     $ sudo ./vmware-install.pl   (输入用户密码即可进行vmware tools的安装)
 ```
 
@@ -67,7 +66,7 @@ author: David
 
 ### 3. 建立windows文件夹的软连接
 
-```
+```bash
    $ cd /mnt/hgfs   (hgfs是可以看到共享成功的文件夹)
    $ sudo ln -s /mnt/hgfs/release/ /home/titron/img/M3N_imgs  (输入虚拟机系统密码 --ENTER即可)
    $ cd /home/titron/img/M3N_imgs

@@ -11,29 +11,29 @@ author: David
 
 ---
 
-[原文链接](https://blog.csdn.net/guozhongwei1/article/details/88693221) 
+[原文链接](https://blog.csdn.net/guozhongwei1/article/details/88693221)
 
 ## 使用info/warning/error增加调试信息
 
 ### info
-```
+```bash
 $(info “here add the debug info”)
 ```
 注,info信息,不打印信息所在行号
 
 ### warning
-```
+```bash
 $(warning “here add the debug info”)
 ```
 ### error
-```
+```bash
 $(error “error: this will stop the compile”)
 ```
 
 这个可以停止当前makefile的编译
 
 ### 打印变量的值
-```
+```bash
 $(info $(TARGET_DEVICE) )
 ```
 
@@ -42,7 +42,7 @@ $(info $(TARGET_DEVICE) )
 注:echo只能在target：后面的语句中使用，且前面是个TAB,
 
 形式如下:
-```
+```bash
 @echo “start the compilexxxxxxxxxxxxxxxxxxxxxxx”
 @echo $(files)
 ```

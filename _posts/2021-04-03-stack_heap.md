@@ -13,7 +13,7 @@ author: David
 
 [关于堆栈的讲解(我见过的最经典的)](https://www.eet-china.com/mp/a44614.html?utm_source=EETC%20Forum%20Alert&utm_medium=Email&utm_campaign=2021-04-02)
 
-```
+```c
 // 一位工程师写的示例代码
 // 向这位工程师致敬！
 //

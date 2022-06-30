@@ -30,7 +30,7 @@ author: David
 *解决方案*：
 
 windows命令行下：
-```
+```bash
 SET REMOTEHOST=username@hostname
 
 scp %USERPROFILE%.ssh\id_rsa.pub %REMOTEHOST%:~/tmp.pub ssh %REMOTEHOST% “mkdir
@@ -60,15 +60,15 @@ scp %USERPROFILE%.ssh\id_rsa.pub %REMOTEHOST%:~/tmp.pub ssh %REMOTEHOST% “mkdi
 确认如下***三个权限***是否正确（显示隐藏文件命令：ls -la）
 
 【1】
-```
+```bash
 chmod 700 /home/username
 ```
 【2】
-```
+```bash
 chmod 700 ~/.ssh/
 ```
 【3】
-```
+```bash
 chmod 600 ~/.ssh/authorized_keys
 ```
 
@@ -78,11 +78,11 @@ chmod 600 ~/.ssh/authorized_keys
 
 连接ssh server时，即使输入正确的密码，仍然有以上提示。
 
-*解决方法*： 
+*解决方法*：
 
 在TERMINAL中，首先，手动登录：
 
-```
+```bash
 ssh 用户名@服务器地址
 ```
 

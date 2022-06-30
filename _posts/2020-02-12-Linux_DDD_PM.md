@@ -38,7 +38,7 @@ SOC CPUFreq驱动只是设定了CPU的频率参数，以及提供了设置频率
 
 一个SOC的CPUFreq驱动实例（drivers/cpufreq/s3c64xx-cpufreq.c）：
 
-```
+```c
 ...
 static struct s3c64xx_dvfs s3c64xx_dvfs_table[] = {
 	[0] = { 1000000, 1150000 },
@@ -74,7 +74,7 @@ static int s3c64xx_cpufreq_set_target(struct cpufreq_policy *policy,
 ...
 
 	ret = clk_set_rate(policy->clk, new_freq * 1000);
-	
+
 ...
 }
 
@@ -133,7 +133,7 @@ module_init(s3c64xx_cpufreq_init);
 
 用户空间可通过/sys/devices/system/cpu/cpux/cpufreq节点来设置CPUFreq（采用userspace策略），则运行如下命令：
 
-```
+```bash
 \# echo userspace > /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
 
 \# echo 700000 > /sys/devices/system/cpu/cpu0/cpufreq/scaling_setspeed
@@ -161,7 +161,7 @@ CPUFreq子系统主要会发出两种通知（notifier）：
 
 一个OPP实例：
 
-```
+```c
 static struct omap_opp_def __initdata omap44xx_opp_def_list[]={
 	/* MPU OPP1 - OPP50 */
 	OPP_INITIALIZER("mpu", true, 300000000, OMAP4430_VDD_MPU_OPP50_UV),
@@ -199,7 +199,7 @@ unsigned long opp\_get\_freq(struct opp *opp);
 
 当某个CPUFreq驱动想将CPU设置为某一频率的时候，它可能会同时设置电压，其代码流程为：
 
-```
+```c
 soc_switch_to_freq_voltage(freq)
 {
 	/* do thing */
@@ -209,8 +209,8 @@ soc_switch_to_freq_voltage(freq)
 	rcu_read_unlock();
 	if(v)
 		regulator_set_voltage(..,v);
-		
-	/* do other things */	
+
+	/* do other things */
 }
 ```
 

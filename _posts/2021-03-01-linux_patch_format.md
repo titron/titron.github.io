@@ -17,7 +17,7 @@ author: David
 
 *.patch文件
 
-```
+```bash
 diff -rBNu src.orig/java/org/apache/nutch/analysis/NutchAnalysisConstants.java src/java/org/apache/nutch/analysis/NutchAnalysisConstants.java
 --- src.orig/java/org/apache/nutch/analysis/NutchAnalysisConstants.java 2009-03-10 11:34:01.000000000 -0700
 +++ src/java/org/apache/nutch/analysis/NutchAnalysisConstants.java  2009-03-10 14:11:55.000000000 -0700

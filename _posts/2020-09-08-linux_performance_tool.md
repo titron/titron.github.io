@@ -11,21 +11,21 @@ author: David
 
 [Linux性能测试工具之sysbench](https://www.linuxrumen.com/cyml/721.html)：
 
-```
+```bash
 $source poky/oe-init-build-env
 $bitbake sysbench
 $cp build/tmp/work/aarch64-poky-linux/sysbench/0.4.12-r0/image/usr/bin/sysbench 到虚拟机上的nfs server根目录，这里是指/home/renesas/export/rfs。
 ```
 
 启动kernel后，$cd /
-然后，执行以下命令，进行CPU测试 
+然后，执行以下命令，进行CPU测试
 
-```
+```bash
 [root@zcwyou ~]# sysbench --test=cpu --cpu-max-prime=20000 run
 ```
 
 
-```
+```bash
 sysbench 0.4.12:  multi-threaded system evaluation benchmark
 
 Running the test with following options:

@@ -23,16 +23,16 @@ author: David
 * 基于不同日志级别，支持颜色高亮；
 * 可以自定义配置，时间戳；
 * 支持RTOS；
-  
+
 以上是比较基本的功能，但是在嵌入式设备中，有的时候我们希望可以保存设备的运行日志，我们需要以下的一些功能；
 * 支持多种访问方式，比如串口终端，保存到嵌入式文件系统中；
 * 支持shell命令行通过串口终端进行访问；
-  
+
 以上这些需求不一定会全部实现。
 
 
 ### 1. log4c, [https://github.com/bmanojlovic/log4c](https://github.com/bmanojlovic/log4c)
-   
+
    [介绍](https://www.cnblogs.com/jyli/archive/2010/02/11/1660606.html)
 
 Log4c中有三个重要的概念: Category, Appender, Layout。
@@ -43,24 +43,24 @@ Appender用于描述输出流，通过为Category来指定一个Appender，可�
 
 Layout用于指定日志信息的格式，通过为Appender来指定一个Layout,可以决定log信息以何种格式来输出，比如*是否有带有时间戳， 是否包含文件位置信息等，以及他们在一条log信息中的输出格式*等。
 
-```
+```c
 //初始化
 log4c_init();
 
 //获取一个已有的category
-log4c_category_t* mycat = log4c_category_get("mycat"); 
+log4c_category_t* mycat = log4c_category_get("mycat");
 
 //用该category进行日志输出，优先级为DEBUG，输出信息为 "Hello World!"
-log4c_category_log(mycat, LOG4C_PRIORITY_DEBUG, "Hello World!"); 
+log4c_category_log(mycat, LOG4C_PRIORITY_DEBUG, "Hello World!");
 ```
-   
+
 ### 2. rxi_log, [https://github.com/rxi/log.c](https://github.com/rxi/log.c)
 
 基于 C99 实现的简单日志库.
 
 将源码中的log.c和log.h集成到你的项目中即可，需要打印日志的话，调用API即可.
 
-```
+```c
 log_trace(const char *fmt, ...);
 log_debug(const char *fmt, ...);
 log_info(const char *fmt, ...);

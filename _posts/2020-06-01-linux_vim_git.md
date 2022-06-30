@@ -15,7 +15,7 @@ author: David
 
 ### 解决“E117: Unknown function: textobj#user#plugin”的问题：
 
-```
+```bash
 $cd ~/.vim/plugged/
 $git clone http://www.github.com/kana/vim-textobj-user
 
@@ -26,7 +26,7 @@ $git clone http://www.github.com/kana/vim-textobj-user
 
 [指定python3](https://www.jianshu.com/p/4d4f3773f832)
 
-```
+```bash
 vim .vimrc
 
 ```
@@ -46,30 +46,30 @@ let g:ycm_server_python_interpreter = '/usr/bin/python3.5'
 
 * 重新编译YouCompleteMe：
 
-```
+```bash
 $ cd ~/.vim/bundle/YouCompleteMe
 $ python3 install.py --all
 ```
 
 如果提示
-```
+```bash
 Searching Python 3.7 libraries...
 ERROR: Python headers are missing in /usr/include/python3.7m.”
 ```
 
 * 需要重新安装“python3.x-dev”：
 
-```
+```bash
 xxxxx@renesas-abd:~/.vim/plugged/YouCompleteMe$ sudo apt install python3.7-dev
 ```
 
 如果提示
-```
+```bash
 ERROR: Unable to find executable 'go'. go is required to build gopls.
 ```
 
 * 需要安装go：
 
-```
+```bash
 sudo apt-get install golang
 ```

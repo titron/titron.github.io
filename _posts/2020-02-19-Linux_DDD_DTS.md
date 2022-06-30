@@ -43,7 +43,7 @@ author: David
 	.dtb文件可以单独存放在一个很小的区域，也可以直接和zImage绑定在一起做出一个映像文件（编译内核时，使能CONFIG_ARM_APPENDED_DTB）。
 
 	**反编译dtb**文件为dts文件的命令：
-	```
+	```bash
 	$ dtc -I dtb -O dts -o test.dts ./r8a7795-salvator-xs-android.dtb
 	```
 * Binding —— 讲解文档，讲解设备树中的节点和属性是如何来描述设备的硬件细节的，扩展名.txt。

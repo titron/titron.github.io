@@ -19,13 +19,13 @@ author: David
 
 ### 先设置GitHub的user name和email
 进入终端，运行如下命令，直接用用户名和邮箱替换包括括号的部分：
-```
-git config --global user.name "Git账号" 
+```bash
+git config --global user.name "Git账号"
 git config --global user.email "Git邮箱"
 ```
 
 ### 生成新秘钥
-```
+```bash
 ssh-keygen -t rsa -C "your_email@example.com"
 ```
 注：
@@ -35,7 +35,7 @@ ssh-keygen -t rsa -C "your_email@example.com"
 
 ### 将SSH私钥添加到 ssh-agent
 /c/Users/xxxxxxx/.ssh/目录下，右键Git Bash here
-```
+```bash
 eval $(ssh-agent -s)
 ssh-add /c/Users/xxxxxxx/.ssh/id_rsa
 ```
@@ -46,7 +46,7 @@ ssh-add /c/Users/xxxxxxx/.ssh/id_rsa
 
 ### 测试连接
 Git Bash下
-```
+```bash
 ssh -T git@github.com
 ```
 出现“Hi，xxxxxxx， You've successfully authenticated...”，说明SSH Key配置成功

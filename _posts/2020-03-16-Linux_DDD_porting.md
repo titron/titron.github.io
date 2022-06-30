@@ -30,7 +30,7 @@ author: David
 当前Linux多采用无节拍(根据系统的运行情况，以事件驱动的方式动态决定下一个节拍在何时产生)方案，并支持高精度定时器，内核的配置一般会使能NO\_HZ和HIGH\_RES\_TIMERS。
 
 实现：clock\_event\_device、clocksource。
-```
+```c
 ...
 static struct irqaction xxx_timer_irq = {
 	.name = "xxx_tick",
@@ -48,7 +48,7 @@ static struct irqaction xxx_timer_irq = {
 ## 中断控制器
 芯片供应商需要提供以下API的底层支持：
 
-```
+```c
 request_irq()
 enable_irq() /* 与具体中断控制器有关 */
 disable_irq() /* 与具体中断控制器有关 */
@@ -66,13 +66,13 @@ MRS/MSR—— < Arm v6
 
 在内核中，通过irq_chip结构体来描述中断控制器。
 
-```
+```c
 struct irq_chip{
 	...
 	void (*irq_ack)(struct irq_data *data); /* 清中断 */
 	void (*irq_mask)(struct irq_data *data); /* mask */
 	...
-	void (*irq_unmask)(struct irq_data *data); /* unmask */	
+	void (*irq_unmask)(struct irq_data *data); /* unmask */
 	...
 	int (*irq_set_type)(struct irq_data *data, unsigned int flow_type);	 /* 设置触发方式 */
 }
@@ -84,7 +84,7 @@ struct irq_chip{
 
 drivers/pinctrl/sirf/pinctrl-sirf.c中，显示了如何实现级联：
 
-```
+```c
 static int sirfsoc_gpio_probe(struct device_node *np)
 {
 ...
@@ -115,7 +115,7 @@ static void sirfsoc_gpio_handle_irq(unsigned int irq, struct irq_desc *desc)
 
 如果GPIO0_5中断发生的时候，内核的调用顺序是：
 
-```
+```c
 sirfsoc_gpio_handle_irq()
 ->
 generic_handle_irq()
@@ -131,7 +131,7 @@ deva_isr().
 
 一般在上电时，ID不是0的CPU将自身置于WFI或WFE状态，并等待CPU0给其发CPU核间中断或事件（一般通过SEV指令）以唤醒它。
 
-```
+```bash
 #echo 0 > /sys/devices/system/cpu/cpu1/online #卸载CPU1，并将CPU1上的任务全部迁移到其他CPU中
 
 #echo 1 > /sys/devices/system/cpu/cpu1/online #再次启动CPU1。之后，CPU1会主动参与系统中各个CPU之间要运行任务的负载均衡工作
@@ -139,13 +139,13 @@ deva_isr().
 ```
 CPU0唤醒其他CPU的动作在内核中被封装为一个smp_operations的结构体。
 
-```
+```c
 struct smp_operations{
 	...
 	void (*smp_init_cpus)(void);
 	void (*smp_prepare_cpus)(void);
 	void (*smp_secondary_init)(void);
-	void (*smp_boot_secondary)(void);		
+	void (*smp_boot_secondary)(void);
 	...
 }
 ```
@@ -155,17 +155,17 @@ struct smp_operations{
 
 在dirvers/gpio下实现了通用的基于gpiolib的GPIO驱动，其中定义了一个通用的用于描述底层GPIO控制器的gpio_chip结构体。
 
-```
+```c
 struct gpio_chip{
 	...
 	int (*request)(..);
 	int (*free)(..);
-	
+
 	int (*direction_input)(..);
 	int (*direction_output)(..);
-	
+
 	void (*set)(...);
-	
+
 	...
 
 }
@@ -175,7 +175,7 @@ struct gpio_chip{
 ## 时钟
 clk结构体：
 
-```
+```c
 struct clk_init_data{
 	const char *name;
 	const struct clk_ops *ops;
@@ -220,7 +220,7 @@ struct clk{
 dmaengine是一套通用的DMA驱动框架，为具体使用DMA通道的设备驱动提供一套通用的API，而且也定义了用具体的DMA	控制器实现这一套API的方法。
 
 使用DMA引擎的过程可分为几步：
-```
+```c
 ...
 desc = dmaengine_prep_dma_cyclic(...); /* 初始化描述符 */
 ...
