@@ -62,7 +62,7 @@ author: David
 
 常用的 OF API	(实现代码位于内核的drivers/of目录下):
 
-```
+```c
 of_machine_is_compatible();
 of_device_is_compatible();
 
