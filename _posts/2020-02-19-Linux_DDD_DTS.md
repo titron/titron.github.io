@@ -35,7 +35,7 @@ author: David
 * DTC —— 将.dts编译为.dtb的工具。
 
 	源代码一般放在scripts/dtc/目录中。
-	
+
 	如果内核使能了设备树，DTC会被编译出来。对应于scripts/dtc/Makefile中的“hostprogs-y := dtc”。
 
 * DTB —— 是.dts被DTC编译后的二进制格式的设备树描述。
@@ -44,12 +44,12 @@ author: David
 
 	**反编译dtb**文件为dts文件的命令：
 	```
-	$ dtc -I dtb -O dts -o test.dts ./r8a7795-salvator-xs-android.dtb 
+	$ dtc -I dtb -O dts -o test.dts ./r8a7795-salvator-xs-android.dtb
 	```
 * Binding —— 讲解文档，讲解设备树中的节点和属性是如何来描述设备的硬件细节的，扩展名.txt。
 
 	位于内核的Documentation/devicetree/bindings目录。
-	
+
 * BootLoader —— Uboot从v1.1.2开始支持设备树。使能方法：在编译Uboot时，在config文件中，加入 “#define CONFiG_OF_LIBFDT”。
 
 ![Linux设备树声明周期](https://github.com/titron/titron.github.io/raw/master/img/2020-02-19-linux_ddd_dts_lifec.png)
@@ -79,4 +79,10 @@ of_address_to_resource(); /* 内存映射 */
 
 irq_of_parse_and_map(); /* 解析中断 */
 ```
+
+另外，还可以参考官方文档：
+1. [dts文件格式官方参考文档](https://www.devicetree.org/specifications)
+2. [dts文件格式官方参考文档-DeviceTree Specification Release v0.4-rc1 - Released 1 December 2021](https://github.com/devicetree-org/devicetree-specification/releases/tag/v0.4-rc1)
+3. [内核文档列表解析-booting-without-of.txt](https://www.kernel.org/doc/Documentation/devicetree/booting-without-of.txt)
+4. [内核文档列表解析-booting.rst](https://www.kernel.org/doc/Documentation/arm64/booting.rst)
 
