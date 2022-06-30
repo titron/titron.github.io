@@ -130,7 +130,7 @@ service <name> <pathname> [ <argument> ] *
 
 
 ## 应用中添加使用rc例
-1. 在Android.mk 同目录下，新建文件haha.sh (文件名任意)，执行shell 操作, 以下简单举例
+1.在Android.mk 同目录下，新建文件haha.sh (文件名任意)，执行shell 操作, 以下简单举例
 
 ```bash
 #!/bin/sh
@@ -138,7 +138,7 @@ service <name> <pathname> [ <argument> ] *
 rm -rf /system/etc/xxx
 ```
 
-2. 在Android.mk 同目录下，新建文件test.rc (文件名任意)
+2.在Android.mk 同目录下，新建文件test.rc (文件名任意)
 
 含义：当设置系统属性persist.vendor.test.haha=2时，启动服务，执行shell 脚本
 
@@ -153,13 +153,13 @@ service haha-sh /vendor/bin/haha.sh
         disabled
 ```
 
-3. 在Android.mk 中添加配置
+3.在Android.mk 中添加配置
 
 ```bash
 LOCAL_INIT_RC := test.rc
 ```
 
-4. 在型号添加配置模块的mk 文件中添加以下内容，将代码中的sh 文件copy 到vendor/bin 目录下
+4.在型号添加配置模块的mk 文件中添加以下内容，将代码中的sh 文件copy 到vendor/bin 目录下
 
 ```makefile
 PRODUCT_COPY_FILES += \
