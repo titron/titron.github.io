@@ -20,21 +20,30 @@ author: David
 ——声道：8声道
 
 (1)多声道音频文件1
+
 [音频文件1-1](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8.zip.001)
+
 [音频文件1-2](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8.zip.002)
 
 (2) 多声道音频文件2
+
 [音频文件2-1](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.001)
+
 [音频文件2-2](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.002)
+
 [音频文件2-3](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.003)
+
 [音频文件2-4](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.004)
+
 [音频文件2-5](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.005)
+
 [音频文件2-6](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.006)
+
 [音频文件2-7](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.007)
 
 有关多声道测试的文件的介绍，可以看这里：
 
-(1)[APP音频测试 | 基础概念 - 单声道、立体声和环绕声](https://www.jianshu.com/p/42894fe604d0)
+(1)[APP音频测试 基础概念 - 单声道、立体声和环绕声](https://www.jianshu.com/p/42894fe604d0)
 
 环绕声系统与虚拟环绕声（Virtual Surround）
 
@@ -77,9 +86,15 @@ AC-3杜比数码环绕声系统由5个完全独立的全音域声道和一个超
 
 ### dts修改以及driver更改
 
+dts修改点：
+
 ![dts 修改点 - dai-tdm-slot-num = <8>](https://github.com/titron/titron.github.io/raw/master/img/2022-07-06-audio-multi-channel-ouput-dts.png)
 
+driver修改点：
+
 ![driver 修改点 - AK4613 Sampling Speed](https://github.com/titron/titron.github.io/raw/master/img/2022-07-06-audio-multi-channel-ouput-driver.png)
+
+摘自AK4613的有关Sampling Speed的设置描述：
 
 ![driver 修改点 - AK4613 datasheet - Sampling Speed](https://github.com/titron/titron.github.io/raw/master/img/2022-07-06-audio-multi-channel-ouput-AK4613-sampling-speed.png)
 
