@@ -85,4 +85,4 @@ irq_of_parse_and_map(); /* 解析中断 */
 2. [dts文件格式官方参考文档-DeviceTree Specification Release v0.4-rc1 - Released 1 December 2021](https://github.com/devicetree-org/devicetree-specification/releases/tag/v0.4-rc1)
 3. [内核文档列表解析-booting-without-of.txt](https://www.kernel.org/doc/Documentation/devicetree/booting-without-of.txt)
 4. [内核文档列表解析-booting.rst](https://www.kernel.org/doc/Documentation/arm64/booting.rst)
-
+5. [Linux设备树语法详解](https://www.cnblogs.com/xiaojiang1025/p/6131381.html)
