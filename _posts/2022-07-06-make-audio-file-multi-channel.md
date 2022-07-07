@@ -27,19 +27,9 @@ author: David
 
 (2) 多声道音频文件2
 
-[音频文件2-1](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.001)
+[音频文件2-1](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8_2.zip.001)
 
-[音频文件2-2](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.002)
-
-[音频文件2-3](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.003)
-
-[音频文件2-4](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.004)
-
-[音频文件2-5](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.005)
-
-[音频文件2-6](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.006)
-
-[音频文件2-7](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8-2.zip.007)
+[音频文件2-2](https://github.com/titron/titron.github.io/blob/master/_posts/files/tdm8_2.zip.002)
 
 有关多声道测试的文件的介绍，可以看这里：
 
