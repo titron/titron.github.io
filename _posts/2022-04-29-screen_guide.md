@@ -31,7 +31,7 @@ screen -d -r yourname -> 结束当前session并回到yourname这个session
 # screen -ls                # list session
 # screen -d                 # detach session
 # screen -r 12865           # recall session
-# screen -s 7311 -X quit    # kill session
+# screen -S 7311 -X quit    # kill session
 ```
 
 当然，如果你在另一台机器上没有分离一个Screen会话，就无从恢复会话了。
