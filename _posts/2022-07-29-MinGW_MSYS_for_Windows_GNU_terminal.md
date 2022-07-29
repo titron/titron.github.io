@@ -45,9 +45,9 @@ $ pacman -Syu
 MSYS2_PATH="/usr/local/bin:/usr/bin:/bin:../Renesas/rcar-xos/v3.3.0/tools/toolchains/mingw64/bin"
 ```
 
-找到etc文件夹下的fstab文件
+\etc\fstab文件，可以配置文件目录映射：比如配置C:\Users\lenovo\Desktop /desktop后，可以在终端直接cd /desktop后可以直接切换到C:\Users\lenovo\Desktop目录下。
 ```c
-# Win32_Path             Mount_Point
+# Win32_Path                                                Mount_Point
 C:/Renesas/rcar-xos/v3.3.0/tools/toolchains/mingw64         /mingw
 ```
 
@@ -85,7 +85,10 @@ Hello,World!
 sizeof(size_t)=8
 
 ```
-## 其他——安装vim
+## 其他——
+### 【1】建立快捷方式
+开始——MSYS2 64bit——MSYS2 MinGW x64——打开文件位置，右键——发送到——桌面快捷方式。
+### 【2】安装vim
 ```bash
 $ pacman -S vim
 resolving dependencies...
@@ -99,62 +102,13 @@ Total Installed Size:  53.39 MiB
 :: Proceed with installation? [Y/n] y
 :: Retrieving packages...
  vim-8.2.5117-2-x86_64                                                                                               8.4 MiB  1993 KiB/s 00:04 [######################################################################################] 100%
-(1/1) checking keys in keyring                                                                                                                 [######################################################################################] 100%
-(1/1) checking package integrity                                                                                                               [######################################################################################] 100%
-(1/1) loading package files                                                                                                                    [######################################################################################] 100%
-(1/1) checking for file conflicts                                                                                                              [######################################################################################] 100%
-(1/1) checking available disk space                                                                                                            [######################################################################################] 100%
-:: Processing package changes...
-(1/1) installing vim                                                                                                                           [######################################################################################] 100%
-
+(1/1) checking keys in
+...
 $ vim --version
 VIM - Vi IMproved 8.2 (2019 Dec 12, compiled Jun 23 2022 04:01:15)
 Included patches: 1-5117
 Compiled by <https://www.msys2.org/>
-Huge version without GUI.  Features included (+) or not (-):
-+acl               +file_in_path      +mouse_urxvt       -tag_any_white
-+arabic            +find_in_path      +mouse_xterm       -tcl
-+autocmd           +float             +multi_byte        +termguicolors
-+autochdir         +folding           +multi_lang        +terminal
--autoservername    -footer            -mzscheme          +terminfo
--balloon_eval      +fork()            +netbeans_intg     +termresponse
-+balloon_eval_term +gettext           +num64             +textobjects
--browse            -hangul_input      +packages          +textprop
-++builtin_terms    +iconv             +path_extra        +timers
-+byte_offset       +insert_expand     +perl/dyn          +title
-+channel           +ipv6              +persistent_undo   -toolbar
-+cindent           +job               +popupwin          +user_commands
--clientserver      +jumplist          +postscript        +vartabs
-+clipboard         +keymap            +printer           +vertsplit
-+cmdline_compl     +lambda            +profile           +vim9script
-+cmdline_hist      +langmap           -python            +viminfo
-+cmdline_info      +libcall           +python3/dyn       +virtualedit
-+comments          +linebreak         +quickfix          +visual
-+conceal           +lispindent        +reltime           +visualextra
-+cryptv            +listcmds          +rightleft         +vreplace
-+cscope            +localmap          +ruby/dyn          +wildignore
-+cursorbind        -lua               +scrollbind        +wildmenu
-+cursorshape       +menu              +signs             +windows
-+dialog_con        +mksession         +smartindent       +writebackup
-+diff              +modify_fname      -sodium            -X11
-+digraphs          +mouse             -sound             -xfontset
--dnd               -mouseshape        +spell             -xim
--ebcdic            +mouse_dec         +startuptime       -xpm
-+emacs_tags        -mouse_gpm         +statusline        -xsmp
-+eval              -mouse_jsbterm     -sun_workshop      -xterm_clipboard
-+ex_extra          +mouse_netterm     +syntax            -xterm_save
-+extra_search      +mouse_sgr         +tag_binary
--farsi             -mouse_sysmouse    -tag_old_static
-   system vimrc file: "/etc/vimrc"
-     user vimrc file: "$HOME/.vimrc"
- 2nd user vimrc file: "~/.vim/vimrc"
-      user exrc file: "$HOME/.exrc"
-       defaults file: "$VIMRUNTIME/defaults.vim"
-  fall-back for $VIM: "/etc"
- f-b for $VIMRUNTIME: "/usr/share/vim/vim82"
-Compilation: gcc -c -I. -Iproto -DHAVE_CONFIG_H -I/usr/include/ncursesw -march=x86-64 -mtune=generic -O2 -pipe -D_REENTRANT -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=1
-Linking: gcc -L. -pipe -fstack-protector-strong -pipe -Wl,--as-needed -o vim.exe -lm -lncursesw -lrt -liconv -lacl -lintl -Wl,--enable-auto-import -Wl,--export-all-symbols -Wl,--enable-auto-image-base -fstack-protector-strong -L/usr/lib/perl5/core_perl/CORE -lperl -lpthread -ldl -lcrypt
-
+...
 ```
 
 ## 参考：
