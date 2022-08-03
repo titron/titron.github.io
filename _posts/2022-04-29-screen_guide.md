@@ -14,7 +14,7 @@ author: David
 1. [Linux Screen 命令详解（转）](https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html)
 2. [linux下screen如何显示当前处在哪个screen（如何显示当前screenid）](https://blog.csdn.net/weixin_34220834/article/details/92107468)
 
-常用screen参数
+### 常用screen参数
 
 screen -S yourname -> 新建一个叫yourname的session
 
@@ -43,4 +43,6 @@ screen -d -r yourname -> 结束当前session并回到yourname这个session
 # screen -r 12865           # recall session
 ```
 
+### screen显示窗口查看历史输出
+利用ctrl-a [ 进入copy mode，即可查看。
 
