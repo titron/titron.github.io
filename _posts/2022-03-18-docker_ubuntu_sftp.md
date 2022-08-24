@@ -216,3 +216,9 @@ dongtz@renesas-abd:~$
 dongtz@renesas-abd:~/images/yocto_s4_spider$ tar zxvf spider_img.tar.gz
 
 ```
+
+这里，有一些基本的docker知识概念解释，便于理解：
+[Docker夺命连环15问，你能坚持第几问？](https://mp.weixin.qq.com/s/57yllUfTRYl48TEux2VLog)
+
+通过这个例子，可以看到基于docker的使用具体步骤：
+[yolox dockerfile分享](https://mp.weixin.qq.com/s/-auCis4N-pTP7t7oOdXBow)
