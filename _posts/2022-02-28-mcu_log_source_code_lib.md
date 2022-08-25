@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "几个单片机/嵌入式开发应用的开源日志库（转）"
+title:  "几个单片机/嵌入式开发应用的开源工具"
 categories: software
 tags: mcu, embedded, lib, log, open-source
 author: David
@@ -10,6 +10,27 @@ author: David
 {:toc}
 
 ---
+
+
+
+[从菜鸟到大牛，少不了这100多个软硬件开源项目！](https://mp.weixin.qq.com/s/cbLJSMmUOW60FIJ6K6z67g)
+
+## 开源按键处理程序
+[开源的按键库 MultiButton](https://github.com/liu2guang/MultiButton)
+[FlexibleButton](https://github.com/zhaojuntao/FlexibleButton)
+
+## .ini配置文件解析器--minIni
+[minIni](https://github.com/compuphase/minIni)
+
+## 显示相关
+[小型GUI菜单框架-基于状态机?还是表驱动?...(附代码)](https://mp.weixin.qq.com/s?__biz=MzAwNjYwMjYyOA==&mid=2247491211&idx=1&sn=80c651e9b36ae104472542d01fb7244c&chksm=9b0bb460ac7c3d764c8be4c9cab2af4157c978172dc261dc036ece929e1caaaecf41096a5925&mpshare=1&scene=24&srcid=0201XrM5DXI8xFNMRwmxGX5V&sharer_sharetime=1612132577790&sharer_shareid=af43b8c65c55c076649d31f86aa3c934#rd)
+
+开源嵌入式GUI：Ucgui、emWin、TouchGFX、MiniGUI、Lvglgui等。
+
+[盘点嵌入式那些常见的GUI：emWin、TouchGFX、MiniGUI、Qt等](https://mp.weixin.qq.com/s/CGFQ4TM-sjZ958N8SkQOIg)
+
+
+## 几个单片机/嵌入式开发应用的开源日志库
 
 [原文](https://mp.weixin.qq.com/s/alkM9OmciddhCpxX_xi9PQ)
 
