@@ -35,6 +35,7 @@ author: David
 | $ docker system prune --all --force --volumes | 删除当前不使用的volumes/images，以节省docker空间 |
 | $ docker stop ubuntu2004 | 停止container |
 | $ docker rm ubuntu2004 | 删除container |
+| $ docker cp | 在宿主机和docker之间传递文件 |
 
 参考：
 1. [Docker 入门指南：如何在 Ubuntu 上安装和使用 Docker](https://kalacloud.com/blog/how-to-install-and-use-docker-on-ubuntu/)
@@ -216,6 +217,22 @@ dongtz@renesas-abd:~$
 dongtz@renesas-abd:~/images/yocto_s4_spider$ tar zxvf spider_img.tar.gz
 
 ```
+
+### 在宿主机和docker之间传递文件
+```bash
+titron@ubuntu:~$ docker ps
+CONTAINER ID   IMAGE     COMMAND   CREATED          STATUS          PORTS     NAMES
+09be75bcbd6c   opendms   "bash"    58 minutes ago   Up 58 minutes             opendms
+
+# 从宿主机copy文件到容器opendms下的文件夹/home/titron/opendms/下
+titron@ubuntu:~$ docker cp win_share/rcar_s4_poc_dev/refer/opendms/699pic_03ek07_spxy.mp4 opendms:/home/titron/opendms/
+# 从docker copy文件到宿主机
+titron@ubuntu:~$ docker cp opendms:/home/titron/opendms/opendms/data/test_1.mp4 win_share/rcar_s4_poc_dev/refer/opendms/
+
+```
+
+
+### 基本概念参考
 
 这里，有一些基本的docker知识概念解释，便于理解：
 [Docker夺命连环15问，你能坚持第几问？](https://mp.weixin.qq.com/s/57yllUfTRYl48TEux2VLog)
