@@ -36,6 +36,8 @@ $ pacman -Syu
 ## 安装MinGW
 （预先已经安装好了MinGW环境。）
 
+重命名:mingw32-make.exe ---> make.exe
+
 
 ## 设置环境变量
 
@@ -43,6 +45,8 @@ $ pacman -Syu
 ```c
 # Here, add "../xxxxx/rcar-xos/v3.3.0/tools/toolchains/mingw64/bin"
 MSYS2_PATH="/usr/local/bin:/usr/bin:/bin:../xxxxx/rcar-xos/v3.3.0/tools/toolchains/mingw64/bin"
+...
+export GNUMAKE=/D/Renesas/rcar-xos/v3.3.0/tools/toolchains/mingw64/bin
 ```
 
 \etc\fstab文件，可以配置文件目录映射：比如配置C:\Users\lenovo\Desktop /desktop后，可以在终端直接cd /desktop后可以直接切换到C:\Users\lenovo\Desktop目录下，下面是配置mingw的映射示例：
