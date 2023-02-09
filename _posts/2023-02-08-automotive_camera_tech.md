@@ -35,6 +35,7 @@ ISP: 黑电平补偿 、镜头矫正 、坏像素矫正 、颜色插值 、Bayer
 模型，如sRGB, Adobe RGB, YUV422, YUV420 …）。
 
 RGB与YUV的转换公式
+
 ![RGB->YUV](https://github.com/titron/titron.github.io/raw/master/img/2023-02-08-automotive_camera_rgb2yuv.png)
 
 ### 车载应用场景
