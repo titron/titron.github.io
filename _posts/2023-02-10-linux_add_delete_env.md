@@ -15,7 +15,7 @@ author: David
 
 [LINUX中查看、添加、删除PATH以及永久添加PATH](https://www.cnblogs.com/xiaopiyuanzi/p/11910107.html)
 
-```Bash
+```bash
 # list PATH
 $ echo $PATH
 
