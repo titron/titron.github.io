@@ -99,7 +99,7 @@ $ vim --version
 ```bash
 set MSYSTEM=MINGW64 & set MSYSCON=conemu64.exe & "c:\msys2_64\usr\bin\bash.exe" --login -i
 ```
-![Conemu-New task](https://github.com/titron/titron.github.io/raw/master/img/2022-07-29-mingw-msys-options-Conemu.png.png)
+![Conemu-New task](https://github.com/titron/titron.github.io/raw/master/img/2022-07-29-mingw-msys-options-Conemu.png)
 
 
 ## 参考：
