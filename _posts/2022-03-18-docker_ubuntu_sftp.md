@@ -28,8 +28,10 @@ author: David
 | $ docker ps -a | 查看container，-a显示停止的container |
 | $ docker search ubuntu | 搜索image |
 | $ docker pull ubuntu:20.04  | pull image |
-| $ docker run -it -d --name ubuntu2004 ubuntu:20.04  | 用ubuntu:20.04 image 运行container |
-| $ docker exec -it ubuntu2004 /bin/bash | 执行ubuntu20.04 container中的命令。要想退出container时，让container仍然在后台运行着，运行该命令。如果运行$ docker attach ubuntu2004，每次从container中退出到前台时，container也跟着退出了 |
+| $ docker images  | show images |
+| $ docker run -it -d --name tzdong-ubuntu2004 ubuntu:20.04  | 用ubuntu:20.04 image 运行container |
+| $ docker rename tzdong-ubuntu2004 tzd-ubuntu2004  | 重命名container |
+| $ docker exec -it tzdong-ubuntu2004 /bin/bash | 执行ubuntu20.04 container中的命令。要想退出container时，让container仍然在后台运行着，运行该命令。如果运行$ docker attach ubuntu2004，每次从container中退出到前台时，container也跟着退出了 |
 | $ docker start ubuntu2004 | 重新启动ubuntu20.04 container |
 | root@463a1151fd69:/home/dongtz/work/s4_alpha2# exit | 或者，ctrl-D。 退出ubuntu container。 |
 | $ docker system prune --all --force --volumes | 删除当前不使用的volumes/images，以节省docker空间 |
