@@ -30,6 +30,7 @@ author: David
 | $ docker pull ubuntu:20.04  | pull image |
 | $ docker images  | show images |
 | $ docker run -it -d --name tzdong-ubuntu2004 ubuntu:20.04  | 用ubuntu:20.04 image 运行container |
+| $ docker run --privileged -it -d --name tzdong-ubuntu2004 ubuntu:20.04  | root privileges，用ubuntu:20.04 image 运行container |
 | $ docker rename tzdong-ubuntu2004 tzd-ubuntu2004  | 重命名container |
 | $ docker exec -it tzdong-ubuntu2004 /bin/bash | 执行ubuntu20.04 container中的命令。要想退出container时，让container仍然在后台运行着，运行该命令。如果运行$ docker attach ubuntu2004，每次从container中退出到前台时，container也跟着退出了 |
 | $ docker start ubuntu2004 | 重新启动ubuntu20.04 container |
