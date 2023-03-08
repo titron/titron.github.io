@@ -17,6 +17,8 @@ author: David
 
 启动VMware 的Linux系统，并开启虚拟机。
 
+vmware tools光盘镜像位置：“C:\Program Files (x86)\VMware\VMware Player\linux.iso”
+
 ![dvd加载vmware tools光盘镜像](https://github.com/titron/titron.github.io/raw/master/img/2021-03-15-vmware_tools_iso.png)
 
 等待Linux操作系统正常启动完毕，然后点击菜单
