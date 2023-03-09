@@ -37,3 +37,6 @@ copy光驱中的压缩包到desktop，解压。
 恢复初始大小：ctrl+0
 
 （吐槽：为什么不添加一个缩小呢？：ctrl+shift+-）
+### 虚拟机释放键盘控制快捷键
+CTRL+ALT: release the mouse pointer so that it is no longer inside the remote desktop
+
