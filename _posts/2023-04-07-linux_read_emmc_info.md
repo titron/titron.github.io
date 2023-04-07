@@ -66,7 +66,7 @@ BOOT_SIZE_MULTI[226] = 0x20
 ```
 
 Python内容如下：
-```
+```python
 #!/usr/bin/env python
 """
 Author: Kyle Manna <kyle@kylemanna.com>
