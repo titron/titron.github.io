@@ -11,6 +11,9 @@ author: David
 
 ---
 
+参考：
+[几款免费而强大的PCB设计软件](http://www.xazfe.com/newsinfo/2339144.html)
+
 1. [AxGlyph下载地址](https://www.axsoft.co/axglyph/)
 
 AxGlyph is a powerful interactive vector graph maker for multiple purposes.

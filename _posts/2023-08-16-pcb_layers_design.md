@@ -16,5 +16,4 @@ author: David
 
 
 
-![rawRGB数据格式](https://github.com/titron/titron.github.io/raw/master/img/2023-08-16-pins_layers_design)
-
+![rawRGB数据格式](https://github.com/titron/titron.github.io/raw/master/img/2023-08-16-pins_layers_design.jpg)
