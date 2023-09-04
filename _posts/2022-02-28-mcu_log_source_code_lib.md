@@ -52,9 +52,11 @@ author: David
 以上这些需求不一定会全部实现。
 
 
-### 1. log4c, [https://github.com/bmanojlovic/log4c](https://github.com/bmanojlovic/log4c)
+### 1. log4c
 
-   [介绍](https://www.cnblogs.com/jyli/archive/2010/02/11/1660606.html)
+[从这里下载log4c](https://github.com/bmanojlovic/log4c)
+
+[介绍](https://www.cnblogs.com/jyli/archive/2010/02/11/1660606.html)
 
 Log4c中有三个重要的概念: Category, Appender, Layout。
 
@@ -75,7 +77,9 @@ log4c_category_t* mycat = log4c_category_get("mycat");
 log4c_category_log(mycat, LOG4C_PRIORITY_DEBUG, "Hello World!");
 ```
 
-### 2. rxi_log, [https://github.com/rxi/log.c](https://github.com/rxi/log.c)
+### 2. rxi_log
+
+[从这里下载rxi_log](https://github.com/rxi/log.c)
 
 基于 C99 实现的简单日志库.
 
@@ -90,7 +94,9 @@ log_error(const char *fmt, ...);
 log_fatal(const char *fmt, ...);
 ```
 
-### 3. ulog, [https://github.com/rdpoor/ulog](https://github.com/rdpoor/ulog)
+### 3. ulog
+
+[从这里下载ulog](https://github.com/rdpoor/ulog)
 
 uLog 为嵌入式微控制器或任何资源有限的系统提供结构化的日志记录机制。它继承了流行的 Log4c 和 Log4j 平台背后的一些概念，但开销更低。
 
@@ -103,7 +109,9 @@ uLog 的一些特点：
 * 当您不使用 uLog 时，它不会妨碍您：如果 ULOG_ENABLED 在编译时未定义，则不会生成日志记录代码。
 * uLog 已经过很好的测试。有关详细信息，请参阅随附的 ulog_test.c 文件。
 
-### 4. EasyLogger, [https://github.com/armink/EasyLogger](https://github.com/armink/EasyLogger)
+### 4. EasyLogger
+
+[从这里下载EasyLogger](https://github.com/armink/EasyLogger)
 
 特点如下：
 
