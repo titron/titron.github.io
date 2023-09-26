@@ -14,3 +14,5 @@ author: David
 参考下述连接：
 [Kicad应用总结(转)](https://codeantenna.com/a/pAJsopRhSe#_113)
 
+KiCAD工作流图：
+![Kicad工作流](https://github.com/titron/titron.github.io/raw/master/img/2023-09-22-kicad_work_flow.png)
