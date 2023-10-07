@@ -15,14 +15,14 @@ author: David
 
 [从菜鸟到大牛，少不了这100多个软硬件开源项目！](https://mp.weixin.qq.com/s/cbLJSMmUOW60FIJ6K6z67g)
 
-## 开源按键处理程序
+## 1. 开源按键处理程序
 [开源的按键库 MultiButton](https://github.com/liu2guang/MultiButton)
 [FlexibleButton](https://github.com/zhaojuntao/FlexibleButton)
 
-## .ini配置文件解析器--minIni
+## 2. .ini配置文件解析器--minIni
 [minIni](https://github.com/compuphase/minIni)
 
-## 显示相关
+## 3. 显示相关
 [小型GUI菜单框架-基于状态机?还是表驱动?...(附代码)](https://mp.weixin.qq.com/s?__biz=MzAwNjYwMjYyOA==&mid=2247491211&idx=1&sn=80c651e9b36ae104472542d01fb7244c&chksm=9b0bb460ac7c3d764c8be4c9cab2af4157c978172dc261dc036ece929e1caaaecf41096a5925&mpshare=1&scene=24&srcid=0201XrM5DXI8xFNMRwmxGX5V&sharer_sharetime=1612132577790&sharer_shareid=af43b8c65c55c076649d31f86aa3c934#rd)
 
 开源嵌入式GUI：Ucgui、emWin、TouchGFX、MiniGUI、Lvglgui等。
@@ -30,7 +30,7 @@ author: David
 [盘点嵌入式那些常见的GUI：emWin、TouchGFX、MiniGUI、Qt等](https://mp.weixin.qq.com/s/CGFQ4TM-sjZ958N8SkQOIg)
 
 
-## 几个单片机/嵌入式开发应用的开源日志库
+## 4. 几个单片机/嵌入式开发应用的开源日志库
 
 [原文](https://mp.weixin.qq.com/s/alkM9OmciddhCpxX_xi9PQ)
 
@@ -52,7 +52,7 @@ author: David
 以上这些需求不一定会全部实现。
 
 
-### 1. log4c
+### 4.1. log4c
 
 [从这里下载log4c](https://github.com/bmanojlovic/log4c)
 
@@ -77,7 +77,7 @@ log4c_category_t* mycat = log4c_category_get("mycat");
 log4c_category_log(mycat, LOG4C_PRIORITY_DEBUG, "Hello World!");
 ```
 
-### 2. rxi_log
+### 4.2. rxi_log
 
 [从这里下载rxi_log](https://github.com/rxi/log.c)
 
@@ -94,7 +94,7 @@ log_error(const char *fmt, ...);
 log_fatal(const char *fmt, ...);
 ```
 
-### 3. ulog
+### 4.3. ulog
 
 [从这里下载ulog](https://github.com/rdpoor/ulog)
 
@@ -109,7 +109,7 @@ uLog 的一些特点：
 * 当您不使用 uLog 时，它不会妨碍您：如果 ULOG_ENABLED 在编译时未定义，则不会生成日志记录代码。
 * uLog 已经过很好的测试。有关详细信息，请参阅随附的 ulog_test.c 文件。
 
-### 4. EasyLogger
+### 4.4. EasyLogger
 
 [从这里下载EasyLogger](https://github.com/armink/EasyLogger)
 
@@ -125,3 +125,21 @@ uLog 的一些特点：
 * 各级别日志支持不同颜色显示；
 * 扩展性强，支持以插件形式扩展新功能。
 
+## 5. 一个开源轻量级单片机命令行交互组件
+[原文](https://mp.weixin.qq.com/s/_tmiMNZBxlEp1Ixjv48hJA)
+
+[]项目地址](github.com/Nrusher/nr_micro_shell)
+
+nr_micro_shell具有以下优点：
+
+1.占用资源少，使用简单，灵活方便。
+
+使用过程只涉及两个shell_init()和shell()两个函数，无论是使用RTOS还是裸机都可以方便的应用该工具，不需要额外的编码工作。
+
+2.交互体验好。
+
+完全类似于linux shell命令行，当串口终端支持ANSI（如Hypertrm终端）时，其不仅支持基本的命令行交互，还提供Tab键命令补全，查询历史命令，方向键移动光标修改功能。
+
+3.扩展性好。
+
+nr_micro_shell为用户提供自定义命令的标准函数原型，只需要按照命令编写命令函数，并注册命令函数，即可使用命令。
