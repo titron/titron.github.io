@@ -28,6 +28,12 @@ common.mak:125: \cygdrive\c\Renesas\mcal\v3.16.0\sw_src\g4mh_mcal\rel\common\gen
 解决方法：
 ![vscode 指定GNUMAKE环境变量](https://github.com/titron/titron.github.io/raw/master/img/2023-11-13-vscode_env_variables_settins_GNUMAKE.png)
 
+note:
+```bash
+# 查看环境变量"GNUMAKE"
+PS C:\Renesas\mcal\v3.16.0\sw_src\g4mh_mcal\rel\S4\common_family\make\ghs> $env:GNUMAKE
+```
+
 2. 没有指定vscode以管理员身份启动
 解决方法：
 ![vscode 指定GNUMAKE环境变量](https://github.com/titron/titron.github.io/raw/master/img/2023-11-13-vscode_env_variables_administrator.png)
