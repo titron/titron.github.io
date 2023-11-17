@@ -353,7 +353,7 @@ generating srec: /home/tzdong/s4_scp_sample/security_bsp/arm-trusted-firmware/bu
 dongtz@renesas-abd:~/work/s4/s4_scp_sample_app$ docker cp tzdong_xos_dev:/home/tzdong/s4_scp_sample/security_bsp/arm-trusted-firmware/build/rcar_gen4/release/bl31.srec .
 ```
 
-## How to launch SCP sample environment on Spider board
+## Flash images on Spider board
 
 | File Name | Program Top Address | Flash Save Address | Description |
 |---|---|---|---|
