@@ -231,20 +231,8 @@ d2520042f889 pci: dwc: renesas: Add PCIe support for S2RAM
 # 3.1 install docker: ubuntu 20.04
 dongtz@renesas-abd:~/work/s4/s4_scp_sample_app/linux-bsp$ docker images
 REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
-grafana/grafana-enterprise   latest              8861608c3eec        8 months ago        342MB
 ubuntu                       20.04               e40cf56b4be3        9 months ago        72.8MB
-ubuntu                       18.04               5d2df19066ac        9 months ago        63.1MB
-ubuntu                       <none>              d5447fc01ae6        11 months ago       72.8MB
-opengrok/docker              latest              531d5b0b61cc        12 months ago       901MB
-ubuntu                       latest              a8780b506fa4        12 months ago       77.8MB
-ubuntu                       20.04_focal         680e5dfb52c7        12 months ago       72.8MB
-opendms                      latest              55f5f8db927f        14 months ago       4.71GB
-<none>                       <none>              10f7f705174b        14 months ago       961MB
-ubuntu                       <none>              3bc6e9f30f51        15 months ago       72.8MB
-ubuntu                       <none>              8d5df41c547b        15 months ago       63.1MB
-hello-world                  latest              feb5d9fea6a5        2 years ago         13.3kB
-danielguerra/ubuntu-xrdp     20.04               5534dc94a278        2 years ago         1.59GB
-gitlab/gitlab-ce             13.0.6-ce.0         2b9ac1a40dd1        3 years ago         1.81GB
+(...)
 dongtz@renesas-abd:~/work/s4/s4_scp_sample_app/linux-bsp$ docker pull ubuntu:20.04
 20.04: Pulling from library/ubuntu 
 96d54c3075c9: Pull complete
@@ -254,31 +242,13 @@ docker.io/library/ubuntu:20.04
 dongtz@renesas-abd:~/work/s4/s4_scp_sample_app/linux-bsp$ docker images
 REPOSITORY                   TAG                 IMAGE ID            CREATED             SIZE
 ubuntu                       20.04               bf40b7bc7a11        5 weeks ago         72.8MB
-grafana/grafana-enterprise   latest              8861608c3eec        8 months ago        342MB
-ubuntu                       <none>              e40cf56b4be3        9 months ago        72.8MB
-ubuntu                       18.04               5d2df19066ac        9 months ago        63.1MB
-ubuntu                       <none>              d5447fc01ae6        11 months ago       72.8MB
-opengrok/docker              latest              531d5b0b61cc        12 months ago       901MB
-ubuntu                       latest              a8780b506fa4        12 months ago       77.8MB
-ubuntu                       20.04_focal         680e5dfb52c7        12 months ago       72.8MB
-opendms                      latest              55f5f8db927f        14 months ago       4.71GB
-<none>                       <none>              10f7f705174b        14 months ago       961MB
-ubuntu                       <none>              3bc6e9f30f51        15 months ago       72.8MB
-ubuntu                       <none>              8d5df41c547b        15 months ago       63.1MB
-hello-world                  latest              feb5d9fea6a5        2 years ago         13.3kB
-danielguerra/ubuntu-xrdp     20.04               5534dc94a278        2 years ago         1.59GB
-gitlab/gitlab-ce             13.0.6-ce.0         2b9ac1a40dd1        3 years ago         1.81GB
+(...)
 dongtz@renesas-abd:~/work/s4/s4_scp_sample_app/linux-bsp$ docker run -it -d --name tzdong_xos_dev ubuntu:20.04
 5b37c152a18b5ffd0da409d26ccae098814de6c783aa4a76f05835eaab86f61d
 dongtz@renesas-abd:~/work/s4/s4_scp_sample_app/linux-bsp$ docker ps
 CONTAINER ID        IMAGE                            COMMAND                  CREATED             STATUS                 PORTS                                                            NAMES
 5b37c152a18b        ubuntu:20.04                     "/bin/bash"              52 seconds ago      Up 48 seconds                                                                           tzdong_xos_dev
-ee59e351136b        danielguerra/ubuntu-xrdp:20.04   "/usr/bin/docker-ent…"   2 weeks ago         Up 2 weeks             9001/tcp, 0.0.0.0:30022->22/tcp, 0.0.0.0:33389->3389/tcp         goofy_hellman
-d8442f43d791        danielguerra/ubuntu-xrdp:20.04   "/usr/bin/docker-ent…"   3 months ago        Up 2 weeks             9001/tcp, 0.0.0.0:60022->22/tcp, 0.0.0.0:63389->3389/tcp         liuhm_gen4sdk
-c4f4a704a7a6        danielguerra/ubuntu-xrdp:20.04   "/usr/bin/docker-ent…"   6 months ago        Up 2 weeks             9001/tcp, 0.0.0.0:50022->22/tcp, 0.0.0.0:53389->3389/tcp         damon
-49d9aab0e1b2        danielguerra/ubuntu-xrdp:20.04   "/usr/bin/docker-ent…"   10 months ago       Up 2 weeks             9001/tcp, 0.0.0.0:20022->22/tcp, 0.0.0.0:23389->3389/tcp         gitlab-runner
-85006f20aa19        danielguerra/ubuntu-xrdp:20.04   "/usr/bin/docker-ent…"   18 months ago       Up 2 weeks             9001/tcp, 0.0.0.0:10022->22/tcp, 0.0.0.0:13389->3389/tcp         xos-dev
-4a554ad51917        gitlab/gitlab-ce:13.0.6-ce.0     "/assets/wrapper"        19 months ago       Up 2 weeks (healthy)   0.0.0.0:80->80/tcp, 0.0.0.0:443->443/tcp, 0.0.0.0:2222->22/tcp   gitlab
+(...)
 
 dongtz@renesas-abd:~/work/s4/s4_scp_sample_app/linux-bsp$ docker exec -it tzdong_xos_dev /bin/bash
 root@5b37c152a18b:/# cd home/
@@ -384,6 +354,7 @@ dongtz@renesas-abd:~/work/s4/s4_scp_sample_app$ docker cp tzdong_xos_dev:/home/t
 ```
 
 ## How to launch SCP sample environment on Spider board
+
 | File Name | Program Top Address | Flash Save Address | Description |
 |-|-|-|-|
 | bootparam_sa0.srec | 0xEB200000 | 0x00000000 | ICUMX IPL, boot parameter |
