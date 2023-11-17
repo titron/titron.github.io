@@ -356,7 +356,7 @@ dongtz@renesas-abd:~/work/s4/s4_scp_sample_app$ docker cp tzdong_xos_dev:/home/t
 ## How to launch SCP sample environment on Spider board
 
 | File Name | Program Top Address | Flash Save Address | Description |
-|-|-|-|-|
+|---|---|---|---|
 | bootparam_sa0.srec | 0xEB200000 | 0x00000000 | ICUMX IPL, boot parameter |
 | icumx_loader.srec | 0xEB210000 | 0x00040000 | ICUMX IPL |
 | cert_header_sa9.srec | 0xEB230000 | 0x00240000 | ICUMX IPL, certification |
