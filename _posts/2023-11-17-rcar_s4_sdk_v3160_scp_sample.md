@@ -142,7 +142,7 @@ PS C:\Renesas\mcal\v3.16.0\sw_src\g4mh_mcal\rel\S4\common_family\make\ghs> ls C:
 (...)
 ```
 
-## 2. How to build SCP sample application on CR52
+### 2. How to build SCP sample application on CR52
 
 (*here, git bash is used.*)
 ```bash
@@ -203,7 +203,7 @@ PS C:\Renesas\mcal\v3.16.0\sw_src\cr52_mcal\rel\S4\common_family\make\arm> .\Sam
 ```
 
 
-## 3. How to build Linux Image and dtb for SCP
+### 3. How to build Linux Image and dtb for SCP
 
 (dongtz@renesas-abd:~/work/s4/s4_scp_sample_app$)
 ```bash
