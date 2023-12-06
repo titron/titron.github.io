@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Yann LeCun《深度学习》2021春季版"
-categories: software
-tags: Deep Learning, software
+categories: basic
+tags: Deep-Learning software
 author: David
 ---
 

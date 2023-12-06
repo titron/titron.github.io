@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "使用vscode的draw.io插件绘制思维导图"
-categories: software
-tags: vscode, draw.io, diagrams.net, mindmap
+categories: tools
+tags: vscode drawio diagrams mindmap
 author: David
 ---
 

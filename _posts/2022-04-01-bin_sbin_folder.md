@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "bin sbin目录的区别"
-categories: software
-tags: rootfs, kernel
+categories: basic
+tags: rootfs kernel
 author: David
 ---
 

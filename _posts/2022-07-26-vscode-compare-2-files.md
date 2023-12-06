@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "vscode比较两个文件"
-categories: software
-tags: vscode, diff, compare, beyond compare, winmerge
+categories: experience
+tags: vscode diff compare beyond-compare winmerge
 author: David
 ---
 

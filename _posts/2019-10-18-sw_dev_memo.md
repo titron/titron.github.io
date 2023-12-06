@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "软件开发笔记"
-categories: software
+categories: experience
 tags: coding
 author: David
 ---

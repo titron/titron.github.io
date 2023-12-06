@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "linux下带进度条copy"
-categories: software
-tags: linux, cp, progress, rsync
+categories: experience
+tags: linux cp progress rsync
 author: David
 ---
 

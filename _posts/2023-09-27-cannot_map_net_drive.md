@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "不能映射网络驱动器"
-categories: software
-tags: windows, net drive, map
+categories: experience
+tags: windows net-drive map
 author: David
 ---
 

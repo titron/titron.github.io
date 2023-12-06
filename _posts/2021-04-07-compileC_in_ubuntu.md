@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "在Ubuntu下编辑、编译并运行C语言程序"
-categories: software
-tags: linux, ubuntu, c
+categories: experience
+tags: linux Ubuntu c
 author: David
 ---
 

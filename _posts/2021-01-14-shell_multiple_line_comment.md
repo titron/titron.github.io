@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "shell中的注释"
-categories: software
+categories: experience
 tags: linux
 author: David
 ---

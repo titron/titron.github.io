@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "软件是正在怎样吞吃汽车的"
-categories: software
-tags: automotive， software
+categories: analysis
+tags: automotive software
 author: David
 ---
 

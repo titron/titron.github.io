@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "USB控制器类型-OHCI/UHCI/EHCI/XHCI"
-categories: hardware
+categories: basic
 tags: USB
 author: David
 ---

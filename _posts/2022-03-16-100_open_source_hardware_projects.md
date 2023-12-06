@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "助你成为嵌入式高手的100多个软硬件开源项目（转）"
-categories: hardware, software
-tags: mcu，embedded
+categories: experience tools
+tags: mcu embedded
 author: David
 ---
 

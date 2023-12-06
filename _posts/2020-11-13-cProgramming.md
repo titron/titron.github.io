@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "c语言教程及语法、函数查询网站"
-categories: software
+categories: tools
 tags: c
 author: David
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "一个电阻消除放大器的电路震荡"
-categories: hardware
+categories: experience
 tags: circuit
 author: David
 ---

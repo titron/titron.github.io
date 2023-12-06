@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "SCP Sample - R-Car S4"
-categories: software
-tags: R-Car, S4, SDK, Spider
+categories: experience
+tags: R-Car S4 SDK Spider
 author: David
 ---
 

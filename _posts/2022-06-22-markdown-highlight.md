@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Markdown代码段高亮显示"
-categories: software
-tags: markdown，highlight
+categories: experience basic
+tags: markdown highlight
 author: David
 ---
 

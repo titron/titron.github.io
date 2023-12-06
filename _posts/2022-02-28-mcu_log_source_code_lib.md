@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "几个单片机/嵌入式开发应用的开源工具"
-categories: software
-tags: mcu, embedded, lib, log, open-source
+categories: tools
+tags: mcu embedded lib log open-source
 author: David
 ---
 

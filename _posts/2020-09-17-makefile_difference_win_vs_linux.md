@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Makefile在windows下和Linux下的不同对比"
-categories: software
+categories: experience
 tags: linux
 author: David
 ---

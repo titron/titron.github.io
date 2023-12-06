@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "什么是monkey测试"
-categories: hardware，software
-tags: hardware, software, monkey test
+categories: basic
+tags: monkey test
 author: David
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "功能安全Functional Safety/ISO 26262"
-categories: software
-tags: functional safety, ISO 26262
+categories: basic
+tags: FuSa ISO 26262
 author: David
 ---
 

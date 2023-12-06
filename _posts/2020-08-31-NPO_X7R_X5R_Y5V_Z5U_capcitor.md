@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "电容材料NPO与X7R、X5R、Y5V、Z5U有啥区别？"
-categories: hardware
+categories: basic
 tags: capacitor
 author: David
 ---

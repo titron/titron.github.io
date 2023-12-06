@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "git diff或者打patch时，清除掉这些多余的whitesapce"
-categories: software
-tags: git, patch, whitespace, Trailing Spaces
+categories: experience
+tags: git patch whitespace Trailing-Spaces
 author: David
 ---
 

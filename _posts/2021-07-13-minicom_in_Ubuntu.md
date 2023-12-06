@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "ubuntu 下minicom的安装及使用"
-categories: software
+title:  "Ubuntu 下minicom的安装及使用"
+categories: experience tools
 tags: minicom
 author: David
 ---

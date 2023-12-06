@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "vim 命令详解（转）"
-categories: software
+categories: tools
 tags: vim Linux
 author: David
 ---

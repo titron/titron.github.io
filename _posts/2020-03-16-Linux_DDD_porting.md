@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux设备驱动开发 学习笔记（9）——芯片级移植"
-categories: software
+categories: basic
 tags: Linux, Driver
 author: David
 ---

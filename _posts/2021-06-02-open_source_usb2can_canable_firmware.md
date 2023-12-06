@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "开源的usb2can项目——canable及固件"
-categories: software，hardware
-tags: CAN，USB，open source，STM32
+categories: tools
+tags: CAN USB open-source STM32
 author: David
 ---
 

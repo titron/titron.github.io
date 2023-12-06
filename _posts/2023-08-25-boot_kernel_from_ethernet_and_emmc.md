@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "从ethernet或eMMC启动kernel以及文件系统"
-categories: hardware，software
-tags: hardware, software, boot, kernel, rootfs，ethernet，TFTP server, NFS server, eMMC
+categories: experience
+tags: boot kernel rootfs ethernet TFTP-server NFS-server eMMC
 author: David
 ---
 

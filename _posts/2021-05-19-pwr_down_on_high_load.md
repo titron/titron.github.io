@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "重负载导致了电源突降解决方法（MOS开关管的使用）"
-categories: hardware
-tags: LDO，power，load
+categories: experience
+tags: LDO power load
 author: David
 ---
 

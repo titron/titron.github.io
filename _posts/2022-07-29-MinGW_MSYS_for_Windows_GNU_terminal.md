@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "MSYS和MinGW配合打造Windows下的GNU命令行终端和编译系统"
-categories: software
-tags: MinGW, MSYS, GNU, Linux
+categories: experience
+tags: MinGW MSYS GNU Linux
 author: David
 ---
 

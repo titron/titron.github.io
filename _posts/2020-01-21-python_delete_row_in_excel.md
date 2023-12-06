@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "python删除Excel中不符合条件的行"
-categories: software
+categories: experience
 tags: Python Excel xlrd xlwt
 author: David
 ---

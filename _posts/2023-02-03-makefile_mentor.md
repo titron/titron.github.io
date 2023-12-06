@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "makefile 语法memo"
-categories: software
-tags: makefile, script, linux, gcc
+categories: basic
+tags: makefile script linux gcc
 author: David
 ---
 

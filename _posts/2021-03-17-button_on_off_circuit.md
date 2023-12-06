@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "按键开关机电路"
-categories: hardware
-tags: button, circuit
+categories: experience
+tags: button circuit
 author: David
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "vmware安装VMware Tools, 及建立windows文件夹的软连接"
-categories: software
-tags: linux, patch
+categories: tools experience
+tags: linux patch
 author: David
 ---
 

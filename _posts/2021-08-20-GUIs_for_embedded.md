@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "当前主流的小型嵌入式GUI有哪些？（转）"
-categories: software, hardware
-tags: BlueTooth, software, hardware
+categories: tools
+tags: BlueTooth software hardware
 author: David
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux内核源代码交叉索引"
-categories: software
+categories: basic
 tags: kernel Linux
 author: David
 ---

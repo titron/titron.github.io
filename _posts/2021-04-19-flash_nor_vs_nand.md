@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "NOR flash v.s. NAND flash"
-categories: hardware
+categories: basic
 tags: memory
 author: David
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "车载摄像头技术解析"
-categories: hardware
-tags: automotive, camera, ADAS
+categories: basic
+tags: automotive camera ADAS
 author: David
 ---
 

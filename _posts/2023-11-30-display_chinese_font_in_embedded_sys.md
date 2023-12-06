@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "嵌入式屏幕上的汉字原来是这样显示的（转）"
-categories: software
-tags: MCU, Chinese font, display
+categories: experience tools
+tags: MCU Chinese-font display
 author: David
 ---
 

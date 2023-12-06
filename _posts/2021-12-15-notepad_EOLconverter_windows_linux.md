@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Notepad++中设置Windows、Unix、Mac三种行尾换行符格式间的转换（转）"
-categories: software
-tags: software
+categories: experience
+tags: Notepad++
 author: David
 ---
 

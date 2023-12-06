@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux Screen 命令详解（转）"
-categories: software
+categories: experience tools
 tags: screen Linux
 author: David
 ---

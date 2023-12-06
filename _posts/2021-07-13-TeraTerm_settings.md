@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Tera Term保存设置字体"
-categories: software
-tags: Tera Term, Terminal
+categories: experience
+tags: Tera-Term Terminal
 author: David
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "我的layout设计规范"
-categories: hardware
+categories: experience
 tags: AltiumDesigner layout
 author: David
 ---

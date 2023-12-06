@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "LINUX中查看、添加、删除PATH以及永久添加PATH(转)"
-categories: software
-tags: linux, environment
+categories: experience
+tags: linux environment
 author: David
 ---
 

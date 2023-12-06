@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "介绍几种SOC启动用的flash及连接方式"
-categories: hardware
-tags: memory
+categories: experience
+tags: memory R-Car
 author: David
 ---
 

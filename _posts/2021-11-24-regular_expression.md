@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "最全的常用正则表达式大全——包括校验数字、字符、一些特殊的需求等等(转)"
-categories: software
-tags: software
+categories: tools
+tags: regular-expression
 author: David
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Altium Designer拼板的方法和坑"
-categories: hardware
-tags: PCB
+categories: experience
+tags: PCB layout
 author: David
 ---
 

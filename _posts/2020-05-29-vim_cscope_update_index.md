@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "使用vim+cscope如何动态更新代码索引"
-categories: software
+categories: experience
 tags: vim, cscope
 author: David
 ---

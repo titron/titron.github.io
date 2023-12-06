@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "AUTOSAR Classic v.s. Adaptive"
-categories: software
-tags: AUTOSAR, architecture, automotive
+categories: basic
+tags: AUTOSAR architecture automotive
 author: David
 ---
 

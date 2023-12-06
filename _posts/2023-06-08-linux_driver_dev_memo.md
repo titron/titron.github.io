@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "linux驱动开发中相关的问题"
-categories: software
-tags: linux，driver
+categories: experience
+tags: linux driver
 author: David
 ---
 

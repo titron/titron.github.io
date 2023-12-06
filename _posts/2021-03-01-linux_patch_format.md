@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "linux patch补丁文件格式说明"
-categories: software
-tags: linux, patch
+categories: basic
+tags: linux patch
 author: David
 ---
 

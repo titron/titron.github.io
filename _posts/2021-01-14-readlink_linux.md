@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "linux下readlink函数解释"
-categories: software
+categories: experience
 tags: linux
 author: David
 ---

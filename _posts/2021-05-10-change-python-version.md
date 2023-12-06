@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "建立android环境时，提示SyntaxError: invalid syntax"
-categories: software
-tags: ubuntu, android
+categories: experience
+tags: Ubuntu android
 author: David
 ---
 

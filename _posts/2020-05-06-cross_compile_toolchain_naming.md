@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "交叉编译工具链命名详解（转）"
-categories: software
+categories: basic tools
 tags: QNX, Hypervisor, Guest, Interrupt
 author: David
 ---

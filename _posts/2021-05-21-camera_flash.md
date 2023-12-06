@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "监控画面LED闪烁、黑条纹滚动，工程师教你解决办法（转）"
-categories: hardware
-tags: camera，flash, flicker
+categories: experience
+tags: camera flash flicker
 author: David
 ---
 

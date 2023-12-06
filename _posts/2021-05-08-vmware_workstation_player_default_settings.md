@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "VMware Workstation Player首选项设置——可移动设备的连接"
-categories: software
-tags: VMware Workstation Player, USB
+categories: tools
+tags: VMware USB
 author: David
 ---
 

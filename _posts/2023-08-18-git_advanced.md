@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "git进阶-stash, reset --soft, cherry-pick, revert, reflog"
-categories: software
-tags: software, git
+categories: experience tools
+tags: software git
 author: David
 ---
 

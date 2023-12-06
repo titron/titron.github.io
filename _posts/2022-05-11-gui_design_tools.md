@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "GUI设计工具"
-categories: software
-tags: GUI, Qt, aardio, VB, VC
+categories: experience tools
+tags: GUI Qt aardio VB VC
 author: David
 ---
 

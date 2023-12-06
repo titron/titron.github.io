@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "vsCode 源代码管理插件GitLens使用指南(转) 以及git使用"
-categories: software
-tags: VS Code, git, GitLens
+categories: tools
+tags: VS Code git GitLens
 author: David
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "bitbake guide（转）"
-categories: software
+categories: experience
 tags: bitbake
 author: David
 ---

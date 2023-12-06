@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "CSR蓝牙设备地址设定"
-categories: hardware
+categories: experience
 tags: bluetooth 蓝牙
 author: David
 ---

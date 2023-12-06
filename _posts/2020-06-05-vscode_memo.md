@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "vscode中调试使用记录"
-categories: software
+categories: experience
 tags: vscode
 author: David
 ---
@@ -10,6 +10,22 @@ author: David
 {:toc}
 
 ---
+
+## VS Code超详细配置指南
+[原始链接1](https://mp.weixin.qq.com/s/JAiYgvctNgM-_ygN0CUpag)
+
+插件列表：
+1. Remote Development
+2. Markdown Preview Github Styling
+3. GitLens
+4. Bracket Pair Colorizer 2
+5. sftp
+6. TODO HighLight
+
+快捷键：
+1. Ctrl + `: 打开 VS Code 自带的终端。
+2. Ctrl + Shift +F：在全局的文件夹中进行搜索
+3. Shift + F12: 查找某个函数在哪些地方被调用了
 
 ## vs-code设置ssh-remote免密登录遇到的问题
 

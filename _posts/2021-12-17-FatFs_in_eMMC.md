@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "实现FatFs访问eMMC"
-categories: hardware, software
-tags: FatFs, eMMC, FAT16, FAT32, GBR, GPT, BPB
+categories: experience
+tags: FatFs eMMC FAT16 FAT32 GBR GPT BPB
 author: David
 ---
 

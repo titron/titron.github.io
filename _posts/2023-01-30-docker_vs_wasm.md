@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "docker v.s. wasm"
-categories: software
-tags: docker, wasm, virtualization
+categories: basic
+tags: docker wasm virtualization
 author: David
 ---
 

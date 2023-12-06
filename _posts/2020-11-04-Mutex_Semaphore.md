@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "理解Mutex和Semaphore"
-categories: OS
-tags: software
+categories: basic
+tags: OS
 author: David
 ---
 

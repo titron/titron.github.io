@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "在ubuntu 16.04服务器上用docker再安装一个ubuntu 20.04"
-categories: software
-tags: docker, ubuntu, sftp
+categories: experience
+tags: docker Ubuntu sftp
 author: David
 ---
 

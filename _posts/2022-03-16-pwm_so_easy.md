@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PWM如此简单（转）"
-categories: hardware, software
+categories: basic
 tags: mcu
 author: David
 ---

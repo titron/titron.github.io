@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "为什么murata电感上有个极性标志？"
-categories: hardware
+categories: experience
 tags: inductor
 author: David
 ---

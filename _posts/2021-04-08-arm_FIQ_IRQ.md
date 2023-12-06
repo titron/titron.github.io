@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ARM FIQ vs IRQ"
-categories: hardware
+categories: basic
 tags: ARM
 author: David
 ---

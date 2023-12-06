@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "RGB屏参配置方法"
-categories: software
-tags: RGB, config
+categories: experience
+tags: RGB config
 author: David
 ---
 

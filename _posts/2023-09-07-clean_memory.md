@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "清理windows空间"
-categories: software
-tags: software, windows
+categories: experience
+tags: windows
 author: David
 ---
 

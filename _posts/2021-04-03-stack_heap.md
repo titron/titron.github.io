@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "堆是堆，栈是栈"
-categories: software
-tags: stack, heap
+categories: basic
+tags: stack heap
 author: David
 ---
 

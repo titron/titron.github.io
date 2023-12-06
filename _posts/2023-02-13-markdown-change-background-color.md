@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Markdown更改文本背景颜色"
-categories: software
-tags: markdown，highlight
+categories: experience
+tags: markdown highlight
 author: David
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "3.3V CAN收发器SN65HVD230板 rev.0.01 介绍"
-categories: hardware
-tags: CAN, Transceiver, SN65HVD230
+categories: experience
+tags: CAN Transceiver SN65HVD230
 author: David
 ---
 

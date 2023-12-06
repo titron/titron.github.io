@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "电阻的分档标准"
-categories: hardware
+categories: basic
 tags: resistor
 author: David
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "markdown数学公式写法"
-categories: software
-tags: markdown, math formula
+categories: experience tools
+tags: markdown math-formula
 author: David
 ---
 

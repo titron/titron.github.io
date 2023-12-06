@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Makefile常用调试方法（转）"
-categories: software
+categories: experience
 tags: makefile
 author: David
 ---

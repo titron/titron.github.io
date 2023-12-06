@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "可以ssh/sftp,不会破坏windows配置文件的终端工具Tabby"
-categories: software
-tags: Tabby，Xshell，MobaXterm, Finalshell
+categories: tools
+tags: TabbyX shell MobaXterm Finalshell
 author: David
 ---
 

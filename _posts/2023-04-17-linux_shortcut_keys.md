@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux终端操作高效率快捷键(转)"
-categories: software
+categories: experience
 tags: linux
 author: David
 ---

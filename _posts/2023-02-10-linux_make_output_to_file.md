@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "MAKE输出LOG"
-categories: software
-tags: linux, make
+categories: experience
+tags: linux make
 author: David
 ---
 

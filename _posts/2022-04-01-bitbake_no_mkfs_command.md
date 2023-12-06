@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "mkfs.ext4: no command解决方法"
-categories: software
-tags: yocto, bitbake, mkfs, e2fsprogs
+categories: experience
+tags: yocto bitbake mkfs e2fsprogs
 author: David
 ---
 

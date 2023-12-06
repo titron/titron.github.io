@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "常用level shift器件及电路
-categories: hardware
-tags: level shift
+title:  "常用level shift器件及电路"
+categories: experience
+tags: level-shift
 author: David
 ---
 

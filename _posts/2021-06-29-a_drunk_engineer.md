@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "程序员的酒后真言(转再转)"
-categories: software
-tags: tftp, nfs
+categories: experience
+tags: programmer
 author: David
 ---
 

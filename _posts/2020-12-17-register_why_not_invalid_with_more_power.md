@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "为什么1/4W的电阻可以工作在1W状态而没有失效？"
-categories: hardware
+categories: experience
 tags: register
 author: David
 ---

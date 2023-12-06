@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Flash Writer Command Lists"
-categories: software
+categories: tools
 tags: Flash writer
 author: David
 ---

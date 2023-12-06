@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "开源按键处理（转）"
-categories: hardware, software
+categories: experience tools
 tags: mcu
 author: David
 ---

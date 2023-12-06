@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "对比LIN CAN FlexRay总线检查错误的位置"
-categories: hardware software
-tags: LIN, CAN, FlexRay
+categories: experience
+tags: LIN CAN FlexRay
 author: David
 ---
 

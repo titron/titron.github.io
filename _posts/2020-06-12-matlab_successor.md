@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MATLAB被禁后用啥替代"
-categories: software
+categories: tools
 tags: vscode
 author: David
 ---

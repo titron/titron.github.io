@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "KiCAD快速简易教程（转）"
-categories: hardware, software
-tags: kicad
+categories: experience tools
+tags: KiCAD
 author: David
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "开关电源三种控制模式：PWM/PFM/PSM(转)"
-categories: hardware
-tags: power, buck, boost, pwm, pfm, psm
+categories: basic
+tags: power buck boost pwm pfm psm
 author: David
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FlexRay总线学习笔记"
-categories: hardware system
+categories: experience
 tags: FlexRay
 author: David
 ---

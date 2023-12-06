@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux设备驱动开发 学习笔记（5）——设备树"
-categories: software
+categories: basic
 tags: Linux, Driver
 author: David
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "大厂git分支管理规范（转）"
-categories: software
-tags: software, git
+categories: experience tools
+tags: git
 author: David
 ---
 

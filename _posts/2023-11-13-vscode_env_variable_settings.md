@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "vscode检测不到环境变量解决办法"
-categories: software
+categories: experience
 tags: vscode, GNUMAKE
 author: David
 ---

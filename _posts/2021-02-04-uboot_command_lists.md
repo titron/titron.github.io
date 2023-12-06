@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "uboot command lists"
-categories: software
-tags: uboot, command, 命令
+title:  "u-boot command lists"
+categories: basic
+tags: uboot command
 author: David
 ---
 

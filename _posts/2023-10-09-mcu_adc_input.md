@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "使用mcu ADC的阻抗匹配问题"
-categories: hardware
-tags: adc, mcu
+categories: experience basic
+tags: ADC mcu
 author: David
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "舵机(servo)简介"
-categories: hardware
+categories: basic
 tags: servo motor
 author: David
 ---

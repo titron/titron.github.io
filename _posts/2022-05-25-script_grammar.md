@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Shell脚本语言"
-categories: software
+categories: experience
 tags: script
 author: David
 ---

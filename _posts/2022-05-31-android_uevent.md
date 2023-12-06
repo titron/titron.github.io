@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "android uevent（转）"
-categories: software
-tags: android, uevent
+categories: basic
+tags: android uevent
 author: David
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "xshell替代"
-categories: software
-tags: xshell, windterm
+categories: experience
+tags: xshell windterm
 author: David
 ---
 
@@ -15,6 +15,7 @@ xshell很好用，但是几次中途退出，导致windows个人配置文件丢�
 
 列几个xshell替代：
 
+* *Tabby*
 * zoc
 * termix
 * finalshell
@@ -24,4 +25,4 @@ xshell很好用，但是几次中途退出，导致windows个人配置文件丢�
 * electerm
 * ### windterm
 
-亲测，windterm还不错。
+亲测，windterm还不错，重点推荐Tabby。

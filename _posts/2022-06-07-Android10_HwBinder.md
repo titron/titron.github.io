@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Android10.0 HwBinder（转）"
-categories: software
-tags: android, HwBinder
+categories: basic
+tags: android HwBinder
 author: David
 ---
 

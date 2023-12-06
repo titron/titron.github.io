@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "linux下读取eMMC信息"
-categories: software
-tags: linux, eMMC
+categories: experience
+tags: linux eMMC
 author: David
 ---
 

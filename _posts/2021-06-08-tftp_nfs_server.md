@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "配置tftp服务和NFS服务"
-categories: software
-tags: tftp, nfs
+categories: experience
+tags: tftp nfs
 author: David
 ---
 

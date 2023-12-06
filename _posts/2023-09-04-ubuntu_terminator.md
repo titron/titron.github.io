@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "ubuntu下使用终端分屏工具terminator"
-categories: software
-tags: software, terminator
+categories: experience tools
+tags: terminator
 author: David
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "FreeRTOS API参考查询网站"
-categories: software
-tags: os, FreeRTOS
+categories: tools
+tags: OS FreeRTOS
 author: David
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AMBA APB AXI AXI-lite AHB ACE总线介绍"
-categories: hardware
+categories: basic
 tags: bus
 author: David
 ---

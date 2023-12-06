@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "为什么开关电源DC-DC会有multiphase（多相）的输出"
-categories: hardware
-tags: power, buck, boost, DC-DC，LDO
+categories: basic
+tags: power buck boost DC-DC LDO
 author: David
 ---
 

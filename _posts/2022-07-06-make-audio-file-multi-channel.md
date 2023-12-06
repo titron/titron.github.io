@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "音频多声道测试"
-categories: software, hardware
-tags: audio, ak4613, tdm, i2s, android
+categories: experience
+tags: audio ak4613 tdm i2s android
 author: David
 ---
 

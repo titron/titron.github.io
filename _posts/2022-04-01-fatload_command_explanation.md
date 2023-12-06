@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "fatload命令解释"
-categories: software
-tags: fatload, ext4load
+categories: experience
+tags: fatload ext4load
 author: David
 ---
 

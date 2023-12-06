@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "贴片电阻的重量"
-categories: hardware
-tags: component
+categories: basic
+tags: register component
 author: David
 ---
 

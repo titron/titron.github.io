@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "一阶全响应电路应用理解又加深了"
-categories: hardware
+categories: experience
 tags: circuit ADC
 author: David
 ---

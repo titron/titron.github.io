@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "MiniMonitor Command Lists"
-categories: software
+categories: tools
 tags: MiniMonitor
 author: David
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "BL2/BL31都是个啥"
-categories: software
-tags: linux, patch
+categories: basic
+tags: linux patch
 author: David
 ---
 

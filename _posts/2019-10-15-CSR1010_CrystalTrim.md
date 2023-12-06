@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "CSR1010时钟晶体校正方法"
-categories: hardware
-tags: 蓝牙 bluetooth crystal trim
+categories: experience
+tags: bluetooth crystal trim
 author: David
 ---
 

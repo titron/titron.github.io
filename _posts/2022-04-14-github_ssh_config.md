@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "ssh与github"
-categories: software
+categories: tools
 tags: github ssh
 author: David
 ---

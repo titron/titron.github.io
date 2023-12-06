@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Android P升级过程记录"
-categories: software
-tags: Android, OTA, A/B update
+categories: experience
+tags: Android OTA
 author: David
 ---
 

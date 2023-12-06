@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "安装Cygwin"
-categories: software
-tags: linux, windows, Cygwin
+categories: experience
+tags: linux windows Cygwin
 author: David
 ---
 

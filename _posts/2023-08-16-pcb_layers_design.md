@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "引脚密度与层数设计"
-categories: hardware
-tags: hardware, PCB, layout
+categories: experience
+tags: hardware PCB layout
 author: David
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "vmware下ubuntu虚拟机memo"
-categories: software
-tags: vmware, ubuntu
+categories: experience
+tags: vmware Ubuntu
 author: David
 ---
 

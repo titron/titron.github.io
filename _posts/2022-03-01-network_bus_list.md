@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "网络总线列表"
-categories: hardware
-tags: mcu, network
+categories: basic
+tags: mcu network
 author: David
 ---
 

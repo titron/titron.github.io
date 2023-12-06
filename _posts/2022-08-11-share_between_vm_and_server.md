@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "在vmware的ubuntu虚拟机与服务器之间传递数据"
-categories: software
-tags: vmware, ubuntu, ssh
+categories: experience
+tags: vmware Ubuntu ssh
 author: David
 ---
 

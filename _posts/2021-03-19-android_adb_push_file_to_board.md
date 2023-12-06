@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "android利用adb传输文件"
-categories: software
-tags: android，adb
+categories: experience
+tags: android adb
 author: David
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "富芮坤物联网开发板评测"
-categories: software, hardware
-tags: BlueTooth, software, hardware
+categories: experience
+tags: BlueTooth software hardware
 author: David
 ---
 

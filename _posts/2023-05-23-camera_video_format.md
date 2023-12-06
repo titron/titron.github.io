@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "摄像头视频图像格式rawRGB、RGB、YUV"
-categories: camera
-tags: camera, video, YUV, RGB, raw
+categories: basic
+tags: camera video YUV RGB raw
 author: David
 ---
 

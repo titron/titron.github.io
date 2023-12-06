@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "我的TensorFlow学习笔记"
-categories: software
-tags: TensorFlow, software
+categories: experience
+tags: TensorFlow software
 author: David
 ---
 

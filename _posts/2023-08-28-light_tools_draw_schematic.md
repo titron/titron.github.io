@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "画原理图的轻量化工具"
-categories: hardware，software
-tags: hardware, software, tools, AxGlyph, EdrawSoft, drawio, fritzing
+categories: experience tools
+tags: AxGlyph EdrawSoft drawio fritzing
 author: David
 ---
 

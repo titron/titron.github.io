@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "简单描述用github构建自己的博客（blog）过程"
-categories: test
-tags: blog github markdown
+title:  "[]简单描述用github构建自己的博客（blog）过程"
+categories: experience
+tags: blog github
 author: David
 ---
 

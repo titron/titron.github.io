@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Linux性能测试工具之sysbench"
-categories: software
+categories: tools
 tags: linux bench
 author: David
 ---

@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "如何读懂数字电路图（转）"
-categories: hardware
-tags: digital-circuit, hardware
+categories: experience
+tags: digital-circuit hardware
 author: David
 ---
 

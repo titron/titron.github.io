@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "常用音频Audio接口与标准-PCM/I2S/TDM/PDM"
-categories: hardware
+categories: basic
 tags: audio
 author: David
 ---

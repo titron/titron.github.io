@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "用pcap+dpkt进行抓包"
-categories: software
-tags: AVB, 802.1Q, VLAN, pcap, dpkt
+categories: experience
+tags: AVB 802.1Q VLAN pcap dpkt
 author: David
 ---
 

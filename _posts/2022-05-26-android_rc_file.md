@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "android rc文件（转）"
-categories: software
-tags: android, rc
+categories: basic
+tags: android rc
 author: David
 ---
 
