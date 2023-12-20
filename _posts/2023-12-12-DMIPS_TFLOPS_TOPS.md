@@ -27,3 +27,5 @@ CPU能力MIPS
 
 ### TFLOPS: Tera Floating Point Operations Per Second.
 指每秒钟可以进行的浮点运算数量，它是指一个TFLOPS（teraFLOPS）等于每秒一万亿（=10^12）次的浮点运算，(1太拉)
+
+[参考：知乎：自动驾驶芯片性能评价指标:DMIPS,TOPS](https://zhuanlan.zhihu.com/p/393418195)
