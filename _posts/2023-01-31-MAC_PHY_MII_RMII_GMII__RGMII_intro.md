@@ -13,7 +13,10 @@ author: David
 
 *参考*
 [1. 以太网详解（一）-MAC/PHY/MII/RMII/GMII/RGMII基本介绍（转）](https://www.cnblogs.com/erhu-67786482/p/13683979.html)
+
 [2. MII、GMII、RMII、RGMII、SGMII、XGMII](https://blog.csdn.net/liuxd3000/article/details/106012523)
+
+[3. USXGMII是什么？](https://blog.csdn.net/highman110/article/details/132619001)
 
 
 *释义*
