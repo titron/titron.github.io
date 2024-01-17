@@ -235,6 +235,22 @@ titron@ubuntu:~$ docker cp opendms:/home/titron/opendms/opendms/data/test_1.mp4 
 ```
 
 
+### docker中的操作例
+
+```bash
+# [1] 查看操作系统是32bit还是64bit的
+# i686 - 32bits
+# x86_64 - 64bits
+:/# uname --m
+x86_64
+
+# [2] 查看docker中的操作系统版本号
+# 比如，下面的例子中显示是Ubuntu 20.04
+:/# cat /etc/issue
+Ubuntu 20.04.6 LTS \n \l
+
+```
+
 ### 基本概念参考
 
 这里，有一些基本的docker知识概念解释，便于理解：
