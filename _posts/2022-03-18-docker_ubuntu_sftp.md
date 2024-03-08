@@ -37,6 +37,7 @@ author: David
 | root@463a1151fd69:/home/dongtz/work/s4_alpha2# exit | 或者，ctrl-D。 退出ubuntu container。 |
 | $ docker system prune --all --force --volumes | 删除当前不使用的volumes/images，以节省docker空间 |
 | $ docker stop ubuntu2004 | 停止container |
+| $ docker restart 'container ID' | 重启指定处于status“Exit”的container ID |
 | $ docker rm ubuntu2004 | 删除container |
 | $ docker cp | 在宿主机和docker之间传递文件 |
 
