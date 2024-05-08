@@ -27,6 +27,21 @@ author: David
 2. Ctrl + Shift +F：在全局的文件夹中进行搜索
 3. Shift + F12: 查找某个函数在哪些地方被调用了
 
+## "Bad owner or permissions on .ssh/config"
+[refer link](https://stackoverflow.com/questions/49926386/openssh-windows-bad-owner-or-permissions)
+Use ssh client from Git instead of Windows inbuilt SSH client. E.g. set VS Code to use C:\Program Files\Git\usr\bin\ssh.exe instead of C:\Windows\System32\OpenSSH\ssh.exe.
+
+Steps:
+
+In VS Code navigated to [File] -> [Preferences] -> [Settings] -> Search remote.ssh.path
+Input C:\Program Files\Git\usr\bin\ssh.exe
+Alternatively:
+
+Update PATH environment variable to point to Git bin before Windows System32.
+Type "env" in Start bar to edit System (or account) environment variables.
+Select Path and hit edit.
+Add C:\Program Files\Git\usr\bin\ssh.exe to the list and move it to the top of the list.
+
 ## vs-code设置ssh-remote免密登录遇到的问题
 
 [SSH的本质](https://blog.csdn.net/dongwuming/article/details/9705595)
