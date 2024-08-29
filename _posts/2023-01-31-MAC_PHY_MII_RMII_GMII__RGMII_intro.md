@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "MAC/PHY（MII/RMII/GMII/RGMII）基本介绍"
+title:  "MAC/PHY（MII/RMII/GMII/RGMII/SGMII/USXGMII）基本介绍"
 categories: basic
 tags: ethernet MAC PHY
 author: David
