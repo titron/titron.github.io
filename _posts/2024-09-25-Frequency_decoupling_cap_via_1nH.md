@@ -15,13 +15,3 @@ author: David
 
 ![电源引脚1nH电感后连接去耦电容对应的带宽](https://github.com/titron/titron.github.io/raw/master/img/2024-09-25-FreqBand_vs_Capcitors_1nH.png)
 
-
-**test flowchart**
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
