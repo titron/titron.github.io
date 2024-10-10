@@ -22,7 +22,7 @@ author: David
 
 【1】安装python
 
-（https://www.python.org/downloads/）下载安装包，双击安装。
+[下载python](https://www.python.org/downloads/)下载安装包，双击安装。
 
 
 【2】安装wxpython
@@ -44,7 +44,7 @@ frame.Show()
 app.MainLoop()
 ```
 【3】安装wxFormBuilder
-(https://github.com/wxFormBuilder/wxFormBuilder/releases)下载安装包，双击安装。
+[下载wxFormBuilder](https://github.com/wxFormBuilder/wxFormBuilder/releases)下载安装包，双击安装。
 
 【4】安装pyinstaller
 ```bash
@@ -52,8 +52,8 @@ pip install pyinstaller
 ```
 
 【5】其他资源
-- 免费矢量图标网站（https://igoutu.cn/icons）
-- 把其他格式图片转成ico格式：(https://app.xunjiepdf.com/img2icon/)
+- 免费矢量图标网站[网址链接](https://igoutu.cn/icons)
+- 把其他格式图片转成ico格式[网址链接](https://app.xunjiepdf.com/img2icon/)
 
 
 2. 操作
