@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "python设计GUI并生成exe文件"
+title:  "用pyQt设计GUI"
 categories: basic
 tags: python，GUI, PyQt
 author: David
