@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "用OrCAD设计原理图用AD设计layout"
+title:  "汽车名词缩写全称列表"
 categories: basic
-tags: OrCAD，AltiumDesigner，schematic，layout
+tags: automotive, abbreviation, spell
 author: David
 ---
 
