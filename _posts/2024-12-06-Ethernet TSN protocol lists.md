@@ -39,21 +39,21 @@ author: David
 |||IEEE 802.1Qcr|Asynchronous Traffic Shaping (Qcr)||
 
 ### AVB/TSN Link Layer Abbreviations
-|abbr.|description|
+| Abbreviation | Description |
 |-|-|
-|ARP|Address Resolution Protocol (ARP)|
-|RARP|reverse Address Resolution Protocol (RARP)|
-|EAPOL|EAP over LAN (EAPoL)|
-|NDP|Neighbor Discovery Protocol|
-|SRP|Stream Reservation Protocol|
-|MAC Control|Media Access Control|
-|MACsec|Media Access Control Security|
-|MKA|MACsec Key Agreement |
+| ARP | Address Resolution Protocol (ARP) |
+| RARP | reverse Address Resolution Protocol (RARP) |
+| EAPOL | EAP over LAN (EAPoL) |
+| NDP | Neighbor Discovery Protocol |
+| SRP | Stream Reservation Protocol |
+| MAC Control | Media Access Control |
+| MACsec | Media Access Control Security |
+| MKA | MACsec Key Agreement |
 
 ### others in Application Layer and Internet Layer
-|abbr.|description|
+| Abbreviation | Description |
 |-|-|
-|DHCP|Dynamic Host Configuration Protocol |
-|ICMP|Internet Control Message Protocol|
-|IGMP|Internet Group Management Protocol|
+| DHCP | Dynamic Host Configuration Protocol |
+| ICMP |Internet Control Message Protocol |
+| IGMP |Internet Group Management Protocol |
 
