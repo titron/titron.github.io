@@ -39,6 +39,7 @@ author: David
 |||IEEE 802.1Qcr|Asynchronous Traffic Shaping (Qcr)||
 
 ### AVB/TSN Link Layer Abbreviations
+
 | Abbreviation | Description |
 |-|-|
 | ARP | Address Resolution Protocol (ARP) |
@@ -51,6 +52,7 @@ author: David
 | MKA | MACsec Key Agreement |
 
 ### others in Application Layer and Internet Layer
+
 | Abbreviation | Description |
 |-|-|
 | DHCP | Dynamic Host Configuration Protocol |
