@@ -61,3 +61,5 @@ diagrams.net（前身是draw.io）是开源免费的流程图绘制工具，非�
 - Insert：添加子节点。
 - Enter：添加同级节点。
 - Delete：删除节点。
+
+![MindMap Example](https://github.com/titron/titron.github.io/raw/master/img/2021-12-28-vscode_with_mindmap_example.png)
