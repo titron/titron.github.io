@@ -96,3 +96,6 @@ minicom: cannot open /dev/ttyUSB0: 没有该文件或目录
 
 (5)然后在上面minicom的配置中设置Serial Device: /dev/tty0或者Serial Device: /dev/ttyS0，重启开发板，这样就可以正常运行minicom了。
 
+### 参考以下链接：用minicom选择ascii协议传输文件
+
+[ubuntu下如何使用minicom传送文件](https://blog.csdn.net/xiaotaiyangzuishuai/article/details/79036716)
