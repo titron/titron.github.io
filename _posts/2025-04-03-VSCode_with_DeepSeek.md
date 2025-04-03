@@ -15,7 +15,7 @@ author: David
 
 ### 1. 安装插件
 
-打开 VSCode 插件市场，在搜索框输入 “***AI Toolkit***”
+打开 VSCode 插件市场，在搜索框输入 “***AI Toolkit***”， 安装。
 
 ![AI Toolkit plugin](https://github.com/titron/titron.github.io/raw/master/img/2025-04-03-AIToolkit_DeepSeek_plugin.png)
 
