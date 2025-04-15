@@ -20,6 +20,7 @@ author: David
 
 .vimrc为隐藏文件 使用ls -al可查看。
 
+
 ### 步骤2 在.vimrc文件中，添加快捷键F12的映射
 
 ```makefile
@@ -73,3 +74,47 @@ date;
 
 cscope索引更新完成!
 
+
+### 其他
+```bash
+# ~/.vimrc内容如下：
+
+if has("cscope") && filereadable("/usr/bin/cscope")
+   set csprg=/usr/bin/cscope
+   set csto=0
+   set cst
+   set nocsverb
+   " add any database in current directory
+   if filereadable("cscope.out")
+      cs add cscope.out
+   " else add database pointed to by environment
+   elseif $CSCOPE_DB != ""
+      cs add $CSCOPE_DB
+   endif
+   set csverb
+endif
+
+nmap <C-\>s :cs find s <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>g :cs find g <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>c :cs find c <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>t :cs find t <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>e :cs find e <C-R>=expand("<cword>")<CR><CR>
+nmap <C-\>f :cs find f <C-R>=expand("<cfile>")<CR><CR>
+nmap <C-\>i :cs find i <C-R>=expand("<cfile>")<CR>$<CR>
+nmap <C-\>d :cs find d <C-R>=expand("<cword>")<CR><CR>
+
+" map F12 key
+"Highlight all search pattern matches
+set hls
+"Map F12 to create ctags index in current directory
+map <F12> :!ctags -R <CR><CR>
+"A shotcut to execute the grep command
+map mg :!grep <C-R><C-W> . -r <CR>
+"change the comment color
+hi Comment ctermfg=6
+
+" for 'tags not found'
+set tags=tags;
+set autochdir
+" 'ctags -R' in terminal
+```
