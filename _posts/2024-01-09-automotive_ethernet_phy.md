@@ -24,9 +24,10 @@ author: David
 |-|-|-|-|
 | 100BASE-TX | 100 Megabit Baseband Two Pairs | KSZ8061 | (RJ45) |
 | 100BASE-T1 | 100 Megabit Baseband One Pair | RTL9000 | 100BASE-T1 - uses single unshielded twisted pair cables with a maximum length of 15 meters. The bridge, composed of 4 resistors, separates, transmits, and receives directions on each side of the link. |
-| 1000BASE-T1 | 1 Gigabit Baseband One Pair | 88Q2112 | 1000BASE-T1 - with the emergence of connected and autonomous vehicles and more sophisticated infotainment systems, the information exchanged within a vehicle has grown rapidly. |
-| 1000BASE-RH | Gigabit Ethernet Over Plastic Optical Fiber | KD1053 | 1000BASE-RH - uses Polymeric Optical Fiber (POF). POF is immune to any EMC problem, and it also provides galvanic isolation. |
+| 1000BASE-T1 | 1 Gigabit Baseband One Pair | 88Q2112 / DP83869HM | 1000BASE-T1 - with the emergence of connected and autonomous vehicles and more sophisticated infotainment systems, the information exchanged within a vehicle has grown rapidly. |
+| 1000BASE-RH | Gigabit Ethernet Over Plastic Optical Fiber | KD1053/ | 1000BASE-RH - uses Polymeric Optical Fiber (POF). POF is immune to any EMC problem, and it also provides galvanic isolation. |
 | 2500BASE-T1 | 2.5 Gigabit Baseband One Pair | 88Q4364 | 2500BASE-T1 - with the emergence of connected and autonomous vehicles and more sophisticated infotainment systems, the information exchanged within a vehicle has grown rapidly. |
+| 10GBASE-T1 | 2.5G/5G/10GBASE-T1 | MV-Q3244 | 2.5G/5G/10GBase-T1 IEEE 802.3ch compliant Automotive Ethernet PHY |
 | 10BASE-T1S | 10 Megabit Baseband One Pair and a multidrop bus architecture | LAN8650 | 10BASE-T1S technology provides a 10 Mbps, multidrop transmission medium that can include up to at least eight transceiver nodes. The transceiver nodes connect to a common mixing segment of up to at least 25m. 100R nominal differential impedance is used. Nodes includes "Drop Nodes" and "End Nodes". |
 | MultiGBASE-T1 | a set of new PHYs with 2.5, 5 and 10 Gbps One Pair |  | MultiGBASE-T1 - a set of new PHYs with 2.5, 5 and 10 Gbps supported over Shielded Twisted Single Pairs (STSP) to support high bitrate and external communication for AI evaluation. |
 
