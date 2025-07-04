@@ -38,13 +38,13 @@ Tabby的安装非常简单，直接下载安装包解压即可，这里我下载
 ![新建ssh连接config](https://github.com/titron/titron.github.io/raw/master/img/2021-12-29-Tabby_terminal_new_profile_ssh_config.png)
   
 
-* 快捷键for split
+* 快捷键for split/pane
   
-  ctrl+shift+e: split to the right
+  split to the right: ctrl+shift+e
 
-  ctrl+shift+d: split to the bottom
+  split to the bottom: ctrl+shift+d
 
-  ctrl+d: delete current split
+  close focused pane： ctrl+shift+Q: 
 
 
 唯一吐槽的是，不能SFTP传输文件夹，只能传输单个文件。
