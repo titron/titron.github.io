@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "vscode issues-c/c++
+title:  "vscode c语言不能跳转到definition"
 categories: basic
 tags: vscode, c/c++
 author: David
@@ -23,6 +23,8 @@ File->Preferences->Settings
 如果C_CPP: Intelli Sense Engine的值是Disabled，则下拉选择default。
 
 退出设置界面或vscode，重新打开。
+
+![vs code中右键没有跳转到定义（go to definition）解决方法](https://github.com/titron/titron.github.io/raw/master/img/2025-07-04-vscode_jump.png)
 
 ### [2] 有跳转到definition，实际上不能跳转
 visual studio code中，c/c++插件重启，提示
