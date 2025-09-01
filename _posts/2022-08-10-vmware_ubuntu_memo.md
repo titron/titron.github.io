@@ -31,6 +31,8 @@ copy光驱中的压缩包到desktop，解压。
 
 然后，运行压缩包中的文件：sudo ./vmware-install.pl （安装过程中，选择“覆盖”）。
 
+或者，参考[vmware Ubuntu22.04共享文件夹找不到问题](https://blog.csdn.net/qq_42024234/article/details/127576376)
+
 ### 调整终字体大小
 放大：ctrl+shift+=
 
