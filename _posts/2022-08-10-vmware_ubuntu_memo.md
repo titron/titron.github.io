@@ -29,9 +29,37 @@ vmware管理中，连接CD/DVD到：C:\Program Files (x86)\VMware\VMware Player\
 
 copy光驱中的压缩包到desktop，解压。
 
-然后，运行压缩包中的文件：sudo ./vmware-install.pl （安装过程中，选择“覆盖”）。
+然后，运行压缩包中的文件：
+```bash
+sudo ./vmware-install.pl （安装过程中，选择“覆盖”）。
+```
 
 或者，参考[vmware Ubuntu22.04共享文件夹找不到问题](https://blog.csdn.net/qq_42024234/article/details/127576376)
+```bash
+sudo vmhgfs-fuse .host:/ /mnt -o allow_other
+```
+
+新建脚本，添加到开机脚本中
+```bash
+sudo vim /etc/rc.local
+```
+添加如下内容
+```bash
+#!/bin/sh -e
+ 
+sudo vmhgfs-fuse .host:/ /mnt -o allow_other
+ 
+#上面那个无效使用这个试试
+#sudo vmhgfs-fuse .host:/ /mnt/hgfs -o nonempty -o allow_other
+```
+保存后，在终端执行下面这个命令，使脚本能有运行权限
+```bash
+sudo chmod +x /etc/rc.local
+```
+设置好之后每次启动就会自动挂载共享文件夹到  /mnt目录下
+
+重启Ubuntu即可
+
 
 ### 调整终字体大小
 放大：ctrl+shift+=
