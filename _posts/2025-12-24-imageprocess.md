@@ -35,7 +35,7 @@ Video Signal Process technology lists：
 ![sharpening](https://github.com/titron/titron.github.io/raw/master/img/2025-12-24-vsp_sharpening.png)
 ### 12. Gamma Correction
 ![Gamma Correction](https://github.com/titron/titron.github.io/raw/master/img/2025-12-24-vsp_GammaCorrection.png)
-### 13. Hue Saturation Control
+### 13. Hue Saturation Control(色调饱和度控制)
 ![Hue Saturation Control](https://github.com/titron/titron.github.io/raw/master/img/2025-12-24-vsp_HueSaturation.png)
 ### 14. White Balance
 ![White Balance](https://github.com/titron/titron.github.io/raw/master/img/2025-12-24-vsp_whiteBalance.png)
