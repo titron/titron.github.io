@@ -34,9 +34,10 @@ echo $PATH      # 终端中 PATH 未改变！
 当你运行 ./setpath.sh 时，系统会启动一个子 shell 来执行脚本
 脚本中的 export 只修改了子 shell 的环境变量
 脚本执行完毕后，子 shell 退出，修改不会回传给父 shell（你的终端）
+
 📌 Unix/Linux 的设计原则：子进程不能修改父进程的环境变量（安全机制）
 
-✅ 正确解决方案
+✅ **正确解决方案**
 ### 方案 1：使用 source 命令（推荐！）
 ```bash
 source setpath.sh# 
