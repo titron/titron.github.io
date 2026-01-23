@@ -9,6 +9,7 @@ author: David
 * content
 {:toc}
 
+### 我的layout设计检查规范
 以下是我的layout设计检查规范，按照序号顺序检查。
 
 * Layout前设置及检查项目
@@ -79,3 +80,5 @@ author: David
 | 9 | 是否沉金 |
 | 10 | 工艺边5mm |
 
+### 别人的layout检查表
+[layout检查表](https://mp.weixin.qq.com/s?__biz=MzI3MDQzOTUzMw==&mid=2247535711&idx=1&sn=ccf5eb12fb23d8ac6b4f42c31576b66f&chksm=ebea897589f41be5c7b05d60ee7d540146945714fff216822bb10ff7c3ef26b18d1a4bb76ef0&mpshare=1&scene=1&srcid=0123NjD7sqnMvLPW0BBSbSpJ&sharer_shareinfo=651304156a93893a4fdd732b70ca5ab7&sharer_shareinfo_first=651304156a93893a4fdd732b70ca5ab7#rd)
