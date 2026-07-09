@@ -108,7 +108,7 @@ DSP 芯片之所以处理音频快，是因为它有专门的 **MAC (Multiply-Ac
 $f(x) = \tanh(x)$ 
 
 或者更轻量、计算更快的公式：
-$f(x) = \begin{cases} x & \vert{}x\vert{} \le 0.8 \\ 0.8 + 0.2 \times \tanh(\frac{\vert{}x\vert{}-0.8}{0.2}) & \vert{}x\vert{} > 0.8 \end{cases}$ 
+$f(x) = \begin{cases} x & \vert{}x\vert{} \le 0.8 \cr 0.8 + 0.2 \times \tanh(\frac{\vert{}x\vert{}-0.8}{0.2}) & \vert{}x\vert{} > 0.8 \end{cases}$ 
 ### 方案 B：定点数（Int16）直接饱和相加
 如果运行在嵌入式或对性能要求极高的底层系统（如 C/C++），可以使用硬件支持的 **饱和加法（Saturated Add）** 。当相加结果超过 +32767 时自动等于 32767，超过 -32768 时自动等于 -32768。
 
