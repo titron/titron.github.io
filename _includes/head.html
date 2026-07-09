@@ -79,5 +79,22 @@
     theme: 'default' // 可选值: 'default', 'dark', 'forest', 'neutral'
   });
 </script>
+<script src="[https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js](https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js)"></script>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // 寻找 Jekyll 生成的代码块
+    const codeBlocks = document.querySelectorAll('pre code.language-mermaid');
+    codeBlocks.forEach(block => {
+      const pre = block.parentNode;
+      const div = document.createElement('div');
+      div.className = 'mermaid';
+      div.textContent = block.textContent;
+      pre.replaceWith(div); // 用 div 替换掉原有的 pre/code 标签
+    });
+    
+    // 转换完成后再初始化 Mermaid
+    mermaid.initialize({ startOnLoad: true });
+  });
+</script>
 
 </head>
